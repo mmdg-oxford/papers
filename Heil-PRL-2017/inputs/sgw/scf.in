@@ -1,0 +1,43 @@
+NbS2
+&control
+   calculation    = 'scf'
+   prefix         = 'NbS2'
+   outdir         = './tmp'
+   pseudo_dir     = '..'
+   wf_collect     = .true.
+/
+
+&system
+   ibrav          = 4
+   celldm(1)      = 6.19971137
+   celldm(3)      = 3.46756938
+   nat            = 6
+   ntyp           = 2
+   ecutwfc        = 40
+   force_symmorphic = .true.
+   occupations    = "smearing"
+   smearing       = "mp"
+   degauss        = 0.01
+/
+
+&electrons
+  diagonalization = 'david'
+  mixing_mode     = 'plain'
+  mixing_beta     = 0.7
+  conv_thr        = 1.0d-10
+/
+
+ATOMIC_SPECIES crystal
+Nb 92.906 Nb.pz-sp-hgh.UPF 
+S  32.065 S.pz-hgh.UPF
+
+ATOMIC_POSITIONS crystal
+Nb 0.0 0.0  0.25 
+Nb 0.0 0.0  0.75
+S  1/3 2/3  0.11326
+S  2/3 1/3  0.61326
+S  2/3 1/3 -0.11326
+S  1/3 2/3  0.38674
+
+K_POINTS automatic
+24 24 8 0 0 0

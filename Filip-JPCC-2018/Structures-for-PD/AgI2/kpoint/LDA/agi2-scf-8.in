@@ -1,0 +1,40 @@
+&control
+calculation='scf',
+prefix='agi2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=3,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Ag 1.0 Ag.pz-dn-rrkjus_psl.0.1.UPF
+I 1.0 I.pz-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        4.2857284546         0.0000000000         0.0000000000
+        0.0000000000         4.2857284546         0.0000000000
+        0.0000000000         0.0000000000         6.3547811508
+
+ATOMIC_POSITIONS {crystal}
+Ag	     0.500000000         0.500000000         0.500000000
+I	     0.000000000         0.500000000         0.777761996
+I	     0.500000000         0.000000000         0.222238004
+
+K_POINTS automatic
+   8   8   8   0   0   0

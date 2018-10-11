@@ -1,0 +1,43 @@
+&control
+calculation='vc-relax',
+prefix='sbau2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=6,
+ntyp=2,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Sb 1.0 Sb.pbe-dn-rrkjus_psl.0.3.1.UPF
+Au 1.0 Au.pbe-dn-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   5.589560011  -0.000000000  -0.000000000
+   2.794780005   4.840700965   0.000000000
+   2.794780005   1.613566989   4.563859107
+
+ATOMIC_POSITIONS (crystal)
+Sb      -0.000000404  -0.000000404   0.000001212
+Sb       0.250000404   0.250000404   0.249998788
+Au       0.125000000   0.625000000   0.625000000
+Au       0.625000000   0.625000000   0.625000000
+Au       0.625000000   0.125000000   0.625000000
+Au       0.625000000   0.625000000   0.125000000
+
+K_POINTS automatic
+15 15 15 0 0 0

@@ -1,0 +1,43 @@
+#                                                           
+#  /$$     /$$ /$$$$$$  /$$      /$$ /$$$$$$$   /$$$$$$     
+# |  $$   /$$//$$__  $$| $$$    /$$$| $$__  $$ /$$__  $$    
+#  \  $$ /$$/| $$  \ $$| $$$$  /$$$$| $$  \ $$| $$  \ $$    
+#   \  $$$$/ | $$$$$$$$| $$ $$/$$ $$| $$$$$$$ | $$  | $$    
+#    \  $$/  | $$__  $$| $$  $$$| $$| $$__  $$| $$  | $$    
+#     | $$   | $$  | $$| $$\  $ | $$| $$  \ $$| $$  | $$    
+#     | $$   | $$  | $$| $$ \/  | $$| $$$$$$$/|  $$$$$$/    
+#     |__/   |__/  |__/|__/     |__/|_______/  \______/     
+#                                                           
+#             GPL Version 4.1.1 Revision 112                
+#                       MPI Build                           
+#               http://www.yambo-code.org                   
+#
+gw0                          # [R GW] GoWo Quasiparticle energy levels
+ppa                          # [R Xp] Plasmon Pole Approximation
+HF_and_locXC                 # [R XX] Hartree-Fock Self-energy and Vxc
+em1d                         # [R Xd] Dynamical Inverse Dielectric Matrix
+NLogCPUs=0                   # [PARALLEL] Live-timing CPU`s (0 for all)
+X_all_q_CPU= "1 1  8 8"      # [PARALLEL] CPUs for each role
+X_all_q_ROLEs= "q k c v"     # [PARALLEL] CPUs roles (q,k,c,v)
+X_all_q_nCPU_LinAlg_INV= 1   # [PARALLEL] CPUs for Linear Algebra
+SE_CPU= "1 8 8 "                   # [PARALLEL] CPUs for each role
+SE_ROLEs= "q qp b"           # [PARALLEL] CPUs roles (q,qp,b)
+EXXRLvcs=  32          Ry    # [XX] Exchange RL components
+Chimod= "Hartree"            # [X] IP/Hartree/ALDA/LRC/BSfxc
+% BndsRnXp
+    1 | 1000 |               # [Xp] Polarization function bands
+%
+NGsBlkXp=  6           Ry    # [Xp] Response block size
+% LongDrXp
+ 1.000000 | 0.000000 | 0.000000 |        # [Xp] [cc] Electric Field
+%
+PPAPntXp= 27.21138     eV    # [Xp] PPA imaginary energy
+% GbndRnge
+    1 | 1000 |               # [GW] G[W] bands range
+%
+GDamping=  0.10000     eV    # [GW] G[W] damping
+dScStep=  0.10000      eV    # [GW] Energy step to evaluate Z factors
+DysSolver= "n"               # [GW] Dyson Equation solver ("n","s","g")
+%QPkrange                    # [GW] QP generalized Kpoint/Band indices
+  1| 36|321|375|
+

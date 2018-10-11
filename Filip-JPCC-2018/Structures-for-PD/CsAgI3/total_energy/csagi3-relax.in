@@ -1,0 +1,48 @@
+&control
+calculation='vc-relax',
+prefix='csagi3',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=3,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pbe-sp-hgh.UPF
+Ag 1.0 Ag.pbe-dn-rrkjus_psl.0.1.UPF
+I 1.0 I.pbe-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS (angstrom)
+   8.105595854  -0.068812955   0.000000049
+   0.305768554   8.100119310   0.000000049
+  -4.205681725  -4.015652720   5.647313371
+
+ATOMIC_POSITIONS (crystal)
+Cs       0.750000120   0.250000120   0.500000241
+Cs       0.249999880   0.749999880   0.499999759
+Ag       0.500000000   0.500000000  -0.000000000
+Ag       0.000000000   0.000000000   0.000000000
+I        0.237689526   0.237689526   0.475379054
+I        0.726885529   0.726885514  -0.000000004
+I        0.762310474   0.762310474   0.524620946
+I        0.273114471   0.273114486   0.000000004
+I        0.237689092   0.762310693  -0.000000000
+I        0.762310908   0.237689307   0.000000000
+
+K_POINTS automatic
+3 3 3 0 0 0

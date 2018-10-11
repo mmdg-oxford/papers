@@ -1,0 +1,48 @@
+&control
+calculation='scf',
+prefix='cs3bi2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.02
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pz-sp-hgh.UPF
+Bi 1.0 Bi.pz-dn-rrkjus_psl.0.2.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        7.3747267723         0.0000000000         0.0000000000
+        0.2413600551         7.3707760982         0.0000000000
+       -1.7831025143         1.8424468997         9.9935989780
+
+ATOMIC_POSITIONS {crystal}
+Cs     0.839797020         0.839797020         0.250000000
+Cs     0.759091020         0.336519003         0.984610975
+Cs     0.160202995         0.160202995         0.750000000
+Cs     0.663480997         0.240908995         0.484611005
+Cs     0.336519003         0.759091020         0.515389025
+Cs     0.240908995         0.663480997         0.015389000
+Bi     0.122387998         0.312079996         0.339152008
+Bi     0.877611995         0.687919974         0.660848022
+Bi     0.687919974         0.877611995         0.839151978
+Bi     0.312079996         0.122387998         0.160848007
+
+
+K_POINTS automatic
+   9   9   9   0   0   0

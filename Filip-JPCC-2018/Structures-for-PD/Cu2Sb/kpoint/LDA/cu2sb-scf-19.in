@@ -1,0 +1,43 @@
+&control
+calculation='scf',
+prefix='cu2sb',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=6,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.02
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cu 1.0 Cu.pz-dn-rrkjus_psl.0.2.UPF
+Sb 1.0 Sb.pz-dn-rrkjus_psl.0.3.1.UPF
+
+CELL_PARAMETERS {angstrom}
+        4.0089311600         0.0000000000         0.0000000000
+        0.0000000000         4.0089311600         0.0000000000
+        0.0000000000         0.0000000000         6.1485958099
+
+ATOMIC_POSITIONS {crystal}
+Cu	     0.500000000         0.500000000         0.000000000
+Cu	     0.000000000         0.000000000         0.000000000
+Cu	     0.000000000         0.500000000         0.265823990
+Cu	     0.500000000         0.000000000         0.734175980
+Sb	     0.000000000         0.500000000         0.698023975
+Sb	     0.500000000         0.000000000         0.301975995
+
+K_POINTS automatic
+   38   38   19    0    0    0

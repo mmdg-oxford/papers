@@ -1,0 +1,828 @@
+\documentclass[12pt]{nature}
+\usepackage{graphicx,color,multirow,bm,braket,amsmath,soul,epstopdf,lineno}
+\renewcommand{\figurename}{Figure}
+\def\bk{{\bf k}}
+\def\bq{{\bf q}}
+\def\ve{\varepsilon}
+\def\e{\epsilon}
+\setlength{\textheight}{23cm}
+\setlength{\voffset}{-0.5cm}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{10pt}
+\spacing{1.5}
+ \def\@maketitle{%
+   \newpage\spacing{1.1}\setlength{\parskip}{10pt}%
+     {\Large\bfseries\noindent\sloppy \textsf{\@title} \par}%
+     {\noindent\sloppy \@author}%
+ \vspace{-0.6cm} }    
+\renewcommand\refname{\vspace{-38pt}\setlength{\parskip}{8pt}}
+ 
+\begin{document}
+
+\title{Origin of the crossover from polarons to Fermi liquids in transition metal oxides}
+\author{Carla Verdi, Fabio Caruso, Feliciano Giustino}
+
+\maketitle 
+
+\vspace*{-0.2cm} 
+\begin{affiliations} 
+\item[] Department of Materials, University of Oxford, Parks Road, Oxford OX1 3PH, United Kingdom.
+\\ \small \normalfont Correspondence and requests for materials should be addressed to 
+F.G. (email: feliciano.giustino@materials.ox.ac.uk).
+\end{affiliations} 
+ 
+%\linenumbers
+ 
+\begin{abstract} 
+Transition metal oxides host a wealth of exotic phenomena ranging from charge, 
+orbital, and magnetic order to nontrivial topological phases and superconductivity. In order to translate 
+these unique materials properties into device functionalities these materials 
+must be doped, however the nature of carriers and their conduction mechanism at the 
+atomic scale remain unclear. Recent angle-resolved photoelectron spectroscopy investigations provided 
+insight into these questions, revealing that the carriers of prototypical metal oxides undergo a 
+transition from a polaronic liquid to a Fermi liquid regime with increasing doping. 
+Here, by performing \textit{ab initio} many-body calculations of angle-resolved 
+photoemission spectra of titanium dioxide, we show that this transition originates from 
+non-adiabatic polar electron-phonon coupling, and occurs when the frequency of plasma oscillations 
+exceeds that of longitudinal-optical phonons. This finding suggests that a universal mechanism may 
+underlie polaron formation in transition metal oxides, and provides a pathway 
+for engineering emergent properties in quantum matter.
+\end{abstract}
+\vspace{0.3cm} 
+
+Elucidating the nature of charge carriers in doped transition metal oxides (TMOs) is key 
+to understanding the mechanism of electrical conduction in these multifunctional materials. In 
+conducting oxides the infrared-active vibrations can couple strongly to electrons, leading to the 
+formation of polarons\cite{Devreese2009}. Polarons are electrons dressed by a phonon cloud\cite{Mahan}, 
+and represent a paradigmatic example of emergent state in condensed matter.
+Depending on their mass and size, polarons exhibit widely different conduction 
+mechanisms, from band-like transport to thermally-activated hopping transport\cite{Mott1969, Ziman}. 
+Despite being central to the science and technology of oxides, little is known about the 
+properties of polaronic states.
+
+The interest in electron-phonon coupling and polaronic quasiparticles in TMOs has been reinvigorated 
+by recent angle-resolved photoelectron spectroscopy (ARPES) experiments\cite{Moser2013,
+Chen2015,Cancellieri2016,Baumberger2016,Yukawa2016}. 
+The signature of polaronic behavior in ARPES spectra is the appearance of satellites below the 
+conduction band, at integer multiples of the optical phonon energy. This is reported 
+in Fig.~\ref{fig1}a-b for the paradigmatic case doped anatase TiO$_2$\cite{Moser2013}. These 
+pioneering measurements showed that, by increasing the carrier concentration, polaronic satellites 
+gradually evolve into the photoemission kinks observed in metals and superconductors\cite{Damascelli2003}, 
+see Fig.~\ref{fig1}c. It was proposed that this crossover reflects the evolution of charge carriers from 
+polarons to a Fermi liquid\cite{Moser2013,Baumberger2016}. In order to clarify the origin of this transition 
+without making any {\it a priori} assumption about the underlying mechanism, first principles 
+calculations are urgently called for. However, the investigation of polaronic features 
+in ARPES spectra from first principles and their evolution with doping is exceptionally challenging 
+and has never been reported before.
+
+In the following we focus on the prototypical example of anatase TiO$_2$. On top of its well-known 
+applications in solar energy harvesting\cite{Hardin2012, Snaith2014} and superhydrophilic 
+technology\cite{Fujishima1972, Fujishima2000}, this material is also being investigated in the quest 
+for transparent conducting oxides based on non-toxic and Earth-abundant elements\cite{Furubayashi2005,
+Ellmer2012}. Despite its pivotal role in a broad range of technologies, the nature of the charge carriers 
+in anatase is still controversial\cite{DeAngelis2014}. Here we address these issues by calculating ARPES 
+spectra and polaron wavefunctions entirely from first principles. We develop a novel theoretical and 
+computational framework that allows us to investigate polarons and Fermi liquid quasiparticles on the 
+same footing, and without resorting to any empirical parameters. Using this new approach, we show how 
+the interplay between the dynamical screening of the electron plasma and the Fr\"ohlich electron-phonon 
+coupling is responsible for the transition between polaronic and Fermi liquid states. We propose that 
+the mechanism identified in this work may be universal, and also applies to other oxides such as 
+SrTiO$_3$ and ZnO. 
+
+
+\section*{\textsf{Results}} 
+
+\section*{\textsf{\small Angle-resolved photoemission spectra}}
+
+Our calculated ARPES spectra are shown in Fig.~\ref{fig1}\mbox{d-f}, for the same doping levels as in the 
+measurements of ref.~\citenum{Moser2013}, reproduced in Fig.~\ref{fig1}a-c. These maps show the bottom 
+of the conduction band of \mbox{$n$-doped} anatase TiO$_2$, for three doping levels in the range 
+$10^{18}$ to $10^{20}$~cm$^{-3}$. All the spectra exhibit a bright parabolic band, whose
+size increases with doping. This reflects the rise of the Fermi energy inside the conduction band 
+as the electron density increases. Besides this bright feature, panels a-b (experiments) and d-e
+(calculations) show each a pair of satellites, a bright one at a binding energy around 0.1~eV, and
+a dim one near 0.25~eV. These features are identified as polaronic effects\cite{Moser2013}. Moving on 
+to higher doping in panels c and f, the satellites disappear and are replaced by band structure kinks
+near 0.1~eV. Overall, our calculated ARPES spectra are in remarkable agreement with the experiments 
+of ref.~\citenum{Moser2013}. In order to achieve this unprecedented level of precision without any 
+adjustable parameters, we developed an innovative computational framework.
+
+In our calculations the photoelectron intensity maps are obtained using the single-particle spectral 
+function $A(\bk,\omega)$, where $\hbar\bk$ and $\hbar\omega$ are the electron momentum and binding
+energy, respectively, and $\hbar$ is the reduced Planck constant. The spectral function is calculated 
+using the state-of-the-art cumulant expansion, which has been employed recently to successfully 
+describe plasmon satellites\cite{Aryasetiawan1996,Guzzo2011,Lischner2013,Caruso2015}. 
+The cumulant expansion can naturally be applied to investigate the spectral properties of a polaronic 
+system since the theory stems from the exact solution of the Fr\"ohlich electron-boson coupling 
+Hamiltonian\cite{Langreth1970,Rehr2014}. In this formalism the spectral function is expressed 
+as\cite{Hedin1980}:
+ \begin{equation} \label{eq.spec.cum}
+  A(\bk,\omega) = \frac{1}{2\pi}\,\sum_n {\rm Re}\! \int_{-\infty}^{+\infty}\! \!\mathrm{d}t\,
+  e^{i(\omega-\ve_{n\bk}/\hbar) t}\,e^{C_{n\bk}(t)},
+ \end{equation}
+where $n$ is the electron band index, $\ve_{n\bk}$ is the electron eigenvalue in absence of many-body 
+interactions, and $t$ is the time variable. The quantity $C_{n\bk}$ is the so-called cumulant
+function, and can be calculated by using the standard electron-phonon self-energy $\varSigma_{n\bk}$ as a seed
+(see Methods and Supplementary Note~1):
+ \begin{equation} \label{Sigma} 
+  \varSigma_{n\bk}(\omega)=\sum_{m\nu}\int \!\frac{\mathrm{d}\bq}{\varOmega_{\rm BZ}} 
+  |g_{mn\nu}(\bk,\bq)|^2 \times 
+  \left[\frac{n_{\bq\nu}+f_{m\bk+\bq}}{\omega-\ve_{m\bk+\bq}
+  +\omega_{\bq\nu}-i\eta} +\frac{n_{\bq\nu}+1-f_{m\bk+\bq}}{\omega-\ve_{m\bk+\bq}\!-
+  \omega_{\bq\nu}-i\eta} \right] .
+ \end{equation}
+Here $g_{mn\nu}(\bk,\bq)$ is the electron-phonon vertex, and describes the probability amplitude for 
+an electron in the initial state $|n\bk \rangle$ to be scattered into the final state $|{m\bk+\bq}\rangle$ 
+by a phonon with momentum $\hbar\bq$ and energy $\hbar\omega_{\bq\nu}$ in the branch $\nu\,$\cite{GiustinoRMP}. 
+The terms $n_{\bq\nu}$ and $f_{m\bk+\bq}$ denote the Bose-Einstein and 
+Fermi-Dirac occupations, respectively; $\varOmega_{\rm BZ}$ is the Brillouin zone volume, and $\eta$ 
+a positive infinitesimal. The numerical evaluation of Eqs.~\eqref{eq.spec.cum}-\eqref{Sigma} is very 
+challenging owing to the singular nature of the Fr\"ohlich interaction at long wavelengths\cite{Frohlich1954}. 
+To overcome this challenge we use the Wannier function technique of refs.~\citenum{EPW2007,Verdi2015}, 
+as implemented in the EPW code\cite{EPW2016}. 
+
+The strength of the electron-phonon interaction is most commonly expressed in terms of a single 
+parameter $\lambda$, which describes the enhancement of the electron mass from the band effective 
+mass $m_{\rm b}$ to the polaron mass $m^*$ via $m^*=m_{\rm b}(1+\lambda)$, as well as the renormalization 
+of the Fermi velocity\cite{Grimvall}. To determine this parameter we first extract the band structures 
+underlying \mbox{Fig.~\ref{fig1}d-f}, by tracking the maxima in the energy distribution curves. This 
+procedure yields a set of parabolic bands and their satellites in \mbox{Fig.~\ref{fig1}g-h}, and a 
+distorted parabola in \mbox{Fig.~\ref{fig1}i} (blue curves). For comparison we also report the electronic 
+bands in absence of electron-phonon interactions (red curves). For carrier concentrations of $5\times10^{18}$ 
+and $3\times10^{19}$~cm$^{-3}$, polaron satellites are clearly visible in \mbox{Fig.~\ref{fig1}g-h}, 
+whereas at $3.5\times10^{20}$~cm$^{-3}$ we see a band structure kink but no satellites. From these band 
+structures we obtain the mass enhancement parameter as the ratio between the Fermi velocity of the bare band, 
+$v^0_{\rm F}$, and that of the dressed band, $v_{\rm F}$, as indicated in Fig.~\ref{fig1}i: 
+$\lambda_{\bf k}=v^0_{\bf k\rm F}/v_{\bf k\rm F} - 1$~\cite{Grimvall}, where we explicitly included the 
+dependence on the wavevector at the Fermi surface. As we move from the lowest to the highest doping level 
+we obtain $\lambda_{\bf k}=0.73$, 0.70, and 0.20, respectively. Our calculated value at intermediate doping 
+is in excellent agreement with the mass enhancement determined in experiments, $\lambda=0.7$~\cite{Moser2013}. 
+
+In Fig.~\ref{fig1}k we show the spectrum calculated at intermediate doping for electron momenta 
+along $\Gamma$X and $\Gamma$Z, as well as the Fermi surface cut. Here we see that the Fermi 
+surface pocket is elongated along the $\Gamma$Z direction. This elongation reflects the anisotropic 
+character of the band effective masses, which we calculate to be $m_{\rm b}^\perp =0.40\,m_{\rm e}$ and 
+$m_{\rm b}^\parallel =4.03\,m_{\rm e}$ along $\Gamma$X and $\Gamma$Z, respectively ($m_{\rm e}$ is the 
+electron mass). Surprisingly this anisotropy is not reflected in the electron-phonon coupling strength: 
+our calculations indicate that the mass enhancement $\lambda_{\bf k}$ varies by less than 10\% along 
+the [100], [110], and [001] directions, leading to an average value of $\lambda=0.73$, 0.70 and 0.19 
+for the three doping levels considered (see also Supplementary Note~2). These results are in good 
+agreement with resonant inelastic X-ray scattering experiments on anatase TiO$_2$\cite{Moser2015}. 
+
+\section*{\textsf{\small Origin of satellites and kinks}}
+
+Having established that our calculations can accurately reproduce experimental spectra without 
+adjustable parameters, we now proceed to identify the mechanisms that drive the formation of 
+polaron satellites by selectively turning off individual components of the calculations. 
+The energy separations between the quasiparticle bands and the first satellite in Fig.~\ref{fig1}d 
+and Fig.~\ref{fig1}e are 106~meV and 124~meV, respectively. In the case of Fig.~\ref{fig1}f 
+the kink appears at a binding energy of 100~meV. These energy scales are compatible with a 
+Fr\"ohlich-type coupling to the longitudinal-optical (LO) $E_u$ phonon at 109~meV (see phonon 
+dispersions in Supplementary Fig.~1). This vibrational mode corresponds to the stretching of 
+the Ti-O bonds in the $ab$ plane, as shown in Fig.~\ref{fig2}e. Another candidate bosonic mode is 
+the $c$-axis $A_{2u}$ phonon at 88~meV\cite{Moser2015}, however the energy of this mode appears too 
+small to account for the satellites and kinks in Fig.~\ref{fig1}. In order to quantify the importance 
+of the $E_u$ phonon, in Fig.\ref{fig2}a we compare two calculations: the complete spectrum at intermediate 
+doping and a calculation where the coupling to modes with energy above 100~meV is 
+artificially suppressed. We see that, upon removing high-energy phonons, the 
+intensity of the first satellite decreases and the second satellite disappears. The effective mass is also 
+visibly lower, in fact the analysis of the mass enhancement parameter yields $\lambda=0.3$, to be compared 
+to the total coupling $\lambda=0.7$. It follows that the $E_u$ phonon contributes $\sim60\%$ of the total 
+coupling, hence it represents the primary mechanism behind the satellites.
+
+In Fig~\ref{fig2}b we test the importance of many-body correlations beyond the one-shot Migdal 
+approximation. The spectrum at intermediate doping, obtained from the cumulant expansion, 
+is shown together with the result of a calculation within the one-shot Migdal approximation 
+(see Methods). The Migdal approximation is obtained from the complete electron-phonon self-energy by 
+neglecting the three-point vertex\cite{Mahan}. In this approximation the electron-phonon self-energy 
+contains only non-crossing diagrams. The additional approximation adopted in first principles 
+calculations is to replace the fully renormalized  electron and phonon propagators by those evaluated 
+within density functional theory\cite{GiustinoRMP}. We name this choice \textit{one-shot} Migdal
+approximation to emphasize the lack of self-consistency in the electron propagator. From Fig.~\ref{fig2}b 
+we notice that the one-shot Migdal approximation fails twice: firstly, the separation between the 
+quasiparticle band and the first satellite is too large as compared to experiment (151~meV instead 
+of $\sim\:$100~meV); secondly, the dim satellite around 0.25~eV is completely missing. This test highlights 
+the crucial role of high-order electron-phonon correlations in the description of polarons in conducting 
+oxides. It would be interesting to see whether the deficiencies of the one-shot Migdal approximation 
+could be avoided by performing a fully self-consistent Migdal calculation,\cite{Marsiglio1990} and to 
+establish the importance of crossing diagrams which are included in the cumulant expansion; however 
+this test is currently out of reach.
+
+We now move to discuss the origin of the crossover between satellites and kinks in the spectra as a 
+function of doping. The Fr\"ohlich theory of polarons\cite{Frohlich1954} considers a single electron 
+added to a polar insulator. This description does not take into account that, as more electrons are 
+added to the system, the polar electron-phonon coupling is weakened by the electronic screening of the 
+charge carriers. Following ref.~\citenum{Mahan}, we treat this issue by screening the electron-phonon 
+vertex by the frequency-dependent Lindhard dielectric function with the calculated effective mass and 
+dielectric permittivity of anatase TiO$_2$ (see also Methods). For completeness we show in Supplementary 
+Fig.~2 the dielectric screening as a function of carrier density and how the Fr\"ohlich electron-phonon 
+vertex is influenced by doping. In order to illustrate the importance of carrier screening, in 
+Fig.~\ref{fig2}c we compare two scenarios: the spectrum calculated at high doping by accounting for 
+electronic screening and the same system, but this time ignoring the screening 
+of the electron-phonon coupling by doped carriers. 
+The result is striking: in the absence of screening one obtains a 
+sharp polaron satellite, in stark disagreement with experimental evidence. This comparison indicates 
+that a correct description of the electronic screening is absolutely crucial to capture the photoemission 
+kink at high doping. On the contrary, when we repeat the comparison of Fig.~\ref{fig2}c for the cases of 
+low and intermediate doping, we find a completely different picture: at these doping levels the electronic 
+screening does not play any significant role. 
+
+These conflicting observations can be rationalized by inspecting the timescales of lattice vibrations 
+and electronic screening. The $E_u$ phonon vibrates with a period $T_{\rm ph}=38$~fs. The characteristic 
+response time of the electronic screening is set by the plasma frequency of doped carriers, $T_{\rm el} = 
+2\pi/\omega_{\rm p}$. In the case of $n$-doped TiO$_2$ the electrons occupy a singly-degenerate parabolic 
+band minimum, therefore $\omega_{\rm p}= (n e^2/\epsilon_0 \epsilon_\infty m_{\rm b})^{1/2}$, 
+where $n$ is the electron density, $\epsilon_0$ the permittivity of vacuum, and 
+$\epsilon_\infty$ the high-frequency dielectric constant of TiO$_2$\cite{Mahan}. For the electron 
+densities considered in Fig.~\ref{fig1}a-c we calculate $T_{\rm el} = 122$~fs, 50~fs, and 15~fs, 
+respectively. From these values we deduce that, at the lowest doping, the carriers are too slow to 
+screen the long-range electric field generated by the oscillation of the $E_u$ phonon (122~fs vs.\ 
+38~fs). In this case the screening is ineffective and the Fr\"ohlich interaction dominates the spectrum. 
+On the contrary, at the highest doping the electrons oscillate faster than the LO phonon (15~fs vs.\ 
+38~fs). In this case the electronic screening is almost complete and the Fr\"ohlich coupling is largely 
+suppressed. In this regime the strength of the kink depends critically on the carrier concentration; 
+with increasing doping the coupling to the LO phonons is gradually suppressed, and the ARPES spectrum is 
+dominated by the weaker coupling of carriers to non-polar phonons\cite{Baumberger2016}. These considerations 
+are summarized in Fig.~\ref{fig2}d, where we compare the energy of the $E_u$ phonon with the plasma energy 
+$\hbar\omega_{\rm p}$ of the carriers, and we monitor the evolution of the coupling strength with doping. 
+We can identify two regions: a  polaronic regime, corresponding to the situation $\omega_{\rm p}<
+\omega_{\rm ph}$, and a  Fermi liquid regime, corresponding to $\omega_{\rm p} > \omega_{\rm ph}$. 
+In the polaronic region the electronic screening is ineffective, we see satellites in the spectra, and 
+the electron-phonon mass enhancement is not sensitive to the doping level. In the Fermi liquid region 
+the Fr\"ohlich coupling is strongly suppressed, polaron satellites are gradually replaced by photoemission 
+kinks, and the coupling strength decreases. To further validate this trend, we performed additional 
+calculations for a doping concentration of $1\times10^{20}$~cm$^{-3}$ in the transition region. We 
+found that one satellite is still present in the spectrum (Supplementary Fig.~3). A careful investigation 
+of the mass renormalization parameter yields \mbox{$\lambda=0.34$}, thus confirming that the electron-phonon 
+coupling is weakened by the electronic screening. The present analysis reveals that the origin of the 
+crossover from polarons to a Fermi liquid in the ARPES spectra of doped TiO$_2$ is to be found in a 
+novel form of electron-phonon coupling, which we refer to as a non-adiabatic Fr\"ohlich interaction.
+
+Given the qualitative change in the band structures at the crossover from the polaronic to the Fermi 
+liquid regime, it is natural to ask how this evolution is reflected in the wavefunctions. In order to 
+explore this aspect we calculate the polaron wavefunctions by generalizing the perturbation theory of 
+ref.~\citenum{Mahan} to {\it ab initio} calculations. 
+Fig.~\ref{fig2}f shows the square moduli of the polaron wavefunctions at the bottom of the conduction 
+band near the maximum of the polaron wavefunction and a few unit cells away: in blue 
+the intermediate doping level, which is inside the polaronic region of Fig.~\ref{fig2}d; 
+in yellow the high doping level, in the Fermi liquid region. The corresponding envelope 
+functions are also shown. Here we see that the 
+wavefunction of an electron in the Fermi liquid region is essentially akin to a periodic Bloch function. 
+On the contrary, the wavefunction of an electron in the polaronic region shows spatial localization. 
+To quantify the size of the polaron in this latter case we define a polaron radius $r_{\rm p}$ using 
+the half width at half maximum. From Fig.~\ref{fig2}f we obtain $r_{\rm p}=5.7$~nm. This result indicates 
+that, despite the qualitative changes in the ARPES spectra, we are in the presence of large polarons 
+throughout the entire doping range, and that polarons in TiO$_2$ are considerably more delocalized than
+previously thought\cite{Moser2013}. Since thermally-activated hopping transport corresponds 
+to $r_{\rm p}$ of the order of the lattice constant\cite{Emin}, our finding supports the 
+notion that electrical conduction in anatase TiO$_2$ takes place via standard band-like transport. 
+To avoid ambiguities we emphasize that the present result refers to intrinsic
+mobile polarons, not to localized electronic defect states such as those associated with O vacancies
+and which are not mobile\cite{Setvin2014}.
+
+\vspace{10pt}
+
+\section*{\textsf{Discussion}}
+
+The non-adiabatic Fr\"ohlich mechanism identified here is simple enough that it is likely to play
+a role in many other conducting oxides. In order to test this hypothesis we estimate the critical 
+density for the crossover in doped SrTiO$_3$\cite{Baumberger2016} and doped ZnO\cite{Yukawa2016}. 
+In SrTiO$_3$ the plasma energy for an electron concentration of $10^{20}$~cm$^{-3}$ is 
+$\hbar\omega_{\rm p}\sim64$~meV\cite{Gervais1993}, therefore to match the 100~meV LO phonon of 
+SrTiO$_3$ one would need a doping level of $2.6\times10^{20}$~cm$^{-3}$. In the experiments 
+of ref.~\citenum{Baumberger2016} the carriers are confined in a thin surface layer corresponding 
+to approximately 3~unit cells, therefore we estimate the critical carrier density for the two-dimensional 
+electron liquid in the range $3\times10^{13}$~cm$^{-2}$. This value is remarkably close to the 
+critical density determined experimentally, $4\times10^{13}$~cm$^{-2}$~\cite{Baumberger2016}. 
+More accurate calculations will need to take into account the two-dimensional screening at the 
+surface of SrTiO$_3$ and its quantum paraelectric nature. 
+A similar analysis can be carried out for ZnO\cite{Yukawa2016}. In this case the energy of the 
+highest LO phonon is 72~meV, while the plasma energy for a surface electron concentration of 
+$7.5\times10^{13}$~cm$^{-2}$ is 320~meV\cite{Goldstein1982}. The transition would then appear 
+around $3.8\times10^{12}$~cm$^{-2}$, slightly below the density reported in ref.~\citenum{Yukawa2016}. 
+In agreement with our estimate, the spectra of ref.~\citenum{Yukawa2016} exhibit a behavior 
+which is intermediate between kinks and satellites. 
+
+In sum, our findings indicate that the electron-phonon coupling in TiO$_2$ is more complex than previously 
+thought, and that the non-adiabatic Fr\"ohlich coupling could be the unifying mechanism behind the 
+transition from polarons to Fermi liquids in conducting oxides; explicit {\it ab initio} calculations 
+will be required to confirm this point. Looking further ahead, our work suggests that a fine control 
+of the interplay between lattice vibrations and plasma oscillations may offer a 
+pathway for investigating novel emergent states in quantum materials, and provide 
+opportunities in the development of quantum technologies based on TMOs.
+
+\vspace{10pt}
+
+\section*{\textsf{Methods}} 
+
+\section*{\textsf{\small Ground-state calculations}} \vspace*{-10pt}
+
+{\it Ab initio} calculations were carried out for anatase TiO$_2$ (space group $I4_1/amd$), using
+the experimental lattice parameter $a=3.784$~\AA\cite{Horn1972}. We used density-functional theory
+(DFT) within the generalized gradient approximation of Perdew, Burke, and Ernzerhof\cite{PBE1996}.
+The core-valence interaction was described by means of norm-conserving pseudopotentials, with the
+semicore Ti-$3s$ and Ti-$3p$ states explicitly taken into account. Electron wavefunctions were
+expanded in a planewaves basis set with kinetic energy cutoff of 200~Ry, and the Brillouin zone
+was sampled using a $6\times6\times6$ Monkhorst-Pack mesh. Lattice-dynamical properties were
+calculated using  density functional perturbation theory (DFPT). All DFT and DFPT calculations 
+were performed using the Quantum ESPRESSO\cite{QuantumEspresso} package.
+
+\section*{\textsf{\small Electron-phonon coupling}} \vspace*{-10pt}
+
+Calculations of electron-phonon couplings were performed using the EPW code\cite{EPW2016},
+the cumulant expansion was performed separately (see Supplementary Note~1). The Fr\"ohlich electron-phonon 
+matrix element was calculated using the method of ref.~\citenum{Verdi2015}. An accurate description of 
+the Fr\"ohlich vertex as described in ref.~\citenum{Verdi2015} is essential: ignoring this effect leads 
+to a severe underestimation of the mass enhancement\cite{Zhukov2014}. To evaluate Eq.~\eqref{Sigma} 
+we computed electronic and vibrational states as well as the scattering matrix elements on a 
+$4\times4\times4$ Brillouin-zone grid. These quantities were interpolated with \textit{ab initio} 
+accuracy onto a fine grid with $2\cdot10^6$ random $\bq$-points using EPW. The positive 
+infinitesimal $\eta$ was set to 10~meV. Temperature effects were accounted for by including the 
+Fermi-Dirac occupation in the spectral function, corresponding to the experimental temperature of 20~K.
+
+\section*{\textsf{\small Doping}} \vspace*{-10pt}
+
+Doping was included using the rigid-band approximation since the system is degenerate. 
+In fact, by considering the Mott criterion for the metal-insulator transition\cite{Mott1990}, 
+$a_0^\ast\,n_c^{1/3}\approx0.25$ where $a_0^\ast=\hbar^2\epsilon_0/(e^2 m_{\rm b})$ is the effective 
+Bohr radius, we obtain a value $n_c=1.3\times10^{18}$~cm$^{-3}$ for the critical density that is below 
+the doping levels investigated. The screening of the electron-phonon interaction arising from the 
+doped carriers was taken into account by computing the dielectric function $\epsilon(\bq,\omega)$ in 
+the random-phase approximation\cite{Mahan, Hedin1965}, for a homogeneous electron gas with the calculated 
+effective mass $m_b$ and dielectric permittivity $\epsilon_\infty$ of anatase TiO$_2$\cite{Mahan, Hedin1965} 
+(see Supplementary Note~3 for a rationale). In this expression the plasma frequency directly reflects 
+the carrier density, therefore the influence of doping on the dielectric screening in anatase 
+TiO$_2$\cite{Mardare2004} is included in the calculations. The resulting non-adiabatic matrix element 
+is $g_{mn\nu}^{\rm NA}(\bk,\bq)= g_{mn\nu}(\bk,\bq)/\epsilon(\bq,\omega_{\bq\nu}+i/\tau_{n\bk})$, where 
+$\tau_{n\bk}$ is the electron lifetime near the band edge. Here we use $\hbar/\tau_{n\bk} = 55$~meV 
+from ref.~\citenum{Moser2013}. We checked that this choice does not affect our conclusions (Supplementary 
+Fig.~4). We note that, owing to the strong anisotropy of the Fermi surface in \mbox{$n$-doped} anatase 
+TiO$_2$, it is possible that the nominal doping levels estimated in ref.~\citenum{Moser2013} using the 
+Fermi momentum may underestimate the actual carrier densities in the measured samples.
+
+\section*{\textsf{\small Angle-resolved photoemission spectra}} \vspace*{-10pt}
+
+The cumulant function used in the calculation of the ARPES spectra is obtained from the self-energy of 
+Eq.~\eqref{Sigma} as follows\cite{Aryasetiawan1996}:
+$ C_{n\bk}(t)=(\pi\hbar)^{-1}\int_{-\infty}^{\infty}{\rm d}\omega \,
+ \,\theta(\omega-\ve_{n\bk}/\hbar)\, e^{(i\omega+\eta)t}\,
+ {\rm Im}\,\varSigma_{n\bk}(\ve_{n\bk}/\hbar-\omega)/(\omega-i\eta)^2
+$, where $\theta$ is the Heaviside function. More details on the cumulant expansion are provided in 
+Supplementary Note~1. The calculations within the one-shot Migdal approximation shown in Fig.~\ref{fig2}b 
+were performed by using directly Eq.~\eqref{Sigma} inside the spectral function\cite{GiustinoRMP}: 
+$ A(\bk,\omega)= 2\pi^{-1}\sum_n |\,{\rm Im}\,(\,\hbar\omega-\epsilon_{n\bk}-\varSigma_{n\bk})^{-1}| $.
+The spectra were computed without including photon matrix elements effects\cite{Damascelli2003}. 
+This approximation is justified since the variation of the orbital character over the $\sim$0.1~eV 
+binding energy range shown in Fig.~\ref{fig1} is negligible\cite{Damascelli2003}. 
+In order to extract the bands shown in Fig.~\ref{fig1}g-i we proceeded as follows. For the 
+quasiparticle bands, which are the brightest features in Fig.~\ref{fig1}d-f, we calculate the poles 
+of the electron Green's function as $E_{n\bk}=\ve_{n\bk}+{\rm Re}\,\varSigma_{n\bk}(E_{n\bk})$, where 
+$\ve_{n\bk}$ and $E_{n\bk}$ are the bare and the renormalized dispersions, respectively. For the 
+satellites in Fig.~\ref{fig1}d-e the previous procedure is not applicable since these features are 
+not poles of the Green's function. In this case we directly identify the maxima in the energy 
+dispersion curves\cite{Damascelli2003}, and obtain the pairs of parabolic bands which are visible 
+in Fig.~\ref{fig1}g-h at binding energies below 0.1~eV. 
+
+\section*{\textsf{\small Polaron wavefunction}} \vspace*{-10pt}
+
+In order to calculate the wavefunction of the polaron we generalized the perturbation theory approach 
+of ref.~\citenum{Mahan} to the case of multiple electron bands and phonon branches, as well 
+as {\it ab initio} electron-phonon matrix elements. We found
+$ \tilde{\psi}_{n\bk}(\mathbf r;\{\bm\tau_{\kappa p}\})\!=\!C \psi_{n\bk}({\bf r}) \times\left[1\!+\!
+ \sum_{\nu}\int\!\frac{{\rm d}\bq}{\varOmega_{\rm BZ}}\,|g^{\rm NA}_{nn\nu}(\bk,\bq)|^2\right.$ 
+ $\left.e^{i\bq\cdot\mathbf r}/(\ve_{n\bk}\!-\!\ve_{n\bk+\bq}\!-\!\omega_{\bq\nu})^2 \right]\!\ket{0_{\rm p}}$, 
+where $\psi_{n\bk}$ and $\tilde{\psi}_{n\bk}$ are the electron wavefunction without and with 
+electron-phonon interactions, respectively. $\{\bm\tau_{\kappa p}\}$ indicate the nuclear coordinates, 
+$\ket{0_{\rm p}}$ is the phonon ground state and $C$ is a normalization constant. The details of the 
+derivation are given in Supplementary Note~4. The wavefunctions in Fig.~\ref{fig2}f were obtained by 
+setting $n\bk$ to the conduction band edge; the envelope functions were calculated by retaining only 
+the term inside the square brackets in the above expression. A random grid with $2\cdot10^6$ points 
+was used for the Brillouin-zone integration, and a small imaginary part $\eta=10$~meV was added to 
+the denominator.
+
+\section*{\textsf{\small Data availability}} \vspace*{-10pt}
+The data that support the findings of this study are available from the corresponding author upon request, 
+as is the modified version of the EPW package to include screening and the custom code for the 
+cumulant expansion.
+
+%\nolinenumbers
+
+\vspace{0.5cm}
+\section*{\textsf{References}}
+%\bibliographystyle{naturemag}
+%\bibliography{biblio-tio2}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Devreese2009}
+\bibinfo{author}{Devreese, J.~T.} \& \bibinfo{author}{Alexandrov, A.~S.}
+\newblock \bibinfo{title}{Fr\"{o}hlich polaron and bipolaron: recent
+  developments}.
+\newblock \emph{\bibinfo{journal}{Rep. Prog. Phys.}}
+  \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{066501}
+  (\bibinfo{year}{2009}).
+
+\bibitem{Mahan}
+\bibinfo{author}{Mahan, G.~D.}
+\newblock \emph{\bibinfo{title}{Many-Particle Physics}}
+  (\bibinfo{publisher}{Plenum}, \bibinfo{address}{New York},
+  \bibinfo{year}{1981}).
+
+\bibitem{Mott1969}
+\bibinfo{author}{Austin, I.~G.} \& \bibinfo{author}{Mott, N.~F.}
+\newblock \bibinfo{title}{Polarons in crystalline and non-crystalline
+  materials}.
+\newblock \emph{\bibinfo{journal}{Adv. Phys.}} \textbf{\bibinfo{volume}{18}},
+  \bibinfo{pages}{41--102} (\bibinfo{year}{1969}).
+
+\bibitem{Ziman}
+\bibinfo{author}{Ziman, J.~M.}
+\newblock \emph{\bibinfo{title}{Electrons and Phonons}}
+  (\bibinfo{publisher}{Oxford University Press}, \bibinfo{year}{1960}).
+
+\bibitem{Moser2013}
+\bibinfo{author}{Moser, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Tunable polaronic conduction in anatase {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{196403}
+  (\bibinfo{year}{2013}).
+
+\bibitem{Chen2015}
+\bibinfo{author}{Chen, C.}, \bibinfo{author}{Avila, J.},
+  \bibinfo{author}{Frantzeskakis, E.}, \bibinfo{author}{Levy, A.} \&
+  \bibinfo{author}{Asensio, M.~C.}
+\newblock \bibinfo{title}{Observation of a two-dimensional liquid of
+  {Fr\"ohlich} polarons at the bare {SrTiO$_3$} surface}.
+\newblock \emph{\bibinfo{journal}{Nat. Commun.}} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{8585} (\bibinfo{year}{2015}).
+
+\bibitem{Cancellieri2016}
+\bibinfo{author}{Cancellieri, C.} \emph{et~al.}
+\newblock \bibinfo{title}{Polaronic metal state at the {LaAlO$_3$/SrTiO$_3$}
+  interface}.
+\newblock \emph{\bibinfo{journal}{Nat. Commun}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{10386} (\bibinfo{year}{2016}).
+
+\bibitem{Baumberger2016}
+\bibinfo{author}{Wang, Z.} \emph{et~al.}
+\newblock \bibinfo{title}{Tailoring the nature and strength of electron-phonon
+  interactions in the {SrTiO$_3$}(001) two-dimensional electron liquid}.
+\newblock \emph{\bibinfo{journal}{Nat. Mater.}} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{835--839} (\bibinfo{year}{2016}).
+
+\bibitem{Yukawa2016}
+\bibinfo{author}{Yukawa, R.} \emph{et~al.}
+\newblock \bibinfo{title}{Phonon-dressed two-dimensional carriers on the {ZnO}
+  surface.}
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{165313} (\bibinfo{year}{2016}).
+
+\bibitem{Damascelli2003}
+\bibinfo{author}{Damascelli, A.}, \bibinfo{author}{Hussain, Z.} \&
+  \bibinfo{author}{Shen, Z.-X.}
+\newblock \bibinfo{title}{Angle-resolved photoemission studies of the cuprate
+  superconductors}.
+\newblock \emph{\bibinfo{journal}{Rev. Mod. Phys.}}
+  \textbf{\bibinfo{volume}{75}}, \bibinfo{pages}{473--541}
+  (\bibinfo{year}{2003}).
+
+\bibitem{Hardin2012}
+\bibinfo{author}{Hardin, B.~E.}, \bibinfo{author}{Snaith, H.~J.} \&
+  \bibinfo{author}{McGehee, M.~D.}
+\newblock \bibinfo{title}{The renaissance of dye-sensitized solar cells}.
+\newblock \emph{\bibinfo{journal}{Nat. Photon.}} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{162--169} (\bibinfo{year}{2012}).
+
+\bibitem{Snaith2014}
+\bibinfo{author}{Green, M.~A.}, \bibinfo{author}{Ho-Baillie, A.} \&
+  \bibinfo{author}{Snaith, H.~J.}
+\newblock \bibinfo{title}{The emergence of perovskite solar cells}.
+\newblock \emph{\bibinfo{journal}{Nat. Photon.}} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{506--514} (\bibinfo{year}{2014}).
+
+\bibitem{Fujishima1972}
+\bibinfo{author}{Fujishima, A.} \& \bibinfo{author}{Honda, K.}
+\newblock \bibinfo{title}{Electrochemical photolysis of water at a
+  semiconductor electrode}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{238}},
+  \bibinfo{pages}{37--38} (\bibinfo{year}{1972}).
+
+\bibitem{Fujishima2000}
+\bibinfo{author}{Fujishima, A.}, \bibinfo{author}{Rao, T.~N.} \&
+  \bibinfo{author}{Tryk, D.~A.}
+\newblock \bibinfo{title}{Titanium dioxide photocatalysis}.
+\newblock \emph{\bibinfo{journal}{J. Photochem. Photobiol. C}}
+  \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{1--21} (\bibinfo{year}{2000}).
+
+\bibitem{Furubayashi2005}
+\bibinfo{author}{Furubayashi, Y.} \emph{et~al.}
+\newblock \bibinfo{title}{A transparent metal: Nb-doped anatase {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{Appl. Phys. Lett.}}
+  \textbf{\bibinfo{volume}{86}}, \bibinfo{pages}{252101}
+  (\bibinfo{year}{2005}).
+
+\bibitem{Ellmer2012}
+\bibinfo{author}{Ellmer, K.}
+\newblock \bibinfo{title}{Past achievements and future challenges in the
+  development of optically transparent electrodes}.
+\newblock \emph{\bibinfo{journal}{Nat. Photon.}} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{809--817} (\bibinfo{year}{2012}).
+
+\bibitem{DeAngelis2014}
+\bibinfo{author}{{De Angelis}, F.}, \bibinfo{author}{{Di Valentin}, C.},
+  \bibinfo{author}{Fantacci, S.}, \bibinfo{author}{Vittadini, A.} \&
+  \bibinfo{author}{Selloni, A.}
+\newblock \bibinfo{title}{Theoretical studies on anatase and less common
+  {TiO$_2$} phases: Bulk, surfaces, and nanomaterials}.
+\newblock \emph{\bibinfo{journal}{Chem. Rev.}} \textbf{\bibinfo{volume}{114}},
+  \bibinfo{pages}{9708--9753} (\bibinfo{year}{2014}).
+
+\bibitem{Aryasetiawan1996}
+\bibinfo{author}{Aryasetiawan, F.}, \bibinfo{author}{Hedin, L.} \&
+  \bibinfo{author}{Karlsson, K.}
+\newblock \bibinfo{title}{Multiple plasmon satellites in {Na} and {Al} spectral
+  functions from \textit{ab initio} cumulant expansion}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{2268--2271}
+  (\bibinfo{year}{1996}).
+
+\bibitem{Guzzo2011}
+\bibinfo{author}{Guzzo, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Valence electron photoemission spectrum of
+  semiconductors: \textit{Ab Initio} description of multiple satellites}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{107}}, \bibinfo{pages}{166401}
+  (\bibinfo{year}{2011}).
+
+\bibitem{Lischner2013}
+\bibinfo{author}{Lischner, J.}, \bibinfo{author}{Vigil-Fowler, D.} \&
+  \bibinfo{author}{Louie, S.~G.}
+\newblock \bibinfo{title}{Physical origin of satellites in photoemission of
+  doped graphene: An \textit{Ab Initio} {$GW$} plus cumulant study}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{146801}
+  (\bibinfo{year}{2013}).
+
+\bibitem{Caruso2015}
+\bibinfo{author}{Caruso, F.}, \bibinfo{author}{Lambert, H.} \&
+  \bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{Band structure of plasmonic polarons}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{114}}, \bibinfo{pages}{146404}
+  (\bibinfo{year}{2015}).
+
+\bibitem{Langreth1970}
+\bibinfo{author}{Langreth, D.~C.}
+\newblock \bibinfo{title}{Singularities in the {X}-ray spectra of metals}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{1}},
+  \bibinfo{pages}{471--477} (\bibinfo{year}{1970}).
+
+\bibitem{Rehr2014}
+\bibinfo{author}{Story, S.~M.}, \bibinfo{author}{Kas, J.~J.},
+  \bibinfo{author}{Vila, F.~D.}, \bibinfo{author}{Verstraete, M.~J.} \&
+  \bibinfo{author}{Rehr, J.~J.}
+\newblock \bibinfo{title}{Cumulant expansion for phonon contributions to the
+  electron spectral function}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{195135} (\bibinfo{year}{2014}).
+
+\bibitem{Hedin1980}
+\bibinfo{author}{Hedin, L.}
+\newblock \bibinfo{title}{Effects of recoil on shake-up spectra in metals}.
+\newblock \emph{\bibinfo{journal}{Phys. Scr.}} \textbf{\bibinfo{volume}{21}},
+  \bibinfo{pages}{477--480} (\bibinfo{year}{1980}).
+
+\bibitem{GiustinoRMP}
+\bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{Electron-phonon interactions from first principles}.
+\newblock \emph{\bibinfo{journal}{Rev. Mod. Phys.}}
+  \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{015003}
+  (\bibinfo{year}{2017}).
+
+\bibitem{Frohlich1954}
+\bibinfo{author}{Fr\"ohlich, H.}
+\newblock \bibinfo{title}{Electrons in lattice fields}.
+\newblock \emph{\bibinfo{journal}{Adv. Phys.}} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{325--361} (\bibinfo{year}{1954}).
+
+\bibitem{EPW2007}
+\bibinfo{author}{Giustino, F.}, \bibinfo{author}{Cohen, M.~L.} \&
+  \bibinfo{author}{Louie, S.~G.}
+\newblock \bibinfo{title}{Electron-phonon interaction using {W}annier
+  functions}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{76}},
+  \bibinfo{pages}{165108} (\bibinfo{year}{2007}).
+
+\bibitem{Verdi2015}
+\bibinfo{author}{Verdi, C.} \& \bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{Fr\"ohlich electron-phonon vertex from first
+  principles}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{176401}
+  (\bibinfo{year}{2015}).
+
+\bibitem{EPW2016}
+\bibinfo{author}{Ponc\'e, S.}, \bibinfo{author}{Margine, R.},
+  \bibinfo{author}{Verdi, C.} \& \bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{{EPW}: Electron-phonon coupling, transport and
+  superconducting properties using maximally localized {W}annier functions}.
+\newblock \emph{\bibinfo{journal}{Comput. Phys. Commun.}}
+  \textbf{\bibinfo{volume}{209}}, \bibinfo{pages}{116--133}
+  (\bibinfo{year}{2016}).
+
+\bibitem{Grimvall}
+\bibinfo{author}{Grimvall, G.}
+\newblock \emph{\bibinfo{title}{The Electron-Phonon Interaction in Metals}}
+  (\bibinfo{publisher}{North-Holland}, \bibinfo{address}{New York},
+  \bibinfo{year}{1981}).
+
+\bibitem{Moser2015}
+\bibinfo{author}{Moser, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Electron-phonon coupling in the bulk of anatase
+  {TiO$_2$} measured by resonant inelastic {X}-ray spectroscopy}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{096404}
+  (\bibinfo{year}{2015}).
+
+\bibitem{Marsiglio1990}
+\bibinfo{author}{Marsiglio, F.}
+\newblock \bibinfo{title}{Pairing and charge-density-wave correlations in the
+  {H}olstein model at half-filling}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{42}},
+  \bibinfo{pages}{2416--2424} (\bibinfo{year}{1990}).
+
+\bibitem{Emin}
+\bibinfo{author}{Emin, D.}
+\newblock \emph{\bibinfo{title}{Polarons}} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2012}).
+
+\bibitem{Setvin2014}
+\bibinfo{author}{Setvin, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Direct view at excess electrons in {TiO$_2$} rutile
+  and anatase}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{086402}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Gervais1993}
+\bibinfo{author}{Gervais, F.}, \bibinfo{author}{Servoin, J.-L.},
+  \bibinfo{author}{Baratoff, A.}, \bibinfo{author}{Bednorz, J.~G.} \&
+  \bibinfo{author}{Binnig, G.}
+\newblock \bibinfo{title}{Temperature dependence of plasmons in {Nb}-doped
+  {SrTiO$_3$}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{47}},
+  \bibinfo{pages}{8187--8194} (\bibinfo{year}{1993}).
+
+\bibitem{Goldstein1982}
+\bibinfo{author}{Many, A.}, \bibinfo{author}{Gersten, J.~I.},
+  \bibinfo{author}{Wagner, I.}, \bibinfo{author}{Rosenthal, A.} \&
+  \bibinfo{author}{Goldstein, Y.}
+\newblock \bibinfo{title}{Two-dimensional plasma oscillation on {ZnO}
+  surfaces}.
+\newblock \emph{\bibinfo{journal}{Surf. Sci.}} \textbf{\bibinfo{volume}{113}},
+  \bibinfo{pages}{355--361} (\bibinfo{year}{1982}).
+
+\bibitem{Horn1972}
+\bibinfo{author}{Horn, M.}, \bibinfo{author}{Schwerdtfeger, C.~F.} \&
+  \bibinfo{author}{Meagher, E.~P.}
+\newblock \bibinfo{title}{Refinement of the structure of anatase at several
+  temperatures}.
+\newblock \emph{\bibinfo{journal}{Z. Kristallogr.}}
+  \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{273--281}
+  (\bibinfo{year}{1972}).
+
+\bibitem{PBE1996}
+\bibinfo{author}{Perdew, J.~P.}, \bibinfo{author}{Burke, K.} \&
+  \bibinfo{author}{Ernzerhof, M.}
+\newblock \bibinfo{title}{Generalized gradient approximation made simple}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{3865--3868}
+  (\bibinfo{year}{1996}).
+
+\bibitem{QuantumEspresso}
+\bibinfo{author}{Giannozzi, P.} \emph{et~al.}
+\newblock \bibinfo{title}{{QUANTUM ESPRESSO}: a modular and open-source
+  software project for quantum simulations of materials}.
+\newblock \emph{\bibinfo{journal}{J. Phys. Condens. Matter}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{395502}
+  (\bibinfo{year}{2009}).
+
+\bibitem{Zhukov2014}
+\bibinfo{author}{Zhukov, V.~P.} \& \bibinfo{author}{Chulkov, E.~V.}
+\newblock \bibinfo{title}{Ab initio calculations of the electron-phonon
+  interaction and characteristics of large polarons in rutile and anatase}.
+\newblock \emph{\bibinfo{journal}{Phys. Solid State}}
+  \textbf{\bibinfo{volume}{56}}, \bibinfo{pages}{1302--1309}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Mott1990}
+\bibinfo{author}{Mott, N.~F.}
+\newblock \emph{\bibinfo{title}{Metal-insulator transitions}}
+  (\bibinfo{publisher}{Taylor\&Francis}, \bibinfo{address}{London},
+  \bibinfo{year}{1990}).
+
+\bibitem{Hedin1965}
+\bibinfo{author}{Hedin, L.}
+\newblock \bibinfo{title}{New method for calculating the one-particle {G}reen's
+  function with application to the electron-gas problem}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev.}} \textbf{\bibinfo{volume}{139}},
+  \bibinfo{pages}{A796--A823} (\bibinfo{year}{1965}).
+
+\bibitem{Mardare2004}
+\bibinfo{author}{Mardare, D.} \& \bibinfo{author}{Rusu, G.~I.}
+\newblock \bibinfo{title}{Comparison of the dielectric properties for doped and
+  undoped {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{J. Optoelectron. Adv. Mater.}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{333--336}
+  (\bibinfo{year}{2004}).
+
+\bibitem{ARC}
+\bibinfo{author}{Richards, A.}
+\newblock \bibinfo{title}{University of {O}xford advanced research computing.
+  http://dx.doi.org/10.5281/zenodo.22558}  (\bibinfo{year}{2015}).
+
+\end{thebibliography}
+
+\clearpage
+
+\section*{\textsf{Acknowledgements}} \vspace*{-10pt}
+The authors gratefully acknowledge Marco~Grioni for granting permission to reproduce Fig.~1a-c. 
+This work was supported by the Leverhulme Trust (Grant RL-2012-001), the Graphene Flagship 
+(Horizon 2020 Grant No. 696656 -- GrapheneCore1), and the UK Engineering and Physical 
+Sciences Research Council (Grant No. EP/M020517/1). This work used the ARCHER UK 
+National Supercomputing Service via the ’AMSEC’ Leadership project, and the Advanced Research 
+Computing facility of the University of Oxford~\cite{ARC}. 
+
+\section*{\textsf{Author contributions}} \vspace*{-10pt}
+C.V. performed the computational research and analysed the results. 
+F.C. performed the cumulant expansion. 
+F.G. designed the research and led the project. 
+All authors participated in the preparation of the manuscript. 
+
+\section*{\textsf{Additional information}} \vspace*{-10pt}
+\begin{addendum}
+\item[Supplementary Information]  
+Supplementary information accompanies this paper at [URL]. \vspace*{-14pt}
+\item[Competing financial interests] The authors declare no competing financial interests.
+\end{addendum} 
+
+\clearpage
+
+\small
+  \begin{figure}
+  \caption{\label{fig1}
+  \textbf{$\!\!\bm|\,$ \textit{Ab initio} ARPES spectra of \textit{n}-doped anatase TiO$_{\textbf{2}}$.}
+  \normalfont(\textbf{a}-\textbf{c}) ARPES spectra of anatase TiO$_2$ measured by Moser \textit{et al.}\cite{Moser2013}.
+  The measurements were taken at 20~K on samples with $5\times10^{18}$~cm$^{-3}$ (\textbf{a}),
+  $3\times10^{19}$~cm$^{-3}$ (\textbf{b}), and $3.5\times10^{20}$~cm$^{-3}$ (\textbf{c}). The
+  zero of the energy is set to the Fermi level. The electron momentum $k_x$ is along the 
+  $\Gamma\Sigma$ line of the anatase Brillouin zone (see panel {\bf j}). Reproduced with permission from 
+  ref.~\citenum{Moser2013}. Copyright 2013 American Physical Society. 
+  (\textbf{d}-\textbf{f}) Calculated spectral function of anatase TiO$_2$, for the same electron momenta 
+  and nominal doping levels as in \textbf{a}-\textbf{c}.
+  Gaussian masks of widths 25~meV and 0.015~\AA$^{-1}$ were applied to account for the experimental
+  resolution\cite{Moser2013}. (\textbf{g}-\textbf{i}) Band structures extracted from the calculated 
+  spectral functions in \textbf{d}-\textbf{f}. The bare bands are in red, the bands including electron-phonon 
+  interactions are in blue. The calculated mass enhancement parameter $\lambda$ is 0.73 (\textbf{g}), 
+  0.70 (\textbf{h}) and 0.20 (\textbf{i}). 
+  (\textbf{j}) Brillouin zone and high-symmetry lines of anatase TiO$_2$.
+  (\textbf{k}) Calculated ARPES spectrum for a doping concentration of $3\times10^{19}$~cm$^{-3}$, 
+  showing the anisotropy of the electron dispersions along $\Gamma$X (basal plane of the tetragonal 
+  lattice, see Supplementary Fig.~1) and $\Gamma$Z ($c$-axis). }
+  \end{figure}
+
+\clearpage
+
+ \begin{figure}
+ \caption{\label{fig2}
+ \textbf{$\!\!\bm|\,$ Origin of satellites and kinks, and polaron wavefunctions.}
+ \normalfont(\textbf{a}) Effect of high-energy phonons: we compare the spectral function calculated for 
+ the intermediate doping level ($3\times10^{19}$~cm$^{-3}$) by taking into account all vibrational modes 
+ and a calculation where all phonons with energy above 100~meV have been eliminated. 
+ (\textbf{b}) Effect of electron-phonon correlations beyond the one-shot Migdal approximation: 
+ the complete calculation using the cumulant expansion method is compared to a spectral 
+ function calculated within the one-shot Migdal approximation. The doping level is the same as in \textbf{a}.
+ (\textbf{c}) Effect of dynamical screening on the spectral function: 
+ we compare the spectral function calculated for the highest doping level
+ ($3.5\times10^{20}$~cm$^{-3}$) by taking into account the screening of the electron-phonon 
+ interaction by carriers, with a calculation where this effect is turned off, and as a result the 
+ electron-phonon coupling is artificially enhanced. For clarity these spectra were not convoluted 
+ with Gaussian masks as in Fig.~\ref{fig1}d-f. (\textbf{d}) Identification of polaronic 
+ region and Fermi liquid region in $n$-doped anatase TiO$_2$: the red spheres represent the plasmon 
+ energy at each doping level, the horizontal line is the energy of the LO $E_u$ phonon (109~meV). 
+ The electron-phonon coupling strength $\lambda$ is given by the blue spheres. The lines are guides 
+ to the eye. (\textbf{e}) Ball-and-stick representation of the LO $E_u$ phonon, showing for clarity only 
+ one of the TiO$_6$ octahedra. 
+ (\textbf{f}) Square moduli of the polaron wavefunctions near the origin and further away from the 
+ origin, in the polaronic region (blue, $3\times10^{19}$~cm$^{-3}$) and in the Fermi liquid region 
+ (yellow, $3.5\times10^{20}$~cm$^{-3}$). The corresponding envelope functions are shown 
+ as the blue and red curves, respectively. These wavefunctions are extended over all three Cartesian 
+ directions, but are only shown along the $c$-axis for clarity. }
+ \end{figure}
+
+
+\end{document}

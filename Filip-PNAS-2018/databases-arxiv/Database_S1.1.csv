@@ -1,0 +1,1626 @@
+Database S1.1,,,,,,,,,
+Known perovskites,,,,,,,,,
+Compound,Source (ICSD ID or reference),A,,B,,B’,,X,
+,,Ion,Oxidation State,Ion,Oxidation State,Ion,Oxidation State,Ion,Oxidation State
+AgCoF3,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Co,2,Co,2,F,-1
+AgCuF3,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Cu,2,Cu,2,F,-1
+AgMgF3,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Mg,2,Mg,2,F,-1
+AgMnF3,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Mn,2,Mn,2,F,-1
+AgNbO3,55643,Ag,1,Nb,5,Nb,5,O,-2
+AgNiF3,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Ni,2,Ni,2,F,-1
+AgSbO3,"J Alloy and Compounds, 372, 40-48 (2008)",Ag,1,Sb,5,Sb,5,O,-2
+AgTaO3,40830,Ag,1,Ta,5,Ta,5,O,-2
+AgVO3,"J Alloy and Compounds, 372, 40-48 (2008)",Ag,1,V,5,V,5,O,-2
+AgZnF3,28950,Ag,1,Zn,2,Zn,2,F,-1
+BaAmO3,61317,Ba,2,Am,4,Am,4,O,-2
+BaCeO3,88590,Ba,2,Ce,4,Ce,4,O,-2
+BaFeO3,28918,Ba,2,Fe,4,Fe,4,F,-2
+BaHfO3,"J Alloy and Compounds, 372, 40-48 (2008)",Ba,2,Hf,4,Hf,4,O,-2
+BaIrO3,248378,Ba,2,Ir,4,Ir,4,O,-2
+BaMoO3,43799,Ba,2,Mo,4,Mo,4,O,-2
+BaNbO3,50275,Ba,2,Nb,4,Nb,4,O,-2
+BaNpO3,61316,Ba,2,Np,4,Np,4,O,-2
+BaOsO3,237730,Ba,2,Os,4,Os,4,O,-2
+BaPbO3,51656,Ba,2,Pb,4,Pb,4,O,-2
+BaPrO3,163752,Ba,2,Pr,4,Pr,4,O,-2
+BaPuO3,43768,Ba,2,Pu,4,Pu,4,O,-2
+BaSnO3,27049,Ba,2,Sn,4,Sn,4,O,-2
+BaTbO3,86736,Ba,2,Tb,4,Tb,4,O,-2
+BaThO3,29110,Ba,2,Th,4,Th,4,O,-2
+BaUO3,77627,Ba,2,U,4,U,4,O,-2
+BaZrO3,190881,Ba,2,Zr,4,Zr,4,O,-2
+BiAlO3,171708,Bi,3,Al,3,Al,3,O,-2
+BiCoO3,247467,Bi,3,Co,3,Co,3,O,-2
+BiCrO3,174403,Bi,3,Cr,3,Cr,3,O,-2
+BiFeO3,162895,Bi,3,Fe,3,Fe,3,O,-2
+BiInO3,171757,Bi,3,In,3,In,3,O,-2
+BiMnO3,238293,Bi,3,Mn,3,Mn,3,O,-2
+BiRhO3,108996,Bi,3,Rh,3,Rh,3,O,-2
+CaCeO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Ca,2,Ce,4,Ce,4,O,-2
+CaCrO3,245840,Ca,2,Cr,4,Cr,4,O,-2
+CaFeO3,248483,Ca,2,Fe,4,Fe,4,O,-2
+CaMoO3,172790,Ca,2,Mo,4,Mo,4,O,-2
+CaNbO3,85569,Ca,2,Nb,4,Nb,4,O,-2
+CaOsO3,237732,Ca,2,Os,4,Os,4,O,-2
+CaPbO3,87825,Ca,2,Pb,4,Pb,4,O,-2
+CaRuO3,69359,Ca,2,Ru,4,Ru,4,O,-2
+CaTcO3,261341,Ca,2,Tc,4,Tc,4,O,-2
+CaThO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Ca,2,Th,4,Th,4,O,-2
+CaTiO3,185443,Ca,2,Ti,4,Ti,4,O,-2
+CaUO3,"J Alloy and Compounds, 372, 40-48 (2008)",Ca,2,U,4,U,4,O,-2
+CaVO3,81056,Ca,2,V,4,V,4,O,-2
+CdCeO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Cd,2,Ce,4,Ce,4,O,-2
+CdTcO3,180009,Cd,2,Tc,4,Tc,4,O,-2
+CdZrO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Cd,2,Zr,4,Zr,4,O,-2
+CeAlO3,245266,Ce,3,Al,3,Al,3,O,-2
+CeCrO3,28931,Ce,3,Cr,3,Cr,3,O,-2
+CeFeO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Ce,3,Fe,3,Fe,3,O,-2
+CeGaO3,76048,Ce,3,Ga,3,Ga,3,O,-2
+CeScO3,195596,Ce,3,Sc,3,Sc,3,O,-2
+CeScS3,622042,Ce,3,Sc,3,Sc,3,S,-2
+CeVO3,162748,Ce,3,V,3,V,3,O,-2
+CrBiO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Cr,3,Bi,3,Bi,3,O,-2
+CsCaBr3,77242,Cs,1,Ca,2,Ca,2,Br,-1
+CsCaCl3,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Ca,2,Ca,2,Cl,-1
+CsCaF3,45309,Cs,1,Ca,2,Ca,2,F,-1
+CsCdCl3,24484,Cs,1,Cd,2,Cd,2,Cl,-1
+CsCdF3,49582,Cs,1,Cd,2,Cd,2,F,-1
+CsDyBr3,300285,Cs,1,Dy,2,Dy,2,Br,-1
+CsDyI3,300286,Cs,1,Dy,2,Dy,2,I,-1
+CsEuBr3,172892,Cs,1,Eu,2,Eu,2,Br,-1
+CsEuCl3,31463,Cs,1,Eu,2,Eu,2,Cl,-1
+CsEuF3,49577,Cs,1,Eu,2,Eu,2,F,-1
+CsFeF3,49583,Cs,1,Fe,2,Fe,2,F,-1
+CsGeBr3,80320,Cs,1,Ge,2,Ge,2,Br,-1
+CsHgF3,15168,Cs,1,Hg,2,Hg,2,F,-1
+CsIO3,33665,Cs,1,I,5,I,5,O,-2
+CsMgF3,49584,Cs,1,Mg,2,Mg,2,F,-1
+CsPbBr3,109295,Cs,1,Pb,2,Pb,2,Br,-1
+CsPbCl3,109294,Cs,1,Pb,2,Pb,2,Cl,-1
+CsPbF3,93438,Cs,1,Pb,2,Pb,2,F,-1
+CsPbI3,161481,Cs,1,Pb,2,Pb,2,I,-1
+CsSrCl3,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Sr,2,Sr,2,Cl,-1
+CsSrF3,49578,Cs,1,Sr,2,Sr,2,F,-1
+CsThO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Cd,2,Th,4,Th,4,O,-2
+CsTmCl3,31460,Cs,1,Tm,2,Tm,2,Cl,-1
+CsYbBr3,77243,Cs,1,Yb,2,Yb,2,Br,-1
+CsYbCl3,31461,Cs,1,Yb,2,Yb,2,Cl,-1
+CsYbF3,49579,Cs,1,Yb,2,Yb,2,F,-1
+CsYbI3,72342,Cs,1,Yb,2,Yb,2,I,-1
+CsZnF3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Cs,1,Zn,2,Zn,2,F,-1
+CuTaO3,164934,Cu,1,Ta,5,Ta,5,O,-2
+DyAlO3,188422,Dy,3,Al,3,Al,3,O,-2
+DyCoO3,23658,Dy,3,Co,3,Co,3,O,-2
+DyCrO3,16505,Dy,3,Cr,3,Cr,3,O,-2
+DyFeO3,27280,Dy,3,Fe,3,Fe,3,O,-2
+DyGaO3,429061,Dy,3,Ga,3,Ga,3,O,-2
+DyMnO3,91711,Dy,3,Mn,3,Mn,3,O,-2
+DyNiO3,162114,Dy,3,Ni,3,Ni,3,O,-2
+DyScO3,99545,Dy,3,Sc,3,Sc,3,O,-2
+DyScS3,630206,Dy,3,Sc,3,Sc,3,S,-2
+DyVO3,40392,Dy,3,V,3,V,3,O,-2
+ErAlO3,"J Alloy and Compounds, 372, 40-48 (2008)",Er,3,Al,3,Al,3,O,-2
+ErCoO3,172049,Er,3,Co,3,Co,3,O,-2
+ErCrO3,28487,Er,3,Cr,3,Cr,3,O,-2
+ErFeO3,16782,Er,3,Fe,3,Fe,3,O,-2
+ErMnO3,159309,Er,3,Mn,3,Mn,3,O,-2
+ErNiO3,191795,Er,3,Ni,3,Ni,3,O,-2
+ErScS3,631072,Er,3,Sc,3,Sc,3,S,-2
+ErVO3,40393,Er,3,V,3,V,3,O,-2
+EuAlO3,109353,Eu,3,Al,3,Al,3,O,-2
+EuCrO3,251085,Eu,3,Cr,3,Cr,3,O,-2
+EuFeO3,27277,Eu,3,Fe,3,Fe,3,O,-2
+EuGaO3,"J Alloy and Compounds, 372, 40-48 (2008)",Eu,3,Ga,3,Ga,3,O,-2
+EuMnO3,95492,Eu,3,Mn,3,Mn,3,O,-2
+EuNiO3,80400,Eu,3,Ni,3,Ni,3,O,-2
+EuRhO3,172351,Eu,3,Rh,3,Rh,3,O,-2
+EuScO3,4128,Eu,3,Sc,3,Sc,3,O,-2
+EuTiO3,290422,Eu,3,Ti,3,Ti,3,O,-2
+EuZrO3,174198,Eu,2,Zr,4,Zr,4,O,-2
+FeBiO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Fe,3,Bi,3,Bi,3,O,-2
+FeZrO3,247122,Fe,2,Zr,4,Zr,4,O,-2
+GdAlO3,59848,Gd,3,Al,3,Al,3,O,-2
+GdCoO3,45153,Gd,3,Co,3,Co,3,O,-2
+GdCrO3,9985,Gd,3,Cr,3,Cr,3,O,-2
+GdFeO3,23823,Gd,3,Fe,3,Fe,3,O,-2
+GdGaO3,492,Gd,3,Ga,3,Ga,3,O,-2
+GdMnO3,95493,Gd,3,Mn,3,Mn,3,O,-2
+GdNiO3,88040,Gd,3,Ni,3,Ni,3,O,-2
+GdScO3,65513,Gd,3,Sc,3,Sc,3,O,-2
+GdScS3,636338,Gd,3,Sc,3,Sc,3,S,-2
+GdTiO3,8149,Gd,3,Ti,3,Ti,3,O,-2
+GdVO3,40391,Gd,3,V,3,V,3,O,-2
+HgSnO3,260029,Hg,2,Sn,4,Sn,4,O,-2
+HgTiO3,19005,Hg,2,Ti,4,Ti,4,O,-2
+HoAlO3,1236,Ho,3,Al,3,Al,3,O,-2
+HoCoO3,23659,Ho,3,Co,3,Co,3,O,-2
+HoCrO3,236371,Ho,3,Cr,3,Cr,3,O,-2
+HoFeO3,27281,Ho,3,Fe,3,Fe,3,O,-2
+HoGaO3,420711,Ho,3,Ga,3,Ga,3,O,-2
+HoNiO3,191793,Ho,3,Ni,3,Ni,3,O,-2
+HoScO3,99546,Ho,3,Sc,3,Sc,3,O,-2
+HoScS3,639667,Ho,3,Sc,3,Sc,3,S,-2
+HoVO3,10018,Ho,3,V,3,V,3,O,-2
+InRhO3,237351,In,3,Rh,3,Rh,3,O,-2
+KBiO3,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,Bi,5,Bi,5,O,-2
+KCaCl3,"Acta Cryst B 64, 702-707 (2008)",K,1,Ca,2,Ca,2,Cl,-1
+KCaF3,154073,K,1,Ca,2,Ca,2,F,-1
+KCdCl3,"Acta Cryst B 64, 702-707 (2008)",K,1,Cd,2,Cd,2,Cl,-1
+KCdF3,44788,K,1,Cd,2,Cd,2,F,-1
+KCoF3,15246,K,1,Co,2,Co,2,F,-1
+KCrF3,27690,K,1,Cr,2,Cr,2,F,-1
+KCuF3,27689,K,1,Cu,2,Cu,2,F,-1
+KFeCl3,"Acta Cryst B 64, 702-707 (2008)",K,1,Fe,2,Fe,2,Cl,-1
+KFeF3,15424,K,1,Fe,2,Fe,2,F,-1
+KHgF3,15170,K,1,Hg,2,Hg,2,F,-1
+KIO3,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,I,5,I,5,O,-2
+KMgF3,28949,K,1,Mg,2,Mg,2,F,-1
+KMnCl3,32710,K,1,Mn,2,Mn,2,Cl,-1
+KMnF3,75412,K,1,Mn,2,Mn,2,F,-1
+KNiF3,15426,K,1,Ni,2,Ni,2,F,-1
+KTaO3,39673,K,1,Ta,5,Ta,5,O,-2
+KUO3,71241,K,1,U,5,U,5,O,-2
+KVF3,28145,K,1,V,2,V,2,F,-1
+KZnF3,15427,K,1,Zn,2,Zn,2,F,-1
+LaAlO3,180175,La,3,Al,3,Al,3,O,-2
+LaCoO3,164459,La,3,Co,3,Co,3,O,-2
+LaCrO3,165054,La,3,Cr,3,Cr,3,O,-2
+LaCuO3,9428,La,3,Cu,3,Cu,3,O,-2
+LaErO3,16237,La,3,Er,3,Er,3,O,-2
+LaFeO3,164083,La,3,Fe,3,Fe,3,O,-2
+LaGaO3,153307,La,3,Ga,3,Ga,3,O,-2
+LaHoO3,189420,La,3,Ho,3,Ho,3,O,-2
+LaInO3,281549,La,3,In,3,In,3,O,-2
+LaLuO3,51449,La,3,Lu,3,Lu,3,O,-2
+LaLuS3,641392,La,3,Lu,3,Lu,3,S,-2
+LaMnO3,185279,La,3,Mn,3,Mn,3,O,-2
+LaNiO3,67714,La,3,Ni,3,Ni,3,O,-2
+LaPdO3,93099,La,3,Pd,3,Pd,3,O,-2
+LaRhO3,172347,La,3,Rh,3,Rh,3,O,-2
+LaRuO3,75569,La,3,Ru,3,Ru,3,O,-2
+LaScO3,99538,La,3,Sc,3,Sc,3,O,-2
+LaScS3,641844,La,3,Sc,3,Sc,3,S,-2
+LaTiO3,28908,La,3,Ti,3,Ti,3,O,-2
+LaTmO3,419665,La,3,Tm,3,Tm,3,O,-2
+LaVO3,185831,La,3,V,3,V,3,O,-2
+LaYbO3,189421,La,3,Yb,3,Yb,3,O,-2
+LaYbS3,641879,La,3,Yb,3,Yb,3,S,-2
+LaYO3,419666,La,3,Y,3,Y,3,O,-2
+LiBaF3,45310,Ba,2,Li,1,Li,1,F,-1
+LiReO3,35012,Li,1,Re,5,Re,5,O,-2
+LuAlO3,"J Alloy and Compounds, 372, 40-48 (2008)",Lu,3,Al,3,Al,3,O,-2
+LuCoO3,172052,Lu,3,Co,3,Co,3,O,-2
+LuCrO3,251093,Lu,3,Cr,3,Cr,3,O,-2
+LuFeO3,27285,Lu,3,Fe,3,Fe,3,O,-2
+LuMnO3,160376,Lu,3,Mn,3,Mn,3,O,-2
+LuNiO3,191796,Lu,3,Ni,3,Ni,3,O,-2
+LuRhO3,188152,Lu,3,Rh,3,Rh,3,O,-2
+LuVO3,185830,Lu,3,V,3,V,3,O,-2
+MgCeO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Mg,2,Ce,4,Ce,4,O,-2
+MnVO3,185418,Mn,2,V,4,V,4,O,-2
+NaCrF3,"Acta Cryst B 64, 702-707 (2008)",Na,1,Cr,2,Cr,2,F,-1
+NaMnF3,15621,Na,1,Mn,2,Mn,2,F,-1
+NaUO3,15136,Na,1,U,5,U,5,O,-2
+NaVF3,60611,Na,1,V,2,V,2,F,-1
+NaVO3,"J Alloy and Compounds, 372, 40-48 (2008)",Na,1,V,5,V,5,O,-2
+NaWO3,28343,Na,1,W,5,W,5,O,-2
+NaZnF3,69349,Na,1,Zn,2,Zn,2,F,-1
+NdAlO3,35550,Nd,3,Al,3,Al,3,O,-2
+NdCoO3,164821,Nd,3,Co,3,Co,3,O,-2
+NdCrO3,28933,Nd,3,Cr,3,Cr,3,O,-2
+NdFeO3,27275,Nd,3,Fe,3,Fe,3,O,-2
+NdGaO3,79633,Nd,3,Ga,3,Ga,3,O,-2
+NdInO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Nd,3,In,3,In,3,O,-2
+NdMnO3,15719,Nd,3,Mn,3,Mn,3,O,-2
+NdNiO3,416212,Nd,3,Ni,3,Ni,3,O,-2
+NdRhO3,172349,Nd,3,Rh,3,Rh,3,O,-2
+NdScO3,99540,Nd,3,Sc,3,Sc,3,O,-2
+NdScS3,645859,Nd,3,Sc,3,Sc,3,S,-2
+NdTiO3,82008,Nd,3,Ti,3,Ti,3,O,-2
+NdVO3,185834,Nd,3,V,3,V,3,O,-2
+PbCeO3,"J Alloy and Compounds, 372, 40-48 (2008)",Pb,2,Ce,4,Ce,4,O,-2
+PbCrO3,160196,Pb,2,Cr,4,Cr,4,O,-2
+PbHfO3,33194,Pb,2,Hf,4,Hf,4,O,-2
+PbSnO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Pb,2,Sn,4,Sn,4,O,-2
+PbVO3,240256,Pb,2,V,4,V,4,O,-2
+PbZrO3,31154,Pb,2,Zr,4,Zr,4,O,-2
+PrAlO3,35549,Pr,3,Al,3,Al,3,O,-2
+PrCoO3,164817,Pr,3,Co,3,Co,3,O,-2
+PrCrO3,251097,Pr,3,Cr,3,Cr,3,O,-2
+PrFeO3,27274,Pr,3,Fe,3,Fe,3,O,-2
+PrGaO3,76049,Pr,3,Ga,3,Ga,3,O,-2
+PrInO3,238839,Pr,3,In,3,In,3,O,-2
+PrLuO3,50758,Pr,3,Lu,3,Lu,3,O,-2
+PrMnO3,15718,Pr,3,Mn,3,Mn,3,O,-2
+PrNiO3,246701,Pr,3,Ni,3,Ni,3,O,-2
+PrRhO3,172348,Pr,3,Rh,3,Rh,3,O,-2
+PrRuO3,75570,Pr,3,Ru,3,Ru,3,O,-2
+PrScO3,99539,Pr,3,Sc,3,Sc,3,O,-2
+PrScS3,649276,Pr,3,Sc,3,Sc,3,S,-2
+PrVO3,28927,Pr,3,V,3,V,3,O,-2
+PuAlO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Pu,3,Al,3,Al,3,O,-2
+PuCrO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Pu,3,Cr,3,Cr,3,O,-2
+PuMnO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Pu,3,Mn,3,Mn,3,O,-2
+PuVO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Pu,3,V,3,V,3,O,-2
+RbCaCl3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Ca,2,Ca,2,Cl,-1
+RbCaF3,201252,Rb,1,Ca,2,Ca,2,F,-1
+RbCdBr3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Cd,2,Cd,2,Br,-1
+RbCdCl3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Cd,2,Cd,2,Cl,-1
+RbCdF3,49587,Rb,1,Cd,2,Cd,2,F,-1
+RbCoF3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Co,2,Co,2,F,-1
+RbCrCl3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Cr,2,Cr,2,Cl,-1
+RbCrF3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Cr,2,Cr,2,F,-1
+RbCuF3,109293,Rb,1,Cu,2,Cu,2,F,-1
+RbFeF3,49586,Rb,1,Fe,2,Fe,2,F,-1
+RbGeBr3,65244,Rb,1,Ge,2,Ge,2,Br,-1
+RbGeI3,40216,Rb,1,Ge,2,Ge,2,I,-1
+RbHgF3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Hg,2,Hg,2,F,-1
+RbIO3,"J Alloy and Compounds, 372, 40-48 (2008)",Rb,1,I,5,I,5,O,-2
+RbMgF3,49585,Rb,1,Mg,2,Mg,2,F,-1
+RbMnCl3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Mn,2,Mn,2,Cl,-1
+RbMnF3,43722,Rb,1,Mn,2,Mn,2,F,-1
+RbPbF3,49591,Rb,1,Pb,2,Pb,2,F,-1
+RbUO3,99548,Rb,1,U,5,U,5,O,-2
+RbVF3,28146,Rb,1,V,2,V,2,F,-1
+RbYbBr3,72341,Rb,1,Yb,2,Yb,2,Br,-1
+RbYbF3,49590,Rb,1,Yb,2,Yb,2,F,-1
+RbZnF3,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Zn,2,Zn,2,F,-1
+ScAlO3,34278,Sc,3,Al,3,Al,3,O,-2
+ScCrO3,85141,Sc,3,Cr,3,Cr,3,O,-2
+SmAlO3,10334,Sm,3,Al,3,Al,3,O,-2
+SmCoO3,28924,Sm,3,Co,3,Co,3,O,-2
+SmCrO3,237360,Sm,3,Cr,3,Cr,3,O,-2
+SmFeO3,27276,Sm,3,Fe,3,Fe,3,O,-2
+SmInO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Sm,3,In,3,In,3,O,-2
+SmMnO3,95491,Sm,3,Mn,3,Mn,3,O,-2
+SmNiO3,69789,Sm,3,Ni,3,Ni,3,O,-2
+SmRhO3,172350,Sm,3,Rh,3,Rh,3,O,-2
+SmScO3,99541,Sm,3,Sc,3,Sc,3,O,-2
+SmScS3,650844,Sm,3,Sc,3,Sc,3,S,-2
+SmTaO3,27118,Sm,2,Ta,4,Ta,4,O,-2
+SmTiO3,51180,Sm,2,Ti,4,Ti,4,O,-2
+SmVO3,187200,Sm,3,V,3,V,3,O,-2
+SrCeO3,71352,Sr,2,Ce,4,Ce,4,O,-2
+SrCoO3,77142,Sr,2,Co,4,Co,4,O,-2
+SrCrO3,108903,Sr,2,Cr,4,Cr,4,O,-2
+SrFeO3,184861,Sr,2,Fe,4,Fe,4,O,-2
+SrHfO3,89385,Sr,2,Hf,4,Hf,4,O,-2
+SrMoO3,174205,Sr,2,Mo,4,Mo,4,O,-2
+SrNbO3,42004,Sr,2,Nb,4,Nb,4,O,-2
+SrOsO3,237731,Sr,2,Os,4,Os,4,O,-2
+SrPbO3,4121,Sr,2,Pb,4,Pb,4,O,-2
+SrPrO3,84882,Sr,2,Pr,4,Pr,4,O,-2
+SrRuO3,154894,Sr,2,Ru,4,Ru,4,O,-2
+SrSnO3,97432,Sr,2,Sn,4,Sn,4,O,-2
+SrTbO3,86734,Sr,2,Tb,4,Tb,4,O,-2
+SrTcO3,183450,Sr,2,Tc,4,Tc,4,O,-2
+SrThO3,"Galasso, F. S. ,Structure and properties of inorganic solids (1970)",Sr,2,Th,4,Th,4,O,-2
+SrTiO3,290619,Sr,2,Ti,4,Ti,4,O,-2
+SrZrO3,173398,Sr,2,Zr,4,Zr,4,O,-2
+TaThN3,77661,Th,4,Ta,5,Ta,5,N,-3
+TbAlO3,84422,Tb,3,Al,3,Al,3,O,-2
+TbCoO3,23657,Tb,3,Co,3,Co,3,O,-2
+TbCrO3,251101,Tb,3,Cr,3,Cr,3,O,-2
+TbFeO3,22311,Tb,3,Fe,3,Fe,3,O,-2
+TbMnO3,15720,Tb,3,Mn,3,Mn,3,O,-2
+TbRhO3,172352,Tb,3,Rh,3,Rh,3,O,-2
+TbScO3,99544,Tb,3,Sc,3,Sc,3,O,-2
+TbScS3,650846,Tb,3,Sc,3,Sc,3,S,-2
+TbVO3,155481,Tb,3,V,3,V,3,O,-2
+TlCdCl3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Cd,2,Cd,2,Cl,-1
+TlCdF3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Cd,2,Cd,2,F,-1
+TlCrF3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Cr,2,Cr,2,F,-1
+TlCrO3,238834,Tl,3,Cr,3,Cr,3,O,-2
+TlCuF3,43457,Tl,1,Cu,2,Cu,2,F,-1
+TlFeF3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Fe,2,Fe,2,F,-1
+TlIO3,"J Alloy and Compounds, 372, 40-48 (2008)",Tl,1,I,5,I,5,O,-2
+TlMnCl3,23167,Tl,1,Mn,2,Mn,2,Cl,-1
+TlMnF3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Mn,2,Mn,2,F,-1
+TlMnI3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Mn,2,Mn,2,I,-1
+TlNiO3,95948,Tl,3,Ni,3,Ni,3,O,-2
+TlPbI3,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Pb,2,Pb,2,I,-1
+TmAlO3,"J Alloy and Compounds, 372, 40-48 (2008)",Tm,3,Al,3,Al,3,O,-2
+TmCoO3,172050,Tm,3,Co,3,Co,3,O,-2
+TmCrO3,247738,Tm,3,Cr,3,Cr,3,O,-2
+TmFeO3,25658,Tm,3,Fe,3,Fe,3,O,-2
+TmMnO3,162209,Tm,3,Mn,3,Mn,3,O,-2
+TmNiO3,189295,Tm,3,Ni,3,Ni,3,O,-2
+TmVO3,185839,Tm,3,V,3,V,3,O,-2
+UCoS3,624881,U,3,Co,3,Co,3,S,-2
+UNiS3,646401,U,4,Ni,2,Ni,2,S,-2
+UVS3,651346,U,3,V,3,V,3,S,-2
+YAlO3,4115,Y,3,Al,3,Al,3,O,-2
+YbAlO3,"J Alloy and Compounds, 372, 40-48 (2008)",Yb,3,Al,3,Al,3,O,-2
+YbCoO3,172051,Yb,3,Co,3,Co,3,O,-2
+YbCrO3,251105,Yb,3,Cr,3,Cr,3,O,-2
+YbFeO3,27284,Yb,3,Fe,3,Fe,3,O,-2
+YbMnO3,171759,Yb,3,Mn,3,Mn,3,O,-2
+YbNiO3,189297,Yb,3,Ni,3,Ni,3,O,-2
+YbVO3,97783,Yb,3,V,3,V,3,O,-2
+YCoO3,155834,Y,3,Co,3,Co,3,O,-2
+YCrO3,109352,Y,3,Cr,3,Cr,3,O,-2
+YFeO3,80865,Y,3,Fe,3,Fe,3,O,-2
+YMnO3,56617,Y,3,Mn,3,Mn,3,O,-2
+YNiO3,191794,Y,3,Ni,3,Ni,3,O,-2
+YScO3,237285,Y,3,Sc,3,Sc,3,O,-2
+YScS3,23422,Y,3,Sc,3,Sc,3,S,-2
+YTiO3,20903,Y,3,Ti,3,Ti,3,O,-2
+YVO3,95577,Y,3,V,3,V,3,O,-2
+ZnPbO3,196158,Zn,2,Pb,4,Pb,4,O,-2
+Ag3AlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,Al,3,F,-1
+Ag3CoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,Co,3,F,-1
+Ag3CrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,Cr,3,F,-1
+Ag3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,Fe,3,F,-1
+Ag3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,Ga,3,F,-1
+Ag3InF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,In,3,F,-1
+Ag3VF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Ag,1,Ag,1,V,3,F,-1
+Ba2AlNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Al,3,Nb,5,O,-2
+Ba2AlTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Al,3,Ta,5,O,-2
+Ba2BeUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Be,2,U,6,O,-2
+Ba2BiIrO6,174291,Ba,2,Bi,3,Ir,5,O,-2
+Ba2BiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Bi,3,Nb,5,O,-2
+Ba2BiSbO6,50040,Ba,2,Bi,3,Sb,5,O,-2
+Ba2BiTaO6,153122,Ba,2,Bi,3,Ta,5,O,-2
+Ba2BiVO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Bi,3,V,5,O,-2
+Ba2CaMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Mo,6,O,-2
+Ba2CaNpO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Np,6,O,-2
+Ba2CaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Os,6,O,-2
+Ba2CaPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Pu,6,O,-2
+Ba2CaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Re,6,O,-2
+Ba2CaTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ca,2,Te,6,O,-2
+Ba2CaUO6,246110,Ba,2,Ca,2,U,6,O,-2
+Ba2CaWO6,171985,Ba,2,Ca,2,W,6,O,-2
+Ba2CdMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,Mo,6,O,-2
+Ba2CdOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,Os,6,O,-2
+Ba2CdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,Re,6,O,-2
+Ba2CdTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,Te,6,O,-2
+Ba2CdUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,U,6,O,-2
+Ba2CdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cd,2,W,6,O,-2
+Ba2CeIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ce,4,Ir,4,O,-2
+Ba2CeNbO6,186211,Ba,2,Ce,3,Nb,5,O,-2
+Ba2CePtO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ce,4,Pt,4,O,-2
+Ba2CePuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ce,3,Pu,5,O,-2
+Ba2CeSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ce,4,Sn,4,O,-2
+Ba2CeTaO6,186212,Ba,2,Ce,3,Ta,5,O,-2
+Ba2CeUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ce,3,U,5,O,-2
+Ba2CoMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,Mo,6,O,-2
+Ba2CoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,3,Nb,5,O,-2
+Ba2CoReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,Re,6,O,-2
+Ba2CoTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,3,Ta,5,O,-2
+Ba2CoTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,Te,6,O,-2
+Ba2CoUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,U,6,O,-2
+Ba2CoWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,W,6,O,-2
+Ba2CrBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,Bi,5,O,-2
+Ba2CrMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,Mo,5,O,-2
+Ba2CrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,Ta,5,O,-2
+Ba2CrUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,U,5,O,-2
+Ba2CuOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cu,2,Os,6,O,-2
+Ba2CuUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cu,2,U,6,O,-2
+Ba2DyBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Bi,5,O,-2
+Ba2DyIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Ir,5,O,-2
+Ba2DyMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Mo,5,O,-2
+Ba2DyNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Nb,5,O,-2
+Ba2DyOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Os,5,O,-2
+Ba2DyReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Re,5,O,-2
+Ba2DyRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Ru,5,O,-2
+Ba2DySbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Sb,5,O,-2
+Ba2DyTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,Ta,5,O,-2
+Ba2DyUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,U,5,O,-2
+Ba2DyWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Dy,3,W,5,O,-2
+Ba2ErBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Bi,5,O,-2
+Ba2ErIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Ir,5,O,-2
+Ba2ErMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Mo,5,O,-2
+Ba2ErNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Nb,5,O,-2
+Ba2ErOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Os,5,O,-2
+Ba2ErReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Re,5,O,-2
+Ba2ErRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Ru,5,O,-2
+Ba2ErSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Sb,5,O,-2
+Ba2ErTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,Ta,5,O,-2
+Ba2ErUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Er,3,U,5,O,-2
+Ba2EuBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Bi,5,O,-2
+Ba2EuIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Ir,5,O,-2
+Ba2EuMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Mo,5,O,-2
+Ba2EuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Nb,5,O,-2
+Ba2EuOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Os,5,O,-2
+Ba2EuReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Re,5,O,-2
+Ba2EuRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Ru,5,O,-2
+Ba2EuSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Sb,5,O,-2
+Ba2EuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,Ta,5,O,-2
+Ba2EuUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,U,5,O,-2
+Ba2EuWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Eu,3,W,5,O,-2
+Ba2FeBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Bi,5,O,-2
+Ba2FeMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Mo,5,O,-2
+Ba2FeNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Nb,5,O,-2
+Ba2FeReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Re,5,O,-2
+Ba2FeSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Sb,5,O,-2
+Ba2FeTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Ta,5,O,-2
+Ba2FeUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,U,5,O,-2
+Ba2FeWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,2,W,6,O,-2
+Ba2GaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ga,3,Nb,5,O,-2
+Ba2GaTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ga,3,Ta,5,O,-2
+Ba2GdBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Bi,5,O,-2
+Ba2GdIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Ir,5,O,-2
+Ba2GdMoO6,236360,Ba,2,Gd,3,Mo,5,O,-2
+Ba2GdNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Nb,5,O,-2
+Ba2GdOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Os,5,O,-2
+Ba2GdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Re,5,O,-2
+Ba2GdRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Ru,5,O,-2
+Ba2GdSbO6,33618,Ba,2,Gd,3,Sb,5,O,-2
+Ba2GdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,Ta,5,O,-2
+Ba2GdUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,U,5,O,-2
+Ba2GdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Gd,3,W,5,O,-2
+Ba2GeUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ge,4,U,4,O,-2
+Ba2HfUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Hf,4,U,4,O,-2
+Ba2HgUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Hg,2,U,6,O,-2
+Ba2HoBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Bi,5,O,-2
+Ba2HoIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Ir,5,O,-2
+Ba2HoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Nb,5,O,-2
+Ba2HoOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Os,5,O,-2
+Ba2HoReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Re,5,O,-2
+Ba2HoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Ru,5,O,-2
+Ba2HoSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Sb,5,O,-2
+Ba2HoTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,Ta,5,O,-2
+Ba2HoUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ho,3,U,5,O,-2
+Ba2InBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Bi,5,O,-2
+Ba2InNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Nb,5,O,-2
+Ba2InOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Os,5,O,-2
+Ba2InPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Pu,5,O,-2
+Ba2InReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Re,5,O,-2
+Ba2InSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Sb,5,O,-2
+Ba2InTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Ta,5,O,-2
+Ba2InUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,U,5,O,-2
+Ba2LaBiO6,195218,Ba,2,La,3,Bi,5,O,-2
+Ba2LaIrO6,174140,Ba,2,La,3,Ir,5,O,-2
+Ba2LaNbO6,172403,Ba,2,La,3,Nb,5,O,-2
+Ba2LaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,La,3,Os,5,O,-2
+Ba2LaPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,La,3,Pu,5,O,-2
+Ba2LaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,La,3,Re,5,O,-2
+Ba2LaRuO6,37027,Ba,2,La,3,Ru,5,O,-2
+Ba2LaSbO6,151816,Ba,2,La,3,Sb,5,O,-2
+Ba2LaTaO6,160168,Ba,2,La,3,Ta,5,O,-2
+Ba2LaUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,La,3,U,5,O,-2
+Ba2LiIO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Li,1,I,7,O,-2
+Ba2LiOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Li,1,Os,7,O,-2
+Ba2LiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Li,1,Re,7,O,-2
+Ba2LuBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Bi,5,O,-2
+Ba2LuIrO6,88158,Ba,2,Lu,3,Ir,5,O,-2
+Ba2LuMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Mo,5,O,-2
+Ba2LuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Nb,5,O,-2
+Ba2LuOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Os,5,O,-2
+Ba2LuReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Re,5,O,-2
+Ba2LuRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Ru,5,O,-2
+Ba2LuSbO6,33622,Ba,2,Lu,3,Sb,5,O,-2
+Ba2LuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,Ta,5,O,-2
+Ba2LuUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Lu,3,U,5,O,-2
+Ba2MgMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Mo,6,O,-2
+Ba2MgNpO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Np,6,O,-2
+Ba2MgOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Os,6,O,-2
+Ba2MgPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Pu,6,O,-2
+Ba2MgReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Re,6,O,-2
+Ba2MgTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,Te,6,O,-2
+Ba2MgUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,U,6,O,-2
+Ba2MgWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mg,2,W,6,O,-2
+Ba2MnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,Mo,6,O,-2
+Ba2MnNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,3,Nb,5,O,-2
+Ba2MnPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,Pu,6,O,-2
+Ba2MnReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,Re,6,O,-2
+Ba2MnTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,3,Ta,5,O,-2
+Ba2MnTeO6,407802,Ba,2,Mn,2,Te,6,O,-2
+Ba2MnUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,U,6,O,-2
+Ba2MnWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,W,6,O,-2
+Ba2NaIO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Na,1,I,7,O,-2
+Ba2NaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Na,1,Os,7,O,-2
+Ba2NaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Na,1,Re,7,O,-2
+Ba2NdBiO6,80900,Ba,2,Nd,3,Bi,5,O,-2
+Ba2NdIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Ir,5,O,-2
+Ba2NdMoO6,172386,Ba,2,Nd,3,Mo,5,O,-2
+Ba2NdNbO6,172404,Ba,2,Nd,3,Nb,5,O,-2
+Ba2NdOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Os,5,O,-2
+Ba2NdPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Pu,5,O,-2
+Ba2NdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Re,5,O,-2
+Ba2NdRuO6,90641,Ba,2,Nd,3,Ru,5,O,-2
+Ba2NdSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Sb,5,O,-2
+Ba2NdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,Ta,5,O,-2
+Ba2NdUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,U,5,O,-2
+Ba2NdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Nd,3,W,5,O,-2
+Ba2NiMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,Mo,6,O,-2
+Ba2NiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,3,Nb,5,O,-2
+Ba2NiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,Re,6,O,-2
+Ba2NiUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,U,6,O,-2
+Ba2NiWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,W,6,O,-2
+Ba2PbMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pb,2,Mo,6,O,-2
+Ba2PbPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pb,2,Pu,6,O,-2
+Ba2PbUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pb,2,U,6,O,-2
+Ba2PrIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,4,Ir,4,O,-2
+Ba2PrNbO6,88838,Ba,2,Pr,3,Nb,5,O,-2
+Ba2PrOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,3,Os,5,O,-2
+Ba2PrPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,4,Pt,4,O,-2
+Ba2PrRuO6,290819,Ba,2,Pr,3,Ru,5,O,-2
+Ba2PrSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,3,Sb,5,O,-2
+Ba2PrSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,4,Sn,4,O,-2
+Ba2PrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,3,Ta,5,O,-2
+Ba2PrWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Pr,3,W,5,O,-2
+Ba2RhNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Rh,3,Nb,5,O,-2
+Ba2ScBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Bi,5,O,-2
+Ba2ScIrO6,88153,Ba,2,Sc,3,Ir,5,O,-2
+Ba2ScNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Nb,5,O,-2
+Ba2ScOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Os,5,O,-2
+Ba2ScReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Re,5,O,-2
+Ba2ScSbO6,33623,Ba,2,Sc,3,Sb,5,O,-2
+Ba2ScTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Ta,5,O,-2
+Ba2ScUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,U,5,O,-2
+Ba2SmBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Bi,5,O,-2
+Ba2SmIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Ir,5,O,-2
+Ba2SmMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Mo,5,O,-2
+Ba2SmNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Nb,5,O,-2
+Ba2SmOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Os,5,O,-2
+Ba2SmReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Re,5,O,-2
+Ba2SmRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Ru,5,O,-2
+Ba2SmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Sb,5,O,-2
+Ba2SmTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,Ta,5,O,-2
+Ba2SmUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,U,5,O,-2
+Ba2SmWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sm,3,W,5,O,-2
+Ba2SrMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Mo,6,O,-2
+Ba2SrNpO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Np,6,O,-2
+Ba2SrOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Os,6,O,-2
+Ba2SrPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Pu,6,O,-2
+Ba2SrReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Re,6,O,-2
+Ba2SrTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sr,2,Te,6,O,-2
+Ba2SrUO6,62540,Ba,2,Sr,2,U,6,O,-2
+Ba2SrWO6,245596,Ba,2,Sr,2,W,6,O,-2
+Ba2TbBiO6,80901,Ba,2,Tb,3,Bi,5,O,-2
+Ba2TbIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Ir,5,O,-2
+Ba2TbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Nb,5,O,-2
+Ba2TbOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Os,5,O,-2
+Ba2TbReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Re,5,O,-2
+Ba2TbSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Sb,5,O,-2
+Ba2TbSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,4,Sn,4,O,-2
+Ba2TbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tb,3,Ta,5,O,-2
+Ba2TiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ti,3,Nb,5,O,-2
+Ba2TiPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ti,4,Pu,4,O,-2
+Ba2TiTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ti,3,Ta,5,O,-2
+Ba2TiUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ti,4,U,4,O,-2
+Ba2TlBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tl,3,Bi,5,O,-2
+Ba2TlSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tl,3,Sb,5,O,-2
+Ba2TlTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tl,3,Ta,5,O,-2
+Ba2TmBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Bi,5,O,-2
+Ba2TmIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Ir,5,O,-2
+Ba2TmNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Nb,5,O,-2
+Ba2TmOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Os,5,O,-2
+Ba2TmReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Re,5,O,-2
+Ba2TmRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Ru,5,O,-2
+Ba2TmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Sb,5,O,-2
+Ba2TmTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Tm,3,Ta,5,O,-2
+Ba2VNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,V,3,Nb,5,O,-2
+Ba2VTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,V,3,Ta,5,O,-2
+Ba2YbBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Bi,5,O,-2
+Ba2YBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Bi,5,O,-2
+Ba2YbIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Ir,5,O,-2
+Ba2YbMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Mo,5,O,-2
+Ba2YbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Nb,5,O,-2
+Ba2YbOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Os,5,O,-2
+Ba2YbReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Re,5,O,-2
+Ba2YbRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Ru,5,O,-2
+Ba2YbSbO6,33621,Ba,2,Yb,3,Sb,5,O,-2
+Ba2YbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,Ta,5,O,-2
+Ba2YbUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Yb,3,U,5,O,-2
+Ba2YIrO6,88155,Ba,2,Y,3,Ir,5,O,-2
+Ba2YMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Mo,5,O,-2
+Ba2YNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Nb,5,O,-2
+Ba2YOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Os,5,O,-2
+Ba2YReO6,97089,Ba,2,Y,3,Re,5,O,-2
+Ba2YRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Ru,5,O,-2
+Ba2YSbO6,33624,Ba,2,Y,3,Sb,5,O,-2
+Ba2YTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,Ta,5,O,-2
+Ba2YUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,U,5,O,-2
+Ba2YVO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Y,3,V,5,O,-2
+Ba2ZnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,Mo,6,O,-2
+Ba2ZnOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,Os,6,O,-2
+Ba2ZnPuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,Pu,6,O,-2
+Ba2ZnReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,Re,6,O,-2
+Ba2ZnUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,U,6,O,-2
+Ba2ZnWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,W,6,O,-2
+Ba2ZrUO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zr,4,U,4,O,-2
+Ba3OsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ba,2,Os,6,O,-2
+Ba3ReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ba,2,Re,6,O,-2
+Ba3UO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ba,2,U,6,O,-2
+Ba3WO6,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ba,2,W,6,O,-2
+Bi2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Bi,3,Cu,2,Mn,4,O,-2
+Bi2FeRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Bi,3,Fe,3,Rh,3,O,-2
+Ca2AlNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Al,3,Nb,5,O,-2
+Ca2AlSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Al,3,Sb,5,O,-2
+Ca2BiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Bi,3,Nb,5,O,-2
+Ca2BiTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Bi,3,Ta,5,O,-2
+Ca2CdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cd,2,Re,6,O,-2
+Ca2CdTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cd,2,Te,6,O,-2
+Ca2CdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cd,2,W,6,O,-2
+Ca2CoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Co,3,Nb,5,O,-2
+Ca2CoOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Co,2,Os,6,O,-2
+Ca2CoReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Co,2,Re,6,O,-2
+Ca2CoTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Co,3,Ta,5,O,-2
+Ca2CoTeO6,153001,Ca,2,Co,2,Te,6,O,-2
+Ca2CoWO6,98732,Ca,2,Co,2,W,6,O,-2
+Ca2CrMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,Mo,5,O,-2
+Ca2CrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,Nb,5,O,-2
+Ca2CrOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,Os,5,O,-2
+Ca2CrReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,Re,5,O,-2
+Ca2CrSbO6,290790,Ca,2,Cr,3,Sb,5,O,-2
+Ca2CrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,Ta,5,O,-2
+Ca2CrTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,4,Ti,4,O,-2
+Ca2CrWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Cr,3,W,5,O,-2
+Ca2DyNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Dy,3,Nb,5,O,-2
+Ca2DySbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Dy,3,Sb,5,O,-2
+Ca2DyTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Dy,3,Ta,5,O,-2
+Ca2ErNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Er,3,Nb,5,O,-2
+Ca2ErSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Er,3,Sb,5,O,-2
+Ca2ErTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Er,3,Ta,5,O,-2
+Ca2EuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Eu,3,Nb,5,O,-2
+Ca2EuSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Eu,3,Sb,5,O,-2
+Ca2EuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Eu,3,Ta,5,O,-2
+Ca2FeBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Fe,3,Bi,5,O,-2
+Ca2FeIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Fe,3,Ir,5,O,-2
+Ca2FeMoO6,89955,Ca,2,Fe,2,Mo,6,O,-2
+Ca2FeNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Fe,3,Nb,5,O,-2
+Ca2FeOsO6,238148,Ca,2,Fe,3,Os,5,O,-2
+Ca2FeReO6,150696,Ca,2,Fe,3,Re,5,O,-2
+Ca2FeSbO6,83473,Ca,2,Fe,3,Sb,5,O,-2
+Ca2FeTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Fe,3,Ta,5,O,-2
+Ca2FeWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Fe,2,W,6,O,-2
+Ca2GaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ga,3,Nb,5,O,-2
+Ca2GaTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ga,3,Ta,5,O,-2
+Ca2GdNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Gd,3,Nb,5,O,-2
+Ca2GdRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Gd,3,Ru,5,O,-2
+Ca2GdSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Gd,3,Sb,5,O,-2
+Ca2GdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Gd,3,Ta,5,O,-2
+Ca2HoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ho,3,Nb,5,O,-2
+Ca2HoSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ho,3,Sb,5,O,-2
+Ca2HoTaO6,191679,Ca,2,Ho,3,Ta,5,O,-2
+Ca2InNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,In,3,Nb,5,O,-2
+Ca2InOsO6,190486,Ca,2,In,3,Os,5,O,-2
+Ca2InSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,In,3,Sb,5,O,-2
+Ca2InTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,In,3,Ta,5,O,-2
+Ca2LaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,La,3,Nb,5,O,-2
+Ca2LaSbO6,169492,Ca,2,La,3,Sb,5,O,-2
+Ca2LaTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,La,3,Ta,5,O,-2
+Ca2LiOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Li,1,Os,7,O,-2
+Ca2LiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Li,1,Re,7,O,-2
+Ca2LuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Lu,3,Nb,5,O,-2
+Ca2LuSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Lu,3,Sb,5,O,-2
+Ca2LuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Lu,3,Ta,5,O,-2
+Ca2MgMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mg,2,Mo,6,O,-2
+Ca2MgReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mg,2,Re,6,O,-2
+Ca2MgTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mg,2,Te,6,O,-2
+Ca2MgWO6,281564,Ca,2,Mg,2,W,6,O,-2
+Ca2MnIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,3,Ir,5,O,-2
+Ca2MnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,2,Mo,6,O,-2
+Ca2MnNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,3,Nb,5,O,-2
+Ca2MnReO6,247998,Ca,2,Mn,4,Re,4,O,-2
+Ca2MnRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,4,Ru,4,O,-2
+Ca2MnSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,3,Sb,5,O,-2
+Ca2MnTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,3,Ta,5,O,-2
+Ca2MnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Mn,2,Te,6,O,-2
+Ca2MnWO6,51615,Ca,2,Mn,2,W,6,O,-2
+Ca2NaIO6,425448,Ca,2,Na,1,I,7,O,-2
+Ca2NdNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Nd,3,Nb,5,O,-2
+Ca2NdSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Nd,3,Sb,5,O,-2
+Ca2NdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Nd,3,Ta,5,O,-2
+Ca2NiOsO6,152444,Ca,2,Ni,2,Os,6,O,-2
+Ca2NiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ni,2,Re,6,O,-2
+Ca2PdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Pd,3,W,5,O,-2
+Ca2PrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Pr,3,Nb,5,O,-2
+Ca2PrSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Pr,3,Sb,5,O,-2
+Ca2PrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Pr,3,Ta,5,O,-2
+Ca2ScNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sc,3,Nb,5,O,-2
+Ca2ScReO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sc,3,Re,5,O,-2
+Ca2ScSbO6,262995,Ca,2,Sc,3,Sb,5,O,-2
+Ca2ScTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sc,3,Ta,5,O,-2
+Ca2SiTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Si,4,Ti,4,O,-2
+Ca2SmNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sm,3,Nb,5,O,-2
+Ca2SmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sm,3,Sb,5,O,-2
+Ca2SmTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Sm,3,Ta,5,O,-2
+Ca2TbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tb,3,Nb,5,O,-2
+Ca2TbSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tb,3,Sb,5,O,-2
+Ca2TbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tb,3,Ta,5,O,-2
+Ca2TiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ti,4,Ru,4,O,-2
+Ca2TmNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tm,3,Nb,5,O,-2
+Ca2TmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tm,3,Sb,5,O,-2
+Ca2TmTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Tm,3,Ta,5,O,-2
+Ca2VMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,V,4,Mo,4,O,-2
+Ca2VNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,V,3,Nb,5,O,-2
+Ca2VTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,V,3,Ta,5,O,-2
+Ca2YbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Yb,3,Nb,5,O,-2
+Ca2YbSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Yb,3,Sb,5,O,-2
+Ca2YbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Yb,3,Ta,5,O,-2
+Ca2YSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Y,3,Sb,5,O,-2
+Ca2YTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Y,3,Ta,5,O,-2
+Ca2ZnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Zn,2,Mo,6,O,-2
+Ca2ZnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Zn,2,Te,6,O,-2
+Ca2ZnWO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Zn,2,W,6,O,-2
+Ca2ZrHfO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Zr,4,Hf,4,O,-2
+Ca3MoO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ca,2,Mo,6,O,-2
+Ca3OsO6,Prog. In Solid State Chem. 43 1-36 (2015),Ca,2,Ca,2,Os,6,O,-2
+Ca3ReO6,84791,Ca,2,Ca,2,Re,6,O,-2
+Ca3TeO6,16362,Ca,2,Ca,2,Te,6,O,-2
+Ca3UO6,59172,Ca,2,Ca,2,U,6,O,-2
+Ca3WO6,262323,Ca,2,Ca,2,W,6,O,-2
+Cd2CaTeO6,35084,Cd,2,Ca,2,Te,6,O,-2
+Cd2CoTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Co,2,Te,6,O,-2
+Cd2FeNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Fe,3,Nb,5,O,-2
+Cd2MgTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Mg,2,Te,6,O,-2
+Cd2MnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Mn,2,Te,6,O,-2
+Cd2ZnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Zn,2,Te,6,O,-2
+Cd3TeO6,Prog. In Solid State Chem. 43 1-36 (2015),Cd,2,Cd,2,Te,6,O,-2
+Cs2AgCeCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Ce,3,Cl,-1
+Cs2AgDyCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Dy,3,Cl,-1
+Cs2AgErCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Er,3,Cl,-1
+Cs2AgEuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Eu,3,Cl,-1
+Cs2AgGdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Gd,3,Cl,-1
+Cs2AgHoCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Ho,3,Cl,-1
+Cs2AgHoF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Ag,1,Ho,3,F,-1
+Cs2AgLuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Lu,3,Cl,-1
+Cs2AgLuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Ag,1,Lu,3,F,-1
+Cs2AgNdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Nd,3,Cl,-1
+Cs2AgPrCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Pr,3,Cl,-1
+Cs2AgScCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Sc,3,Cl,-1
+Cs2AgSmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Ag,1,Sm,3,Cl,-1
+Cs2AgTbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Tb,3,Cl,-1
+Cs2AgTmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Tm,3,Cl,-1
+Cs2AgTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Ag,1,Tm,3,F,-1
+Cs2AgYbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Yb,3,Cl,-1
+Cs2AgYbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Ag,1,Yb,3,F,-1
+Cs2AgYCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Y,3,Cl,-1
+Cs2KAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Al,3,F,-1
+Cs2KBiCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Bi,3,Cl,-1
+Cs2KCeF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Ce,3,F,-1
+Cs2KCrCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Cr,3,Cl,-1
+Cs2KCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Cr,3,F,-1
+Cs2KDyCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Dy,3,Cl,-1
+Cs2KDyF6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,K,1,Dy,3,F,-1
+Cs2KErCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Er,3,Cl,-1
+Cs2KErF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Er,3,F,-1
+Cs2KEuCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Eu,3,Cl,-1
+Cs2KEuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Eu,3,F,-1
+Cs2KFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Fe,3,F,-1
+Cs2KGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Ga,3,F,-1
+Cs2KGdCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Gd,3,Cl,-1
+Cs2KGdF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Gd,3,F,-1
+Cs2KHoCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Ho,3,Cl,-1
+Cs2KHoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Ho,3,F,-1
+Cs2KInCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,In,3,Cl,-1
+Cs2KInF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,In,3,F,-1
+Cs2KLaCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,La,3,Cl,-1
+Cs2KLaF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,La,3,F,-1
+Cs2KLuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Lu,3,F,-1
+Cs2KNdCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Nd,3,Cl,-1
+Cs2KNdF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Nd,3,F,-1
+Cs2KPrCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Pr,3,Cl,-1
+Cs2KPrF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Pr,3,F,-1
+Cs2KScBr6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Sc,3,Br,-1
+Cs2KScF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Sc,3,F,-1
+Cs2KSmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Sm,3,Cl,-1
+Cs2KSmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Sm,3,F,-1
+Cs2KTbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Tb,3,Cl,-1
+Cs2KTbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Tb,3,F,-1
+Cs2KTmBr6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Tm,3,Br,-1
+Cs2KTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Tm,3,Cl,-1
+Cs2KTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Tm,3,F,-1
+Cs2KVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,V,3,F,-1
+Cs2KYbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Yb,3,Cl,-1
+Cs2KYbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Yb,3,F,-1
+Cs2KYCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,K,1,Y,3,Cl,-1
+Cs2KYF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,K,1,Y,3,F,-1
+Cs2LiAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Al,3,F,-1
+Cs2LiCeBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Ce,3,Br,-1
+Cs2LiCeCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Ce,3,Cl,-1
+Cs2LiCrBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Cr,3,Br,-1
+Cs2LiCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Cr,3,F,-1
+Cs2LiDyBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Dy,3,Br,-1
+Cs2LiDyCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Dy,3,Cl,-1
+Cs2LiErBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Er,3,Br,-1
+Cs2LiErCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Er,3,Cl,-1
+Cs2LiEuBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Eu,3,Br,-1
+Cs2LiEuCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Eu,3,Cl,-1
+Cs2LiFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Fe,3,F,-1
+Cs2LiGdBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Gd,3,Br,-1
+Cs2LiGdCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Gd,3,Cl,-1
+Cs2LiHoBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Ho,3,Br,-1
+Cs2LiHoCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Ho,3,Cl,-1
+Cs2LiInBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,In,3,Br,-1
+Cs2LiLaBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,La,3,Br,-1
+Cs2LiLaCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,La,3,Cl,-1
+Cs2LiNdBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Nd,3,Br,-1
+Cs2LiNdCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Nd,3,Cl,-1
+Cs2LiPmBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Pm,3,Br,-1
+Cs2LiPrBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Pr,3,Br,-1
+Cs2LiPrCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Pr,3,Cl,-1
+Cs2LiSmBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Sm,3,Br,-1
+Cs2LiSmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Sm,3,Cl,-1
+Cs2LiTbBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Tb,3,Br,-1
+Cs2LiTbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Tb,3,Cl,-1
+Cs2LiTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Tm,3,Cl,-1
+Cs2LiVBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,V,3,Br,-1
+Cs2LiVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,V,3,F,-1
+Cs2LiYbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Yb,3,Cl,-1
+Cs2LiYBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Li,1,Y,3,Br,-1
+Cs2LiYCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Y,3,Cl,-1
+Cs2NaAmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Am,3,Cl,-1
+Cs2NaBiCl6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,Bi,3,Cl,-1
+Cs2NaBkCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Bk,3,Cl,-1
+Cs2NaCeBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Ce,3,Br,-1
+Cs2NaCeCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Ce,3,Cl,-1
+Cs2NaCeF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Ce,3,F,-1
+Cs2NaDyBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Dy,3,Br,-1
+Cs2NaDyCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Dy,3,Cl,-1
+Cs2NaDyF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Dy,3,F,-1
+Cs2NaErBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Er,3,Br,-1
+Cs2NaErCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Er,3,Cl,-1
+Cs2NaErF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Er,3,F,-1
+Cs2NaEuBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Eu,3,Br,-1
+Cs2NaEuCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Eu,3,Cl,-1
+Cs2NaEuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Eu,3,F,-1
+Cs2NaFeCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Fe,3,Cl,-1
+Cs2NaGdBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Gd,3,Br,-1
+Cs2NaGdCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Gd,3,Cl,-1
+Cs2NaGdF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Gd,3,F,-1
+Cs2NaHoBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Ho,3,Br,-1
+Cs2NaHoCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Ho,3,Cl,-1
+Cs2NaHoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Ho,3,F,-1
+Cs2NaInCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,In,3,Cl,-1
+Cs2NaLaBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,La,3,Br,-1
+Cs2NaLaCl6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,La,3,Cl,-1
+Cs2NaLuBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Lu,3,Br,-1
+Cs2NaLuBr6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,NA,1,Lu,3,Br,-1
+Cs2NaLuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Lu,3,Cl,-1
+Cs2NaLuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Lu,3,F,-1
+Cs2NaLuI6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Lu,3,I,-1
+Cs2NaNdBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Nd,3,Br,-1
+Cs2NaNdCl6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,Nd,3,Cl,-1
+Cs2NaPmBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Pm,3,Br,-1
+Cs2NaPrBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Pr,3,Br,-1
+Cs2NaPrCl6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,Pr,3,Cl,-1
+Cs2NaPuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Pu,3,Cl,-1
+Cs2NaSbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Sb,3,Cl,-1
+Cs2NaScBr6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Sc,3,Br,-1
+Cs2NaScCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Sc,3,Cl,-1
+Cs2NaScF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Sc,3,F,-1
+Cs2NaScI6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Sc,3,I,-1
+Cs2NaSmBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Sm,3,Br,-1
+Cs2NaSmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Sm,3,Cl,-1
+Cs2NaSmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Sm,3,F,-1
+Cs2NaTbBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Tb,3,Br,-1
+Cs2NaTbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Tb,3,Cl,-1
+Cs2NaTbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Tb,3,F,-1
+Cs2NaTiCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Ti,3,Cl,-1
+Cs2NaTlCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Tl,3,Cl,-1
+Cs2NaTmBr6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,Tm,3,Br,-1
+Cs2NaTmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Tm,3,Cl,-1
+Cs2NaTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Tm,3,F,-1
+Cs2NaTmI6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Tm,3,I,-1
+Cs2NaYbBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Yb,3,Br,-1
+Cs2NaYbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Yb,3,Cl,-1
+Cs2NaYbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,YB,3,F,-1
+Cs2NaYbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Yb,3,F,-1
+Cs2NaYBr6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Na,1,Y,3,Br,-1
+Cs2NaYCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Na,1,Y,3,Cl,-1
+Cs2NaYF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Na,1,Y,3,F,-1
+Cs2RbAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,Al,3,F,-1
+Cs2RbCeF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Ce,3,F,-1
+Cs2RbCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,Cr,3,F,-1
+Cs2RbDyF6,"Phys Solid State, 43, 1, 127-136 (2001)",Cs,1,Rb,1,Dy,3,F,-1
+Cs2RbErF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Er,3,F,-1
+Cs2RbEuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Eu,3,F,-1
+Cs2RbFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,Fe,3,F,-1
+Cs2RbGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,Ga,3,F,-1
+Cs2RbHoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,Ho,3,F,-1
+Cs2RbLaF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,La,3,F,-1
+Cs2RbLuF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Lu,3,F,-1
+Cs2RbNdF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Nd,3,F,-1
+Cs2RbPrF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Pr,3,F,-1
+Cs2RbSmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Sm,3,F,-1
+Cs2RbTbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Tb,3,F,-1
+Cs2RbTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rv,1,Tm,3,F,-1
+Cs2RbVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Rb,1,V,3,F,-1
+Cs2RbYbF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Yb,3,F,-1
+Cs2RbYF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Rb,1,Y,3,F,-1
+Cs3AlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Al,3,F,-1
+Cs3BiCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Bi,3,Cl,-1
+Cs3CrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Cr,3,F,-1
+Cs3DyF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Dy,3,F,-1
+Cs3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Fe,3,F,-1
+Cs3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,Ga,3,F,-1
+Cs3InF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,In,3,F,-1
+Cs3VF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Cs,1,V,3,F,-1
+Dy2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Dy,3,Co,2,Mn,4,O,-2
+Dy2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Dy,3,Co,2,Pt,4,O,-2
+Dy2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Dy,3,Cu,2,Mn,4,O,-2
+Dy2NiMnO6,193184,Dy,3,Ni,2,Mn,4,O,-2
+Dy2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Dy,3,Ni,2,Ru,4,O,-2
+Er2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Er,3,Cu,2,Mn,4,O,-2
+Er2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Er,3,Ni,2,Mn,4,O,-2
+Er2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Er,3,Ni,2,Ru,4,O,-2
+Eu2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Co,2,Mn,4,O,-2
+Eu2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Co,2,Pt,4,O,-2
+Eu2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Co,2,Ru,4,O,-2
+Eu2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Cu,2,Mn,4,O,-2
+Eu2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Cu,2,Ti,4,O,-2
+Eu2HoTaO6,261634,Eu,2,Ho,3,Ta,5,O,-2
+Eu2LiIrO6,414152,Eu,3,Li,1,Ir,5,O,-2
+Eu2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Li,1,Ru,5,O,-2
+Eu2MgIrO6,420874,Eu,3,Mg,2,Ir,4,O,-2
+Eu2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Mg,2,Pt,4,O,-2
+Eu2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Mn,3,Rh,3,O,-2
+Eu2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Mn,2,Ti,4,O,-2
+Eu2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Ni,2,Mn,4,O,-2
+Eu2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Ni,2,Pt,4,O,-2
+Eu2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Ni,2,Ru,4,O,-2
+Eu2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Eu,3,Zn,2,Pt,4,O,-2
+Eu3NbO6,261633,Eu,2,Eu,3,Nb,5,O,-2
+Gd2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Co,2,Mn,4,O,-2
+Gd2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Co,2,Pt,4,O,-2
+Gd2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Co,2,Ru,4,O,-2
+Gd2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Cu,2,Mn,4,O,-2
+Gd2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Cu,2,Ti,4,O,-2
+Gd2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Li,1,Ru,5,O,-2
+Gd2MgIrO6,420875,Gd,3,Mg,2,Ir,4,O,-2
+Gd2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Mg,2,Pt,4,O,-2
+Gd2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Mn,3,Rh,3,O,-2
+Gd2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Mn,2,Ti,4,O,-2
+Gd2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Ni,2,Mn,4,O,-2
+Gd2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Ni,2,Pt,4,O,-2
+Gd2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Ni,2,Ru,4,O,-2
+Gd2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Gd,3,Zn,2,Pt,4,O,-2
+Gd2ZnTiO6,251934,Gd,3,Zn,2,Ti,4,O,-2
+Ho2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Co,2,Mn,4,O,-2
+Ho2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Co,2,Pt,4,O,-2
+Ho2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Cu,2,Mn,4,O,-2
+Ho2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Ni,2,Mn,4,O,-2
+Ho2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Ni,2,Ru,4,O,-2
+In2NiMnO6,237528,In,3,Ni,2,Mn,4,O,-2
+K2CsAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Cs,1,Al,3,F,-1
+K2CsCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Cs,1,Cr,3,F,-1
+K2CsFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Cs,1,Fe,3,F,-1
+K2CsGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Cs,1,Ga,3,F,-1
+K2CsVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Cs,1,V,3,F,-1
+K2LiCoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,Co,3,F,-1
+K2LiCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,Cr,3,F,-1
+K2LiFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,Fe,3,F,-1
+K2LiGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,Ga,3,F,-1
+K2LiInF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,In,3,F,-1
+K2LiScCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",K,1,Li,1,Sc,3,Cl,-1
+K2LiTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",K,1,Li,1,Tm,3,Cl,-1
+K2LiVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Li,1,V,3,F,-1
+K2NaAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Na,1,Al,3,F,-1
+K2NaCrF6,"Phys Solid State, 43, 1, 127-136 (2001)",K,1,Na,1,Cr,3,F,-1
+K2NaFeF6,"Phys Solid State, 43, 1, 127-136 (2001)",K,1,Na,1,Fe,3,F,-1
+K2NaGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Na,1,Ga,3,F,-1
+K2NaScF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Na,1,Sc,3,F,-1
+K2NaTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",K,1,Na,1,Tm,3,F,-1
+K2NaVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Na,1,V,3,F,-1
+K2NaYF6,"Prog. Solid State Chem. 14, 141-219 (1982)",K,1,Na,1,Y,3,F,-1
+K2RbAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Rb,1,Al,3,F,-1
+K2RbCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Rb,1,Cr,3,F,-1
+K2RbFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Rb,1,Fe,3,F,-1
+K2RbGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Rb,1,Ga,3,F,-1
+K2RbVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,Rb,1,V,3,F,-1
+K3BiCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,K,1,Bi,3,Cl,-1
+K3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,K,1,Fe,3,F,-1
+K3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,K,1,Ga,3,F,-1
+K3GdF6,416295,K,1,K,1,Gd,3,F,-1
+K3NdF6,"Mat. Sci. Eng. 24, 81-151 (1998)",K,1,K,1,Nd,3,F,-1
+K3YF6,416296,K,1,K,1,Y,3,F,-1
+La2CaTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ca,2,Ti,4,O,-2
+La2CaZrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ca,2,Zr,4,O,-2
+La2CoFeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,3,Fe,3,O,-2
+La2CoIrO6,79495,La,3,Co,2,Ir,4,O,-2
+La2CoMnO6,151837,La,3,Co,2,Mn,4,O,-2
+La2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,2,Pt,4,O,-2
+La2CoRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,3,Rh,3,O,-2
+La2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,2,Ru,4,O,-2
+La2CoTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,2,Ti,4,O,-2
+La2CoV,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Co,2,V,4,O,-2
+La2CrCoO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cr,3,Co,3,O,-2
+La2CrFeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cr,3,Fe,3,O,-2
+La2CrMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cr,3,Mn,3,O,-2
+La2CrRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cr,3,Rh,3,O,-2
+La2CuIrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Ir,4,O,-2
+La2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Mn,4,O,-2
+La2CuRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Rh,4,O,-2
+La2CuRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Ru,4,O,-2
+La2CuSnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Sn,4,O,-2
+La2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Ti,4,O,-2
+La2CuZrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Cu,2,Zr,4,O,-2
+La2FeIrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,3,Ir,3,O,-2
+La2FeMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,3,Mn,3,O,-2
+La2FeRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,3,Rh,3,O,-2
+La2FeRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,3,Ru,3,O,-2
+La2FeTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,2,Ti,4,O,-2
+La2FeVO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Fe,2,V,4,O,-2
+La2GaCoO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ga,3,Co,3,O,-2
+La2GaFeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ga,3,Fe,3,O,-2
+La2GaMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ga,3,Mn,3,O,-2
+La2GaNiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ga,3,Ni,3,O,-2
+La2GaRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ga,3,Ru,3,O,-2
+La2LiIrO6,414605,La,3,Li,1,Ir,5,O,-2
+La2LiMoO6,202219,La,3,Li,1,Mo,5,O,-2
+La2LiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Li,1,Nb,5,O,-2
+La2LiOsO6,416199,La,3,Li,1,Os,5,O,-2
+La2LiReO6,168213,La,3,Li,1,Re,5,O,-2
+La2LiRuO6,97487,La,3,Li,1,Ru,5,O,-2
+La2LiSbO6,69192,La,3,Li,1,Sb,5,O,-2
+La2LiVO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Li,1,V,5,O,-2
+La2MgGeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Ge,4,O,-2
+La2MgHfO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Hf,4,O,-2
+La2MgIrO6,79492,La,3,Mg,2,Ir,4,O,-2
+La2MgMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Mn,4,O,-2
+La2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Pt,4,O,-2
+La2MgRhO6,88522,La,3,Mg,2,Rh,4,O,-2
+La2MgRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Ru,4,O,-2
+La2MgSnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Sn,4,O,-2
+La2MgTiO6,152284,La,3,Mg,2,Ti,4,O,-2
+La2MgZrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mg,2,Zr,4,O,-2
+La2MnIrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mn,3,Ir,3,O,-2
+La2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mn,3,Rh,3,O,-2
+La2MnRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mn,3,Ru,3,O,-2
+La2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Mn,2,Ti,4,O,-2
+La2MnVO6,163761,La,3,Mn,2,V,4,O,-2
+La2NaIrO6,413634,La,3,Na,1,Ir,5,O,-2
+La2NaOsO6,170175,La,3,Na,1,Os,5,O,-2
+La2NaRuO6,413921,La,3,Na,1,Ru,5,O,-2
+La2NiCoO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,3,Co,3,O,-2
+La2NiFeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,3,Fe,3,O,-2
+La2NiGeO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Ge,4,O,-2
+La2NiIrO6,79494,La,3,Ni,2,Ir,4,O,-2
+La2NiMnO6,186428,La,3,Ni,2,Mn,4,O,-2
+La2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Pt,4,O,-2
+La2NiRhO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Rh,4,O,-2
+La2NiRuO6,202277,La,3,Ni,2,Ru,4,O,-2
+La2NiSnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Sn,4,O,-2
+La2NiTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Ti,4,O,-2
+La2NiVO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,V,4,O,-2
+La2NiZrO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Ni,2,Zr,4,O,-2
+La2ScMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Sc,3,Mn,3,O,-2
+La2ZnHfO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Zn,2,Hf,4,O,-2
+La2ZnIrO6,79493,La,3,Zn,2,Ir,4,O,-2
+La2ZnMnO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Zn,2,Mn,4,O,-2
+La2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Zn,2,Pt,4,O,-2
+La2ZnRhO6,88523,La,3,Zn,2,Rh,4,O,-2
+La2ZnRuO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Zn,2,Ru,4,O,-2
+La2ZnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),La,3,Zn,2,Ti,4,O,-2
+Li2KAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,K,1,Al,3,F,-1
+Li2KCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,K,1,Cr,3,F,-1
+Li2KFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,K,1,Fe,3,F,-1
+Li2KGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,K,1,Ga,3,F,-1
+Li2KVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,K,1,V,3,F,-1
+Li2NaAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Na,1,Al,3,F,-1
+Li2NaCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Na,1,Cr,3,F,-1
+Li2NaFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Na,1,Fe,3,F,-1
+Li2NaGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Na,1,Ga,3,F,-1
+Li2NaVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Na,1,V,3,F,-1
+Li2RbAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Rb,1,Al,3,F,-1
+Li2RbCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Rb,1,Cr,3,F,-1
+Li2RbFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Rb,1,Fe,3,F,-1
+Li2RbGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Rb,1,Ga,3,F,-1
+Li2RbVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Rb,1,V,3,F,-1
+Li3AlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Li,1,Al,3,F,-1
+Li3CrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Li,1,Cr,3,F,-1
+Li3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",li,1,Li,1,Fe,3,F,-1
+Li3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Li,1,Ga,3,F,-1
+Li3VF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Li,1,Li,1,V,3,F,-1
+Lu2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Lu,3,Co,2,Mn,4,O,-2
+Lu2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Lu,3,Ni,2,Mn,4,O,-2
+Mn2AlSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Mn,2,Al,3,Sb,5,O,-2
+Mn2CrSbO6,238799,Mn,3,Cr,3,Sb,3,O,-2
+Mn2FeReO6,195628,Mn,2,Fe,3,Re,5,O,-2
+Mn2FeSbO6,181147,Mn,2,Fe,3,Sb,5,O,-2
+Mn2GaSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Mn,2,Ga,3,Sb,5,O,-2
+Mn2VSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Mn,2,V,3,Sb,5,O,-2
+Na2CsAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Cs,1,Al,3,F,-1
+Na2CsCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Cs,1,Cr,3,F,-1
+Na2CsFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Cs,1,Fe,3,F,-1
+Na2CsGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Cs,1,Ga,3,F,-1
+Na2CsVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Cs,1,V,3,F,-1
+Na2KAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,K,1,Al,3,F,-1
+Na2KCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,K,1,Cr,3,F,-1
+Na2KFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,K,1,Fe,3,F,-1
+Na2KGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,K,1,Ga,3,F,-1
+Na2KVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,K,1,V,3,F,-1
+Na2LiAlF6,280906,Na,1,Li,1,Al,3,F,-1
+Na2LiCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Li,1,Cr,3,F,-1
+Na2LiFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Li,1,Fe,3,F,-1
+Na2LiGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Li,1,Ga,3,F,-1
+Na2LiVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Li,1,V,3,F,-1
+Na2RbAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Rb,1,Al,3,F,-1
+Na2RbCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Rb,1,Cr,3,F,-1
+Na2RbFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Rb,1,Fe,3,F,-1
+Na2RbGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Rb,1,Ga,3,F,-1
+Na2RbVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Rb,1,V,3,F,-1
+Na2SnTeO6,89017,Na,1,Sn,4,Te,6,O,-2
+Na2TiTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Na,1,Ti,4,Te,6,O,-2
+Na2ZrTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Na,1,Zr,4,Te,6,O,-2
+Na3AlF6,74210,Na,1,Na,1,Al,3,F,-1
+Na3CrF6,27070,Na,1,Na,1,Cr,3,F,-1
+Na3DyCl6,422979,Na,1,Na,1,Dy,3,Cl,-1
+Na3ErCl6,65145,Na,1,Na,1,Er,3,Cl,-1
+Na3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Fe,3,F,-1
+Na3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Ga,3,F,-1
+Na3GdBr6,82354,Na,1,Na,1,Gd,3,Br,-1
+Na3HoBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Ho,3,Br,-1
+Na3HoCl6,409508,Na,1,Na,1,Ho,3,Cl,-1
+Na3HoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Ho,3,F,-1
+Na3MnF6,66315,Na,1,Na,1,Mn,3,F,-1
+Na3NiF6,26073,Na,1,Na,1,Ni,3,F,-1
+Na3ScBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Sc,3,Br,-1
+Na3ScCl6,166749,Na,1,Na,1,Sc,3,Cl,-1
+Na3ScF6,400723,Na,1,Na,1,Sc,3,F,-1
+Na3TiBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Ti,3,F,-1
+Na3TiCl6,411050,Na,1,Na,1,Ti,3,Cl,-1
+Na3VF6,27347,Na,1,Na,1,V,3,F,-1
+Na3YbBr6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Yb,3,Br,-1
+Na3YbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Yb,3,Cl,-1
+Na3YbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Na,1,Na,1,Yb,3,F,-1
+Na3YBr6,82355,Na,1,Na,1,Y,3,Br,-1
+Na3YCl6,59886,Na,1,Na,1,Y,3,Cl,-1
+Nd2CoMnO6,157948,Nd,3,Co,2,Mn,4,O,-2
+Nd2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Co,2,Pt,4,O,-2
+Nd2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Co,2,Ru,4,O,-2
+Nd2CuIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Cu,2,Ir,4,O,-2
+Nd2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Cu,2,Mn,4,O,-2
+Nd2CuSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Cu,2,Sn,4,O,-2
+Nd2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Cu,2,Ti,4,O,-2
+Nd2GaMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Ga,3,Mn,3,O,-2
+Nd2LiIrO6,414150,Nd,3,Li,1,Ir,5,O,-2
+Nd2LiOsO6,416198,Nd,3,Li,1,Os,5,O,-2
+Nd2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Li,1,Ru,5,O,-2
+Nd2MgIrO6,420876,Nd,3,Mg,2,Ir,4,O,-2
+Nd2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Mg,2,Pt,4,O,-2
+Nd2MgSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Mg,2,Sn,4,O,-2
+Nd2MgTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Mg,2,Ti,4,O,-2
+Nd2MnNiO6,160727,Nd,3,Mn,3,Ni,3,O,-2
+Nd2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Mn,3,Rh,3,O,-2
+Nd2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Mn,2,Ti,4,O,-2
+Nd2NaIrO6,413636,Nd,3,Na,1,Ir,5,O,-2
+Nd2NaOsO6,170177,Nd,3,Na,1,Os,5,O,-2
+Nd2NaRuO6,413922,Nd,3,Na,1,Ru,5,O,-2
+Nd2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Ni,2,Pt,4,O,-2
+Nd2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Ni,2,Ru,4,O,-2
+Nd2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Nd,3,Zn,2,Pt,4,O,-2
+Pb2AlNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Al,3,Nb,5,O,-2
+Pb2CaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ca,2,Re,6,O,-2
+Pb2CaTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ca,2,Te,6,O,-2
+Pb2CaUO6,182556,Pb,2,Ca,2,U,6,O,-2
+Pb2CdMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cd,2,Mo,6,O,-2
+Pb2CdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cd,2,Re,6,O,-2
+Pb2CdTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cd,2,Te,6,O,-2
+Pb2CdUO6,182557,Pb,2,Cd,2,U,6,O,-2
+Pb2CdWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cd,2,W,6,O,-2
+Pb2CoMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Co,2,Mo,6,O,-2
+Pb2CoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Co,3,Nb,5,O,-2
+Pb2CoReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Co,2,Re,6,O,-2
+Pb2CoTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Co,3,Ta,5,O,-2
+Pb2CoWO6,77912,Pb,2,Co,2,W,6,O,-2
+Pb2CrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cr,3,Nb,5,O,-2
+Pb2CrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cr,3,Ta,5,O,-2
+Pb2CuWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Cu,2,W,6,O,-2
+Pb2DyNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Dy,3,Nb,5,O,-2
+Pb2FeMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,3,Mo,5,O,-2
+Pb2FeNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,3,Nb,5,O,-2
+Pb2FeReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,3,Re,5,O,-2
+Pb2FeTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,3,Ta,5,O,-2
+Pb2FeTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,4,Ti,4,O,-2
+Pb2FeWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Fe,2,W,6,O,-2
+Pb2GaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ga,3,Nb,5,O,-2
+Pb2InNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,In,3,Nb,5,O,-2
+Pb2LuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Lu,3,Nb,5,O,-2
+Pb2MgMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mg,2,Mo,6,O,-2
+Pb2MgReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mg,2,Re,6,O,-2
+Pb2MgTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mg,2,Te,6,O,-2
+Pb2MgUO6,182555,Pb,2,Mg,2,U,6,O,-2
+Pb2MgWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mg,2,W,6,O,-2
+Pb2MnNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mn,3,Nb,5,O,-2
+Pb2MnTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mn,3,Ta,5,O,-2
+Pb2MnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Mn,2,Te,6,O,-2
+Pb2NaIO6,427114,Pb,2,Na,1,I,7,O,-2
+Pb2NiMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ni,2,Mo,6,O,-2
+Pb2NiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ni,2,Re,6,O,-2
+Pb2NiTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ni,2,Te,6,O,-2
+Pb2NiUO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ni,2,U,6,O,-2
+Pb2NiWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Ni,2,W,6,O,-2
+Pb2ScNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Sc,3,Nb,5,O,-2
+Pb2ScSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Sc,3,Sb,5,O,-2
+Pb2ScTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Sc,3,Ta,5,O,-2
+Pb2SrUO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Sr,2,U,6,O,-2
+Pb2TmNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Tm,3,Nb,5,O,-2
+Pb2YbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Yb,3,Nb,5,O,-2
+Pb2YbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Yb,3,Ta,5,O,-2
+Pb2ZnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Zn,2,Mo,6,O,-2
+Pb2ZnReO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Zn,2,Re,6,O,-2
+Pb2ZnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Zn,2,Te,6,O,-2
+Pb2ZnUO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Zn,2,U,6,O,-2
+Pb2ZnWO6,Prog. In Solid State Chem. 43 1-36 (2015),Pb,2,Zn,2,W,6,O,-2
+Pr2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Co,2,Mn,4,O,-2
+Pr2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Co,2,Pt,4,O,-2
+Pr2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Co,2,Ru,4,O,-2
+Pr2CuSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Cu,2,Sn,4,O,-2
+Pr2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Cu,2,Ti,4,O,-2
+Pr2LiIrO6,414149,Pr,3,Li,1,Ir,5,O,-2
+Pr2LiOsO6,416197,Pr,3,Li,1,Os,5,O,-2
+Pr2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Li,1,Ru,5,O,-2
+Pr2MgIrO6,420877,Pr,3,Mg,2,Ir,4,O,-2
+Pr2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Mg,2,Pt,4,O,-2
+Pr2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Mn,3,Rh,3,O,-2
+Pr2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Mn,2,Ti,4,O,-2
+Pr2NaIrO6,413635,Pr,3,Na,1,Ir,5,O,-2
+Pr2NaOsO6,170176,Pr,3,Na,1,Os,5,O,-2
+Pr2NaRuO6,414148,Pr,3,Na,1,Ru,5,O,-2
+Pr2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Ni,2,Mn,4,O,-2
+Pr2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Ni,2,Pt,4,O,-2
+Pr2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Pr,3,Zn,2,Pt,4,O,-2
+Rb2AgAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Cs,1,Ag,1,Al,3,F,-1
+Rb2AgErF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Rb,1,Ag,1,Er,3,F,-1
+Rb2AgInF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Ag,1,In,3,F,-1
+Rb2AgTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Rb,1,Ag,1,Tm,3,Cl,-1
+Rb2CsAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Cs,1,Al,3,F,-1
+Rb2CsCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Cs,1,Cr,3,F,-1
+Rb2CsFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Cs,1,Fe,3,F,-1
+Rb2CsGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Cs,1,Ga,3,F,-1
+Rb2CsVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Cs,1,V,3,F,-1
+Rb2KAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Al,3,F,-1
+Rb2KBiF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Bi,3,F,-1
+Rb2KCeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Ce,3,F,-1
+Rb2KDyF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Dy,3,F,-1
+Rb2KErF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,Er,3,F,-1
+Rb2KEuF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Eu,3,F,-1
+Rb2KFeF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,Fe,3,F,-1
+Rb2KGdF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Gd,3,F,-1
+Rb2KHoF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,Ho,3,F,-1
+Rb2KInF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,In,3,F,-1
+Rb2KLaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,La,3,F,-1
+Rb2KLuF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,Lu,3,F,-1
+Rb2KNdF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Nd,3,F,-1
+Rb2KPmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Pm,3,F,-1
+Rb2KPrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Pr,3,F,-1
+Rb2KScF6,81679,Rb,1,K,1,Sc,3,F,-1
+Rb2KSmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Sm,3,F,-1
+Rb2KTbF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,K,1,Tb,3,F,-1
+Rb2KTmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Tm,3,F,-1
+Rb2KVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,V,3,F,-1
+Rb2KYbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,K,1,Yb,3,F,-1
+Rb2KYF6,73472,Rb,1,K,1,Y,3,F,-1
+Rb2LiAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Al,3,F,-1
+Rb2LiCeCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Ce,3,Cl,-1
+Rb2LiCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Cr,3,F,-1
+Rb2LiDyCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Dy,3,Cl,-1
+Rb2LiErCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Er,3,Cl,-1
+Rb2LiEuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Eu,3,Cl,-1
+Rb2LiGdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Gd,3,Cl,-1
+Rb2LiHoCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Ho,3,Cl,-1
+Rb2LiInCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,In,3,Cl,-1
+Rb2LiLaCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,La,3,Cl,-1
+Rb2LiLuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Lu,3,Cl,-1
+Rb2LiNdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Nd,3,Cl,-1
+Rb2LiPmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Pm,3,Cl,-1
+Rb2LiPrCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Pr,3,Cl,-1
+Rb2LiScCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Sc,3,Cl,-1
+Rb2LiSmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Sm,3,Cl,-1
+Rb2LiTbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Tb,3,Cl,-1
+Rb2LiTmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Tm,3,Cl,-1
+Rb2LiVCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,V,3,Cl,-1
+Rb2LiVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,V,3,F,-1
+Rb2LiYbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Yb,3,Cl,-1
+Rb2LiYCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Li,1,Y,3,Cl,-1
+Rb2NaAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Al,3,F,-1
+Rb2NaCeCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Ce,3,Cl,-1
+Rb2NaCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Cr,3,F,-1
+Rb2NaDyCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Dy,3,Cl,-1
+Rb2NaDyF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Dy,3,F,-1
+Rb2NaErCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Er,3,Cl,-1
+Rb2NaErF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Er,3,F,-1
+Rb2NaEuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Eu,3,Cl,-1
+Rb2NaEuF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Eu,3,F,-1
+Rb2NaFeF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,Na,1,Fe,3,F,-1
+Rb2NaGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Ga,3,F,-1
+Rb2NaGdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Gd,3,Cl,-1
+Rb2NaHoCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Ho,3,Cl,-1
+Rb2NaHoF6,"Phys Solid State, 43, 1, 127-136 (2001)",Rb,1,Na,1,Ho,3,F,-1
+Rb2NaInCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,In,3,Cl,-1
+Rb2NaLaCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,La,3,Cl,-1
+Rb2NaLuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Lu,3,Cl,-1
+Rb2NaNdCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Nd,3,Cl,-1
+Rb2NaPmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Pm,3,Cl,-1
+Rb2NaPrCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Pr,3,Cl,-1
+Rb2NaScCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Sc,3,Cl,-1
+Rb2NaScF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Sc,3,F,-1
+Rb2NaSmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Sm,3,Cl,-1
+Rb2NaSmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Sm,3,F,-1
+Rb2NaTbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Tb,3,Cl,-1
+Rb2NaTbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Tb,3,F,-1
+Rb2NaTmCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Tm,3,Cl,-1
+Rb2NaTmF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Tm,3,F,-1
+Rb2NaVCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,V,3,Cl,-1
+Rb2NaVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,V,3,F,-1
+Rb2NaYbCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Yb,3,Cl,-1
+Rb2NaYbF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Yb,3,F,-1
+Rb2NaYCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Rb,1,Na,1,Y,3,Cl,-1
+Rb2NaYF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Na,1,Y,3,F,-1
+Rb3AlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Al,3,F,-1
+Rb3BiCl6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rv,1,Rb,1,Bi,3,Cl,-1
+Rb3CrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Cr,3,F,-1
+Rb3DyF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Dy,3,F,-1
+Rb3ErF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Er,3,F,-1
+Rb3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Fe,3,F,-1
+Rb3GaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Ga,3,F,-1
+Rb3HoF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,Ho,3,F,-1
+Rb3InF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,In,3,F,-1
+Rb3VF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Rb,1,Rb,1,V,3,F,-1
+Sc2NiMnO6,251832,Sc,3,Ni,2,Mn,4,O,-2
+Sm2CoMnO6,192616,Sm,3,Co,2,Mn,4,O,-2
+Sm2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Co,2,Pt,4,O,-2
+Sm2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Co,2,Ru,4,O,-2
+Sm2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Cu,2,Mn,4,O,-2
+Sm2CuSnO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Cu,2,Sn,4,O,-2
+Sm2CuTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Cu,2,Ti,4,O,-2
+Sm2LiIrO6,414151,Sm,3,Li,1,Ir,5,O,-2
+Sm2LiOsO6,416196,Sm,3,Li,1,Os,5,O,-2
+Sm2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Li,1,Ru,5,O,-2
+Sm2MgIrO6,420878,Sm,3,Mg,2,Ir,4,O,-2
+Sm2MgPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Mg,2,Pt,4,O,-2
+Sm2MnRhO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Mn,3,Rh,3,O,-2
+Sm2MnTiO6,90453,Sm,3,Mn,2,Ti,4,O,-2
+Sm2NaIrO6,59909,Sm,3,Na,1,Ir,5,O,-2
+Sm2NiMnO6,163802,Sm,3,Ni,2,Mn,4,O,-2
+Sm2NiPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Ni,2,Pt,4,O,-2
+Sm2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Ni,2,Ru,4,O,-2
+Sm2ZnPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Sm,3,Zn,2,Pt,4,O,-2
+Sr2AlNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Al,3,Nb,5,O,-2
+Sr2AlSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Al,3,Sb,5,O,-2
+Sr2AlTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Al,3,Ta,5,O,-2
+Sr2BiLuO6,88149,Sr,2,Lu,3,Bi,5,O,-2
+Sr2BiSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Bi,3,Sb,5,O,-2
+Sr2CaMoO6,380254,Sr,2,Ca,2,Mo,6,O,-2
+Sr2CaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ca,2,Os,6,O,-2
+Sr2CaReO6,182568,Sr,2,Ca,2,Re,6,O,-2
+Sr2CaTeO6,414435,Sr,2,Ca,2,Te,6,O,-2
+Sr2CaUO6,62539,Sr,2,Ca,2,U,6,O,-2
+Sr2CaWO6,164554,Sr,2,Ca,2,W,6,O,-2
+Sr2CdMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cd,2,Mo,6,O,-2
+Sr2CdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cd,2,Re,6,O,-2
+Sr2CdTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cd,2,Te,6,O,-2
+Sr2CdUO6,167925,Sr,2,Cd,2,U,6,O,-2
+Sr2CdWO6,245682,Sr,2,Cd,2,W,6,O,-2
+Sr2CeHfO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ce,4,Hf,4,O,-2
+Sr2CeIrO6,90493,Sr,2,Ce,4,Ir,4,O,-2
+Sr2CeTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ce,4,Ta,4,O,-2
+Sr2CeZrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ce,4,Zr,4,O,-2
+Sr2CoFeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,4,Fe,4,O,-2
+Sr2CoIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,3,Ir,5,O,-2
+Sr2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,4,Mn,4,O,-2
+Sr2CoMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,2,Mo,6,O,-2
+Sr2CoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,3,Nb,5,O,-2
+Sr2CoOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,2,Os,6,O,-2
+Sr2CoReO6,173491,Sr,2,Co,2,Re,6,O,-2
+Sr2CoRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,3,Ru,5,O,-2
+Sr2CoSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,3,Sb,5,O,-2
+Sr2CoTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,3,Ta,5,O,-2
+Sr2CoTeO6,195650,Sr,2,Co,2,Te,6,O,-2
+Sr2CoTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Co,4,Ti,4,O,-2
+Sr2CoUO6,152326,Sr,2,Co,2,U,6,O,-2
+Sr2CoWO6,190596,Sr,2,Co,2,W,6,O,-2
+Sr2CrMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Mo,5,O,-2
+Sr2CrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Nb,5,O,-2
+Sr2CrOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Os,5,O,-2
+Sr2CrReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Re,5,O,-2
+Sr2CrRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Ru,5,O,-2
+Sr2CrSbO6,290789,Sr,2,Cr,3,Sb,5,O,-2
+Sr2CrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,Ta,5,O,-2
+Sr2CrUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,U,5,O,-2
+Sr2CrWO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,3,W,5,O,-2
+Sr2CuMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cu,2,Mo,6,O,-2
+Sr2CuOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cu,2,Os,6,O,-2
+Sr2CuTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cu,2,Te,6,O,-2
+Sr2CuWO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cu,2,W,6,O,-2
+Sr2DyBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,Bi,5,O,-2
+Sr2DyIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,Ir,5,O,-2
+Sr2DyMoO6,291317,Sr,2,Dy,3,Mo,5,O,-2
+Sr2DyNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,Nb,5,O,-2
+Sr2DyReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,Re,5,O,-2
+Sr2DyRuO6,188479,Sr,2,Dy,3,Ru,5,O,-2
+Sr2DySbO6,150865,Sr,2,Dy,3,Sb,5,O,-2
+Sr2DyTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,Ta,5,O,-2
+Sr2DyUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Dy,3,U,5,O,-2
+Sr2ErBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Bi,5,O,-2
+Sr2ErEuO6,160745,Sr,2,Er,3,Ru,5,O,-2
+Sr2ErIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Ir,5,O,-2
+Sr2ErMoO6,291319,Sr,2,Er,3,Mo,5,O,-2
+Sr2ErNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Nb,5,O,-2
+Sr2ErReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Re,5,O,-2
+Sr2ErSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Sb,5,O,-2
+Sr2ErTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,Ta,5,O,-2
+Sr2ErUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Er,3,U,5,O,-2
+Sr2EuBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,Bi,5,O,-2
+Sr2EuIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,Ir,5,O,-2
+Sr2EuMoO6,291315,Sr,2,Eu,3,Mo,5,O,-2
+Sr2EuNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,Nb,5,O,-2
+Sr2EuRuO6,183715,Sr,2,Eu,3,Ru,5,O,-2
+Sr2EuSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,Sb,5,O,-2
+Sr2EuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,Ta,5,O,-2
+Sr2EuUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Eu,3,U,5,O,-2
+Sr2FeBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Bi,5,O,-2
+Sr2FeIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Ir,5,O,-2
+Sr2FeMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Mo,5,O,-2
+Sr2FeNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Nb,5,O,-2
+Sr2FeOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Os,5,O,-2
+Sr2FeReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Re,5,O,-2
+Sr2FeRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Ru,5,O,-2
+Sr2FeSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,3,Sb,5,O,-2
+Sr2FeTaO6,172591,Sr,2,Fe,3,Ta,5,O,-2
+Sr2FeTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Fe,4,Ti,4,O,-2
+Sr2FeUO6,245614,Sr,2,Fe,2,U,6,O,-2
+Sr2FeWO6,95517,Sr,2,Fe,2,W,6,O,-2
+Sr2GaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ga,3,Nb,5,O,-2
+Sr2GaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ga,3,Os,5,O,-2
+Sr2GaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ga,3,Re,5,O,-2
+Sr2GaSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ga,3,Sb,5,O,-2
+Sr2GaTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ga,3,Ta,5,O,-2
+Sr2GdBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Bi,5,O,-2
+Sr2GdIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Ir,5,O,-2
+Sr2GdMoO6,291316,Sr,2,Gd,3,Mo,5,O,-2
+Sr2GdNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Nb,5,O,-2
+Sr2GdReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Re,5,O,-2
+Sr2GdSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Sb,5,O,-2
+Sr2GdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,Ta,5,O,-2
+Sr2GdUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Gd,3,U,5,O,-2
+Sr2HfNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Hf,4,Nb,4,O,-2
+Sr2HoBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ho,3,Bi,5,O,-2
+Sr2HoIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ho,3,Ir,5,O,-2
+Sr2HoMoO6,291318,Sr,2,Ho,3,Mo,5,O,-2
+Sr2HoNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ho,3,Nb,5,O,-2
+Sr2HoReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ho,3,Re,5,O,-2
+Sr2HoRuO6,90653,Sr,2,Ho,3,Ru,5,O,-2
+Sr2HoSbO6,150864,Sr,2,Ho,3,Sb,5,O,-2
+Sr2HoTaO6,191678,Sr,2,Ho,3,Ta,5,O,-2
+Sr2HoUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ho,3,U,5,O,-2
+Sr2InBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,In,3,Bi,5,O,-2
+Sr2InNbO6,172169,Sr,2,In,3,Nb,5,O,-2
+Sr2InOsO6,238316,Sr,2,In,3,Os,5,O,-2
+Sr2InReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,In,3,Re,5,O,-2
+Sr2InSbO6,154032,Sr,2,In,3,Sb,5,O,-2
+Sr2InTaO6,188417,Sr,2,In,3,Ta,5,O,-2
+Sr2InUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,In,3,U,5,O,-2
+Sr2IrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ir,3,Nb,5,O,-2
+Sr2IrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ir,3,Ta,5,O,-2
+Sr2LaNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,La,3,Nb,5,O,-2
+Sr2LaSbO6,246960,Sr,2,La,3,Sb,5,O,-2
+Sr2LaTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,La,3,Ta,5,O,-2
+Sr2LiOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Li,1,Os,7,O,-2
+Sr2LiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Li,1,Re,7,O,-2
+Sr2LuIrO6,88157,Sr,2,Lu,3,Ir,5,O,-2
+Sr2LuNbO6,192488,Sr,2,Lu,3,Nb,5,O,-2
+Sr2LuRuO6,202866,Sr,2,Lu,3,Ru,5,O,-2
+Sr2LuSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Lu,3,Sb,5,O,-2
+Sr2LuTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Lu,3,Ta,5,O,-2
+Sr2LuUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Lu,3,U,5,O,-2
+Sr2MgMoO6,173119,Sr,2,Mg,2,Mo,6,O,-2
+Sr2MgOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mg,2,Os,6,O,-2
+Sr2MgReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mg,2,Re,6,O,-2
+Sr2MgTeO6,290893,Sr,2,Mg,2,Te,6,O,-2
+Sr2MgUO6,167923,Sr,2,Mg,2,U,6,O,-2
+Sr2MgWO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mg,2,W,6,O,-2
+Sr2MnMoO6,97744,Sr,2,Mn,2,Mo,6,O,-2
+Sr2MnNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,3,Nb,5,O,-2
+Sr2MnReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,2,Re,6,O,-2
+Sr2MnRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,3,Ru,5,O,-2
+Sr2MnSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,3,Sb,5,O,-2
+Sr2MnTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,3,Ta,5,O,-2
+Sr2MnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,2,Te,6,O,-2
+Sr2MnTiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Mn,4,Ti,4,O,-2
+Sr2MnUO6,245613,Sr,2,Mn,2,U,6,O,-2
+Sr2MnWO6,165886,Sr,2,Mn,2,W,6,O,-2
+Sr2NaIO6,425447,Sr,2,Na,1,I,7,O,-2
+Sr2NaOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Na,1,Os,7,O,-2
+Sr2NaReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Na,1,Re,7,O,-2
+Sr2NdSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Nd,3,Sb,5,O,-2
+Sr2NdTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Nd,3,Ta,5,O,-2
+Sr2NdUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Nd,3,U,5,O,-2
+Sr2NiMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ni,2,Mo,6,O,-2
+Sr2NiOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ni,2,Os,6,O,-2
+Sr2NiReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ni,2,Re,6,O,-2
+Sr2NiUO6,245615,Sr,2,Ni,2,U,6,O,-2
+Sr2NiWO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ni,2,W,6,O,-2
+Sr2PbMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Pb,2,Mo,6,O,-2
+Sr2PrSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Pr,3,Sb,5,O,-2
+Sr2PrTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Pr,3,Ta,5,O,-2
+Sr2RhNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Rh,3,Nb,5,O,-2
+Sr2RhSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Rh,3,Sb,5,O,-2
+Sr2RhTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Rh,3,Ta,5,O,-2
+Sr2ScBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sc,3,Bi,5,O,-2
+Sr2ScIrO6,88152,Sr,2,Sc,3,Ir,5,O,-2
+Sr2ScNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sc,3,Nb,5,O,-2
+Sr2ScOsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sc,3,Os,5,O,-2
+Sr2ScReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sc,3,Re,5,O,-2
+Sr2ScSbO6,262994,Sr,2,Sc,3,Sb,5,O,-2
+Sr2ScTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sc,3,Ta,5,O,-2
+Sr2SmBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sm,3,Bi,5,O,-2
+Sr2SmIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sm,3,Ir,5,O,-2
+Sr2SmNbO6,61434,Sr,2,Sm,3,Nb,5,O,-2
+Sr2SmRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sm,3,Ru,5,O,-2
+Sr2SmSbO6,246959,Sr,2,Sm,3,Sb,5,O,-2
+Sr2SmTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sm,3,Ta,5,O,-2
+Sr2SmUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sm,3,U,5,O,-2
+Sr2TbIrO6,171490,Sr,2,Tb,3,Ir,5,O,-2
+Sr2TbNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tb,3,Nb,5,O,-2
+Sr2TbReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tb,3,Re,5,O,-2
+Sr2TbRuO6,153132,Sr,2,Tb,3,Ru,5,O,-2
+Sr2TbSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tb,3,Sb,5,O,-2
+Sr2TbTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tb,3,Ta,5,O,-2
+Sr2TiHfO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ti,4,Hf,4,O,-2
+Sr2TiMoO6,189335,Sr,2,Ti,4,Mo,4,O,-2
+Sr2TiNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ti,3,Nb,5,O,-2
+Sr2TiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ti,4,Ru,4,O,-2
+Sr2TiTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ti,3,Ta,5,O,-2
+Sr2TiZrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ti,4,Zr,4,O,-2
+Sr2TmBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tm,3,Bi,5,O,-2
+Sr2TmIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tm,3,Ir,5,O,-2
+Sr2TmReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tm,3,Re,5,O,-2
+Sr2TmRuO6,55715,Sr,2,Tm,3,Ru,5,O,-2
+Sr2TmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Tm,3,Sb,5,O,-2
+Sr2TmTaO6,95524,Sr,2,Tm,3,Ta,5,O,-2
+Sr2VMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,V,4,Mo,4,O,-2
+Sr2VNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,V,3,Nb,5,O,-2
+Sr2VTaO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,V,3,Ta,5,O,-2
+Sr2YbBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Yb,3,Bi,5,O,-2
+Sr2YBiO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Y,3,Bi,5,O,-2
+Sr2YbIrO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Yb,3,Ir,5,O,-2
+Sr2YbMoO6,291320,Sr,2,Yb,3,Mo,5,O,-2
+Sr2YbNbO6,280127,Sr,2,Yb,3,Nb,5,O,-2
+Sr2YbReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Yb,3,Re,5,O,-2
+Sr2YbRuO6,55716,Sr,2,Yb,3,Ru,5,O,-2
+Sr2YbSbO6,193237,Sr,2,Yb,3,Sb,5,O,-2
+Sr2YbTaO6,193236,Sr,2,Yb,3,Ta,5,O,-2
+Sr2YbUO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Yb,3,U,5,O,-2
+Sr2YIrO6,88154,Sr,2,Y,3,Ir,5,O,-2
+Sr2YMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Y,3,Mo,5,O,-2
+Sr2YNbO6,170684,Sr,2,Y,3,Nb,5,O,-2
+Sr2YOsO6,238311,Sr,2,Y,3,Os,5,O,-2
+Sr2YReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Y,3,Re,5,O,-2
+Sr2YRuO6,49500,Sr,2,Y,3,Ru,5,O,-2
+Sr2YSbO6,154033,Sr,2,Y,3,Sb,5,O,-2
+Sr2YTaO6,170683,Sr,2,Y,3,Ta,5,O,-2
+Sr2ZnMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Zn,2,Mo,6,O,-2
+Sr2ZnReO6,173492,Sr,2,Zn,2,Re,6,O,-2
+Sr2ZnTeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Zn,2,Te,6,O,-2
+Sr2ZnUO6,245616,Sr,2,Zn,2,U,6,O,-2
+Sr2ZnWO6,190595,Sr,2,Zn,2,W,6,O,-2
+Sr2ZrMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Zr,4,Mn,4,O,-2
+Sr2ZrMoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Zr,4,Mo,4,O,-2
+Sr2ZrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Zr,4,Nb,4,O,-2
+Sr3MoO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sr,2,Mo,6,O,-2
+Sr3OsO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sr,2,Os,6,O,-2
+Sr3ReO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sr,2,Re,6,O,-2
+Sr3TeO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sr,2,Te,6,O,-2
+Sr3UO6,72521,Sr,2,Sr,2,U,6,O,-2
+Sr3WO6,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Sr,2,W,6,O,-2
+Tb2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Co,2,Mn,4,O,-2
+Tb2CoPtO6,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Co,2,Pt,4,O,-2
+Tb2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Cu,2,Mn,4,O,-2
+Tb2LiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Li,1,Ru,5,O,-2
+Tb2NiMnO6,163804,Tb,3,Ni,2,Mn,4,O,-2
+Tb2ScMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Sc,3,Mn,3,O,-2
+Tl2KInF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Tl,1,K,1,In,3,F,-1
+Tl2LiLuCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Li,1,Lu,3,Cl,-1
+Tl2LiScCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Li,1,Sc,3,Cl,-1
+Tl2LiTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Li,1,Tm,3,Cl,-1
+Tl2LiYbCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Li,1,Yb,3,Cl,-1
+Tl2NaScCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Na,1,Sc,3,Cl,-1
+Tl2NaTmCl6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Na,1,Tm,3,Cl,-1
+Tl2NaTmF6,"Prog. Solid State Chem. 14, 141-219 (1982)",Tl,1,Na,1,Tm,3,F,-1
+Tl3FeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Tl,1,Tl,1,Fe,3,F,-1
+Tl3InF6,"Mat. Sci. Eng. 24, 81-151 (1998)",Tl,1,Tl,1,In,3,F,-1
+Tm2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Tm,3,Cu,2,Mn,4,O,-2
+Tm2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Tm,3,Ni,2,Mn,4,O,-2
+Tm2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Tm,3,Ni,2,Ru,4,O,-2
+Y2CoMnO6,188982,Y,3,Co,2,Mn,4,O,-2
+Y2CrMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Y,3,Cr,3,Mn,3,O,-2
+Y2CuMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Y,3,Cu,2,Mn,4,O,-2
+Y2MnNiO6,160728,Y,3,Mn,3,Ni,3,O,-2
+Y2NiRuO6,Prog. In Solid State Chem. 43 1-36 (2015),Y,3,Ni,2,Ru,4,O,-2
+Yb2NiMnO6,Prog. In Solid State Chem. 43 1-36 (2015),Yb,3,Ni,2,Mn,4,O,-2

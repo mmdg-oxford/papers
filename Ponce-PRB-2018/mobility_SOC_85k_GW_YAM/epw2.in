@@ -1,0 +1,94 @@
+--
+&inputepw
+  prefix      = 'si'
+  amass(1)    = 28.0855
+  outdir      = './'
+
+  iverbosity  = 0
+
+  elph        = .true.
+  kmaps       = .true.
+  epbwrite    = .false.
+  epbread     = .false.
+
+  scattering  = .true.
+  scattering_serta = .true.
+  int_mob     = .true.
+  carrier     = .true.
+  ncarrier    = 1E13
+
+  scissor     = 0.7
+  nstemp      =  10
+  tempsmin    =  50
+  tempsmax    = 500
+
+  eig_read    = .true. ! reads the GW si.eig file
+
+  restart    = .true.
+  restart_freq = 500
+
+  etf_mem     = 1
+
+  epwwrite    = .false.
+  epwread     = .true.
+
+  nbndsub     =  16
+  nbndskip    =  0
+
+  wannierize  = .false.
+  num_iter    = 1500
+  iprint      = 2
+  dis_win_max = 18
+  dis_froz_max= 8.5
+  proj(1)     = 'Si : sp3'   
+  wdata(1)  = 'bands_plot = .true.'
+  wdata(2)  = 'begin kpoint_path'
+  wdata(3)  = 'L 0.50 0.00 0.00 G 0.00 0.00 0.00'
+  wdata(4)  = 'G 0.00 0.00 0.00 X 0.50 0.50 0.00'
+  wdata(5)  = 'end kpoint_path'
+  wdata(6)  = 'bands_plot_format = gnuplot'
+  wdata(7)  = 'guiding_centres = .true.'
+  wdata(8)  = 'dis_num_iter      = 500'
+  wdata(9)  = 'num_print_cycles  = 10'
+  wdata(10) = 'dis_mix_ratio     = 1.0'
+  wdata(12) = 'write_hr   = .true.'
+  wdata(13) = 'write_rmn  = .true.'
+
+  elecselfen  = .false.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  fsthick     = 10
+  eptemp      = 1 ! K 
+  degaussw    = 0.005 ! eV
+
+  dvscf_dir   = './save/'
+
+  filkf       = '../meshes/85527-kpt-crystal-multi-cauchy-voro'
+  filqf       = '../meshes/200000-kpt-crystal-voro2'
+ 
+  nk1         = 12
+  nk2         = 12
+  nk3         = 12
+
+  nq1         = 6
+  nq2         = 6
+  nq3         = 6
+ /
+      16 cartesian
+    0.000000000   0.000000000   0.000000000  
+   -0.166666667   0.166666667  -0.166666667  
+   -0.333333333   0.333333333  -0.333333333  
+    0.500000000  -0.500000000   0.500000000  
+    0.000000000   0.333333333   0.000000000  
+   -0.166666667   0.500000000  -0.166666667  
+    0.666666667  -0.333333333   0.666666667  
+    0.500000000  -0.166666667   0.500000000  
+    0.333333333   0.000000000   0.333333333  
+    0.000000000   0.666666667   0.000000000  
+    0.833333333  -0.166666667   0.833333333  
+    0.666666667  -0.000000000   0.666666667  
+    0.000000000  -1.000000000   0.000000000  
+    0.666666667  -0.333333333   1.000000000  
+    0.500000000  -0.166666667   0.833333333  
+   -0.333333333  -1.000000000   0.000000000  

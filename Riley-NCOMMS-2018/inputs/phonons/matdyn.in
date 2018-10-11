@@ -1,0 +1,18 @@
+ &input
+    asr='simple',
+    amass(1)=151.96,
+    amass(2)=15.999,
+    flfrc='euo.ifc',
+    flfrq='euo.freq',
+    q_in_band_form=.true.,
+    fd=.true.
+    na_ifc=.true.
+ /
+7
+0.0 0.0 0.0 20
+0.0 1.0 0.0 1
+0.0 1.0 1.0 20
+0.0 0.75 0.75 20
+0.0 0.0 0.0 1
+0.0 0.0 0.0 20
+0.5 0.5 0.5 1

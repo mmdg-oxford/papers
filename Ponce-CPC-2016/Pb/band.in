@@ -1,0 +1,40 @@
+ &control
+    calculation='bands',
+    prefix='pb',
+    pseudo_dir = '../pp/',
+    outdir='./',
+    tprnfor = .true.,
+    tstress = .true.,   
+   verbosity = 'high'
+   wf_collect = .true.
+ /
+ &system    
+    noncolin  = .true.,
+    lspinorb  = .true.,
+    ibrav = 2 , 
+    celldm(1) = 9.269771512, 
+    nat=  1 , 
+    ntyp = 1 , 
+    ecutwfc = 90
+    occupations = 'smearing'
+    degauss = 0.05
+    nbnd = 30
+ /
+ &electrons
+    diagonalization='cg'
+    conv_thr =  1.0d-12
+ /
+ATOMIC_SPECIES
+ Pb 207.2   pb_s.UPF
+ATOMIC_POSITIONS crystal
+Pb        0.000000000   0.000000000   0.000000000
+
+K_POINTS crystal_b
+  7
+   0.00 0.00 0.00 30 ! G
+   0.00 0.50 0.50 15 ! X
+   0.25 0.50 0.75 21 ! W  
+   0.50 0.50 0.50 18 ! L
+   0.375 0.375 0.75 32 ! K
+   0.00 0.00 0.00 26 ! G
+   0.50 0.50 0.50 1  ! L

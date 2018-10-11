@@ -1,0 +1,47 @@
+&control
+calculation='vc-relax',
+prefix='bii4',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=2,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Bi 1.0 Bi.pbe-dn-rrkjus_psl.0.2.2.UPF
+I 1.0 I.pbe-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS (angstrom)
+   8.167928238  -0.288651326  -0.031182728
+   0.262713269   8.168806952   0.031187526
+  -4.062586942  -4.103476761   5.784138415
+
+ATOMIC_POSITIONS (crystal)
+Bi       0.000000000   0.500000000  -0.000000000
+Bi      -0.000000000   0.000000000   0.500000000
+I        0.257389682   0.306695103   0.549305241
+I        0.257390321   0.708084916   0.950695107
+I        0.240741722   0.219976214   1.020765236
+I        0.699209814   0.219975746   0.479233764
+I        0.300790215   0.780024269   0.520766207
+I        0.742609664   0.291915084   0.049304893
+I        0.759258278   0.780023801  -0.020765221
+I        0.742610303   0.693304897   0.450694759
+
+K_POINTS automatic
+3 3 3 0 0 0

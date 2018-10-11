@@ -1,0 +1,46 @@
+&control
+calculation='vc-relax',
+prefix='csaucl2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=8,
+ntyp=3,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pbe-sp-hgh.UPF
+Au 1.0 Au.pbe-dn-rrkjus_psl.0.1.UPF
+Cl 1.0 Cl.pbe-n-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   5.080550068   0.000000000   0.000000000
+   0.000000000   5.080550068   0.000000000
+   0.000000000   0.000000000   9.888593560
+
+ATOMIC_POSITIONS (crystal)
+Cs       0.000000000   0.500000000   0.712732576
+Cs       0.500000000   0.000000000   0.287267424
+Au       0.000000000   0.500000000   0.105213444
+Au       0.500000000   0.000000000   0.894786526
+Cl       0.500000000   0.500000000  -0.000000000
+Cl       0.000000000   0.500000000   0.363091742
+Cl       0.500000000   0.000000000   0.636908228
+Cl       0.000000000   0.000000000  -0.000000000
+
+K_POINTS automatic
+7 7 7 0 0 0

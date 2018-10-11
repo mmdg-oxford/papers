@@ -1,0 +1,1 @@
+MPI_HOSTS: -np 64 -hostfile /var/spool/torque/aux//420403.headnode1.arcus.osc.local

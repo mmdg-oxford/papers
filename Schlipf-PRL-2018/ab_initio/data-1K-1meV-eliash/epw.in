@@ -1,0 +1,86 @@
+--
+&inputepw
+  prefix      = 'CH3NH3'
+  amass(1)    = 12.011
+  amass(2)    = 14.007
+  amass(3)    = 1.008
+  amass(4)    = 207.2
+  amass(5)    = 126.905
+  outdir      = './'
+
+  elph        = .true.
+  kmaps       = .true.
+  epbwrite    = .false.
+  epbread     = .false.
+
+  etf_mem     = 2
+
+  epwwrite    = .false.
+  epwread     = .true.
+
+  restart      = .true.
+  restart_freq = 50
+
+  lpolar      = .true.
+  longrange   = .false.
+  shortrange  = .false.
+
+  nbndsub     =  96
+  nbndskip    =  128
+
+  wannierize  = .false.
+  num_iter    = 100
+  iprint      = 2
+  dis_win_max = 9.0
+  dis_froz_min= -1.0
+  dis_froz_max= 4.0
+  proj(1)     = 'I:p'
+  proj(2)     = 'Pb:p'
+  wdata(1) = 'bands_plot = .true.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'G 0.0 0.0 0.0  X 0.5 0.0 0.0'
+  wdata(4) = 'X 0.5 0.0 0.0  S 0.5 0.5 0.0'
+  wdata(5) = 'S 0.5 0.5 0.0  Y 0.0 0.5 0.0'
+  wdata(6) = 'Y 0.0 0.5 0.0  G 0.0 0.0 0.0'
+  wdata(7) = 'G 0.0 0.0 0.0  Z 0.0 0.0 0.5'
+  wdata(8) = 'Z 0.0 0.0 0.5  U 0.5 0.0 0.5'
+  wdata(9) = 'U 0.5 0.0 0.5  R 0.5 0.5 0.5'
+  wdata(10) = 'R 0.5 0.5 0.5  T 0.0 0.5 0.5'
+  wdata(11) = 'T 0.0 0.5 0.5  Z 0.0 0.0 0.5'
+  wdata(12) = 'end kpoint_path'
+  wdata(13) = 'bands_plot_format = gnuplot'
+
+  elecselfen  = .true.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  parallel_k  = .true.
+  parallel_q  = .false.
+
+  fsthick     = 10 ! eV
+  filqf       = kpt-crystal-MAPbI-0
+  eptemp      = 1
+  degaussw    = 0.001
+
+  efermi_read = .true.
+  fermi_energy = 3.19 ! eV
+
+  nkf1        = 1
+  nkf2        = 1
+  nkf3        = 1
+  nk1         = 4
+  nk2         = 4
+  nk3         = 4
+  nq1         = 2
+  nq2         = 2
+  nq3         = 2
+ /
+ 8 cartesian
+   0.000000000000000E+00   0.000000000000000E+00   0.000000000000000E+00  1.0
+   0.000000000000000E+00   0.000000000000000E+00  -0.516428461638714E+00  1.0
+   0.000000000000000E+00  -0.351188266177029E+00   0.000000000000000E+00  1.0
+   0.000000000000000E+00  -0.351188266177029E+00  -0.516428461638714E+00  1.0
+  -0.500000000000000E+00   0.000000000000000E+00   0.000000000000000E+00  1.0
+  -0.500000000000000E+00   0.000000000000000E+00  -0.516428461638714E+00  1.0
+  -0.500000000000000E+00  -0.351188266177029E+00   0.000000000000000E+00  1.0
+  -0.500000000000000E+00  -0.351188266177029E+00  -0.516428461638714E+00  1.0

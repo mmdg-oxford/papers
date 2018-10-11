@@ -1,0 +1,42 @@
+&control
+calculation='scf',
+prefix='sb',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=6,
+ntyp=1,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.02
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Sb 1.0 Sb.pz-dn-rrkjus_psl.0.3.1.UPF
+
+CELL_PARAMETERS {angstrom}
+        4.3853144646         0.0000000000         0.0000000000
+       -2.1926572323         3.7977937299         0.0000000000
+        0.0000000000         0.0000000000        11.4491729736
+
+ATOMIC_POSITIONS {crystal}
+Sb	     0.333332986         0.666666985         0.933501005
+Sb	     0.666666985         0.333332986         0.066499002
+Sb	     0.000000000         0.000000000         0.266833991
+Sb	     0.333332986         0.666666985         0.399832010
+Sb	     0.666666985         0.333332986         0.600167990
+Sb	     0.000000000         0.000000000         0.733165979
+
+K_POINTS automatic
+   21   42   21    0    0    0

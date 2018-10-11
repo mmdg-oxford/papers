@@ -1,0 +1,43 @@
+&control
+calculation='scf',
+prefix='biau2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=6,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Bi 1.0 Bi.pz-dn-rrkjus_psl.0.2.2.UPF
+Au 1.0 Au.pz-dn-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS {angstrom}
+        5.7261066437         0.0000000000         0.0000000000
+        2.8630533218         4.9589538182         0.0000000000
+        2.8630533218         1.6529846061         4.6753464966
+
+ATOMIC_POSITIONS {crystal}
+Bi	     0.000000000         0.000000000         0.000000000
+Bi	     0.250000000         0.250000000         0.250000000
+Au	     0.125000000         0.625000000         0.625000000
+Au	     0.625000000         0.625000000         0.625000000
+Au	     0.625000000         0.125000000         0.625000000
+Au	     0.625000000         0.625000000         0.125000000
+
+K_POINTS automatic
+   15   15   15    0    0    0

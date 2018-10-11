@@ -1,0 +1,47 @@
+&control
+calculation='vc-relax',
+prefix='ag2cl3',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=2,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.02
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Ag 1.0 Ag.pz-dn-rrkjus_psl.0.1.UPF
+Cl 1.0 Cl.pz-n-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   6.939595619  -0.007398487  -0.005065056
+   3.950644975   5.705308084  -0.005061778
+   3.950638867   2.067026542   5.317694568
+
+ATOMIC_POSITIONS (crystal)
+Ag       0.657018283   0.657018873   0.657017887
+Ag       0.842980902   0.842981969   0.842981715
+Ag       0.157019098   0.157018031   0.157018285
+Ag       0.342981717   0.342981127   0.342982113
+Cl       0.569608986   0.930391505   0.249999355
+Cl       0.249999574   0.569608954   0.930391220
+Cl       0.930391247   0.249999459   0.569609033
+Cl       0.069608753   0.750000541   0.430390967
+Cl       0.750000426   0.430391046   0.069608780
+Cl       0.430391014   0.069608495   0.750000645
+
+K_POINTS automatic
+10 10 10 0 0 0

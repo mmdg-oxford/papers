@@ -1,0 +1,32 @@
+em1d
+gw0
+HF_and_locXC
+ppa
+X_all_q_CPU = '1 1 32 24'
+EXXRLvcs = 30 Ry
+% BndsRnXp
+ 1 | 1000 |   
+%
+XfnQPdb = 'E < ./ndb.QP'
+SE_ROLEs =   'q qp b'
+NGsBlkXp = 6 Ry
+% LongDrXp
+ 1.0 | 0.0 | 0.0 |   
+%
+GfnQPdb = 'E < ./ndb.QP'
+% GbndRnge
+ 1 | 1000 |   
+%
+dScStep = 0.100000 eV
+SE_CPU =  '1 1 768'
+NLogCPUs = 0.000000e+00 
+DysSolver =        'n'
+% QPkrange
+ 1 | 36 | 197 | 208 |   
+%
+GTermKind =       'BG'
+PAR_def_mode = 'balanced'
+PPAPntXp = 18.800000 eV
+X_all_q_ROLEs =  'q k c v'
+X_all_q_nCPU_LinAlg_INV = 48 
+GDamping = 0.100000 eV

@@ -1,0 +1,42 @@
+&control
+calculation='vc-relax',
+prefix='cucl4',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=5,
+ntyp=2,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cu 1.0 Cu.pz-dn-rrkjus_psl.0.2.UPF
+Cl 1.0 Cl.pz-n-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   6.555675277   0.898183753   0.000065438
+   3.425450285   5.661830972   0.000065438
+  -4.990574165  -3.280014724   2.994451714
+
+ATOMIC_POSITIONS (crystal)
+Cu       0.000336917   0.000302356  -0.000000005
+Cl       0.859879837   0.393866018   0.000000003
+Cl       0.393819909   0.859874124   0.000000003
+Cl       0.137427941   0.137425023   0.528892547
+Cl       0.608535419   0.608532501   0.471107453
+
+K_POINTS automatic
+5 5 10 0 0 0

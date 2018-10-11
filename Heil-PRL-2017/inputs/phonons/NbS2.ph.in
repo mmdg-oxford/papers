@@ -1,0 +1,16 @@
+Ph
+&inputph
+   recover  = .false.,
+   prefix   = 'NbS2',
+   amass(1) = 92.906,
+   amass(2) = 32.065,
+   fildyn   = 'NbS2.dyn_q',
+   fildvscf = 'dvscf',
+   outdir   = './tmp/',
+   tr2_ph   = 1.0d-12,
+   ldisp    = .true.,
+   alpha_mix(1) = 0.1,
+   nq1      = 6,
+   nq2      = 6,
+   nq3      = 2,
+&end

@@ -1,0 +1,14 @@
+&input
+  prefix='euo'
+  nrx1=6,
+  nrx2=6,
+  nrx3=6,
+  de=0.01, 
+  file_force='./force',
+  file_out='./euo'
+  innx=1
+  nodispsym=.false.
+  noatsym=.false.
+  verbose=.true.
+  hex=.false.
+/

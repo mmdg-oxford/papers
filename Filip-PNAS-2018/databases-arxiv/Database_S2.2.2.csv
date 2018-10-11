@@ -1,0 +1,237 @@
+Database S2.2.2,,
+Non-perovskites found from internet mining                ,,
+Compound,Structure type,Reference
+AgIO3     ,edge sharing ,ICSD
+Ba2RhSbO6 ,hexagonal ,"J. Inorg Nucl Chem 27, 994-1003 (1965)"
+Ba2ScMoO6 ,hexagonal ,"Inorg Chem 10(5),922 (1971)"
+BaTeO3    ,edge sharing ,ICSD
+Bi2TiFeO6 ,edge sharing ,ICSD
+Bi2TiMoO6 ,sheelite ,"Applied Catalysis A: General 110, 207-216 (1994)"
+Bi3YO6    ,fluorite ,"Solid State Ionics 264, 49-53 (2014)"
+BiEuO3    ,Bi2O3 type ,ICSD
+BiGdO3    ,Bi2O3 type ,ICSD
+BiInS3    ,edge sharing ,ICSD
+BiTbO3    ,fluorite ,"J. Magnetism. and Magnetic Materials 398, 289-297 (2016)"
+BiYbO3    ,,ICSD
+Ca3NpO6,,"Handbook of Inorganic Substances, Walter de Gruyter GmbH & Co (2015), P. Villars, K. Cenzual, R. Gladyshevskii "
+CaPtO3     ,pyroxene,ICSD
+CaTeO3     ,isolated octahedra ,ICSD
+Cd2GaTaO6  ,pyrochlore ,Int. J. of Hydrogen En. 35 (13) 7029-7035 (2010)
+Cd2InSbO6  ,amorphous ,"Vacuum 80, 1038-1041 (2006)"
+CdFeO3     ,hexagonal ,"J Phys Chem Solids 36, 783-789 (1975)"
+CdTeO3     ,isolated TeO3 pyramids ,"Acta Cryst. C41, 1152-1154 (1985)"
+Ce3LuSe6   ,edge sharing ,ICSD
+CeBiO3     ,layered ,"Phys. Stat. Solidi B 252 (12), 2680-2684 (2015) "
+CeBiS3,,Springer Materials
+CeBiSe3,,Springer Materials
+CeDyS3     ,edge sharing ,ICSD
+CeErS3     ,edge sharing ,ICSD
+CeEuO3     ,Sm2O3 type,Springer Materials
+CeHoS3     ,edge sharing  ,ICSD
+CeInO3     ,layered,ICSD
+CeLaO3     ,La2O3-type ,Springer Materials 
+CeLuS3     ,layered ,ICSD
+CePrO3,,Springer Materials
+CeSbO3     ,pyrochlore ,ICSD
+CeTbO3,,Springer Materials
+CeTmS3     ,layered,ICSD
+CeYbS3     ,layered ,ICSD
+CeYbSe3    ,layered (ScUS3 type) ,ICSD
+CrFeO3    ,Al2O3 type,Springer Materials
+CrMoO3    ,no octahedra ,ICSD
+CrRhO3    ,Al2O3 type ,Springer Materials
+CrVO3     ,corundum ,"J. Solid State Chem. 144, 392-397 (1999) "
+CrWO3      ,no octahedra ,ICSD
+Cs2LiInCl6 ,edge sharing ,ICSD
+Cs2NaTiF6  ,hexagonal ,"Z. Anorg Chem. 403(2), 127-136 (1974)"
+Cs2TlBiCl6,,Springer Materials
+Cs3ErCl6  ,isolated octahedra ,Springer Materials 
+Cs3EuF6,,Springer Materials
+Cs3GdBr6  ,isolated octahedra ,"J Luminesc. 153, 64-72 (2014)"
+Cs3GdCl6  ,isolated octahedra ,"J Luminesc. 153, 64-72 (2014)"
+Cs3InCl6   ,isolated octahedra ,"PhD thesis Stephan Bremm, Uni Koln 2002"
+Cs3LuF6   ,isolated octahedra ,Springer Materials
+Cs3LaI6,,"J. Luminesc. 149, 374-384 (2014)"
+Cs3SmCl6 ,isolated octahedra ,Springer Materials
+Cs3TlF6    ,isolated octahedra ,ICSD
+Cs3UF6     ,isolated octahedra ,Springer Materials
+CsCrCl3   ,hexagonal ,ICSD
+CsFeCl3    ,hexagonal ,ICSD
+CsMnBr3    ,hexagonal ,ICSD
+CsPdCl3    ,edge sharing ,"Z. Anorg. Chem. 625 (11), 1944-1950 (1999)"
+CsSrI3     ,PuBr3-type structure ,"Phys. Chem. Chem. Phys. 18, 13196-13208 (2016)"
+CsTiBr3    ,hexagonal ,ICSD
+CsTiCl3    ,hexagonal ,ICSD
+CsVCl3     ,BaNiO3 type ,ICSD
+Dy2TiCuO6  ,layered ,"Solid State Sci 4, 1495-1498 (2002)"
+Dy3GaO6    ,Er3GaS6 type ,ICSD
+DyBiO3,,Springer Materials
+Er2TiCuO6  ,,"Prog. Solid State Chem. 22, 197-233 (1993)"
+Er3GaO6    ,Er3GaS6 type ,ICSD
+ErInO3     ,hexagonal ,"J Inorg Nucl Chem 38, 1471-1475 (1976)"
+Eu3AuO6    ,Au - planar coordinated ,ICSD
+Eu3GaO6    ,Er3GaS6 type ,ICSD
+EuLuO3,,Springer Materials
+Fe3TiO6    ,ilmenite ,ICSD
+FeHfO3     ,ilmenite ,"J. Magnetism and Magnetic Materials 394, 463-469 (2015)"
+FeRhO3     ,ilmenite ,"Electro Ceramics Web course Indian Institute of Technology Kanpur (Ashish Garg, Department of Materials Science and Engineering)"
+Gd3AuO6    ,Au - planar coordinated ,"Z. Anorg. Allg. Chem. 627, 439-444 (2001)"
+Gd3FeO6    ,BiCa2VO6 type ,ICSD
+Gd3GaO6    ,Er3GaS6 type ,ICSD
+GdErO3     ,(Mn_0.5Fe_0.5)2O3 type ,Springer Materials
+GdInS3,,Springer Materials
+GdLaO3     ,CeYbYb2S6-type ,"J Solid State Chemistry 177, 4142-4148 (2004)"
+GdLuO3     ,bixbyite ,ICSD
+Hg3AsF6    ,no octahedra ,PRB 31(5) (2881-2885) (1985)
+Hg3NbF6    ,isolated octahedra ,J. Solid State Chem. 57 (1) 34-42 (1985)
+Hg3SbF6    ,isolated octahedra ,J. Solid State Chem. 57 (1) 34-42 (1985)
+Hg3TaF6    ,layered ,"Inorg Chem 23, 4506-4508 (1984)"
+HgVO3      ,no octahedra ,ICSD
+Ho3ScO6    ,edge sharing ,ICSD
+HoInO3     ,hexagonal ,J. Inorg. Nucl. Chem. 38 (8) 1471-1475 (1976)
+In2FeRuO6  ,bixbyite ,"Solid State Commun 152(2), 95-99 (2012) "
+InGaO3     ,layered ,ICSD
+InMnO3     ,layered ,ICSD
+K3CeF6,,Springer Materials
+K3ErCl6    ,  isolated octahedra ,"Z. Anorg. Allg. Chem. 627, 2317-2322 (2001)"
+K3InCl6    ,isolated octahedra ,"Acta Cryst E62, i143-i144 (2006)"
+K3UF6      ,isolated octahedra ,Springer Materials
+KCdBr3     ,NH4CdCl3 - type ,Phys. Stat. Solidi B 147 K195 (1988)
+KDyI3,,Springer Materials
+KMnBr3     ,hexagonal,"Mat Res Bul 17, 1421-1427 (1982)"
+KPbF3      ,,"Rep. Prog. Phys. 67, 1233-1314 (2004)"
+KPbI3      ,NH4CdCl3-type ,Springer Materials
+KTiBr3     ,hexagonal face sharing ,Acta Cryst A 66(5) 558-590 (2010)
+KTiCl3     ,hexagonal face sharing ,Acta Cryst A 66(5) 558-590 (2010) 
+KTmI3      ,corner and edge sharing ,Chemical Journal of Chinese Universities 19(3):335-339 (1998)
+KVCl3      ,hexagonal ,Z. Anorg. Allg. Chem. doi: 10.1002/zaac.19603020506 (1960)
+KYbI3      ,layered ,"Z. Anorg. Allg. Chem. 618, 7-12 (1992)"
+La2KNbO6   ,,"Chem Mater 20 (10), 3327-3335 (2008)"
+La3FeO6    ,BiCa2VO6 type ,ICSD
+La3InS6    ,isolated octahedra ,ICSD
+La3LuSe6   ,layered ,http://escholarship.org/uc/item/697389n and (icsd) 
+LaAsO3     ,KClO3 - type ,ICSD
+LaBiS3,,Springer Materials
+LaBiSe3,,Springer Materials
+LaDyO3     ,,"J. Alloys and Compounds 494 (1-2), 336 (2010)"
+LaErS3     ,edge sharing ,ICSD
+LaEuO3     ,hexagonal ,"PRB 40(1), 102 (1989)"
+LaHoS3     ,edge sharing ,ICSD
+LaInS3,,Springer Materials
+LaSbO3,,Springer Materials
+LaSmO3    ,,"J. of Research of the National Bureau of Standards A Physics & Chem. 64A(4), 317 (1960)"
+LaTmS3     ,face sharing ,ICSD
+LaYbSe3    ,layered ,"J. Solid State Chem. 177, 709-713 (2004)"
+LaYS3      ,LaErS3 type ,Springer Materials
+Li3NiF6    ,edge sharing ,J. Fluorine Chem. 6(3) 267-274(1975) 
+Li3ScF6    ,edge sharing ,ICSD
+Li3TiF6    ,edge sharing ,ICSD
+LiSbO3     ,edge sharing ,ICSD
+Lu2FeMoO6  ,edge sharing ,"Sci Rep 6, 20133 (2016)"
+Lu2TiCuO6  ,layered ,"Solid State Sci. 4, 1495-1498 (2002)"
+MgFeO3,bixbyite,Springer Materials
+Mn2FeMoO6  ,edge sharing ,"Angew. Chem. 40(53), 10774-10778 (2014)"
+Mn2FeWO6   ,edge sharing ,ICSD
+Mn2InSbO6  ,edge sharing ,ICSD
+Mn3WO6     ,edge sharing ,Springer Materials
+MnTbO3     ,TbMnO3 perovskite ,ICSD
+Na3EuCl6   ,edge sharing ,Springer Materials
+Na3GdI6    ,edge sharing, Z. Anorg. Chem. 623 (1-6): 837-843 (1997)
+Na3InCl6   ,edge sharing,ICSD
+Na3PdF6,,Springer Materials
+Na3SmBr6   ,edge sharing chains ,ICSD
+Na3SmI6,,Springer Materials
+Na3TbCl6   ,edge sharing ,Springer Materials
+Na3TlF6,,Springer Materials
+NaBiO3     ,ilmenite ,"Inorg Chem. 55, 5747-5749 (2016)"
+NaCdCl3    ,edge sharing ,"Eur. J. Inorg. Che. 1675-1680 (2003), doi:  10.1002/ejic.200200612"
+NaHgCl3    ,no octahedra ,ICSD
+NaMnCl3    ,ilmenite ,ICSD
+NaTiCl3,,Springer Materials
+Nd2CuZrO6  ,layered ,"Chem Mater 10(10), 3124-3130 (1998)"
+Nd2KNbO6   ,no octahedra ,"Chem Mater 20 (10), 3327-3335 (2008)"
+Nd3FeO6    ,BiCa2VO6 type ,ICSD
+Nd3GaO6    ,Er3GaS6 type ,ICSD
+NdBiS3,,Springer Materials
+NdEuO3     ,monoclinic ,"PRB 40(1), 102 (1989)"
+NdLuS3     ,layered ,Springer Materials 
+NdLuSe3    ,UFeS3 type ,Inorg. Chem. doi: 10.1021/ic701012j (2007)
+NdTmS3     ,layered ,Springer Materials 
+NdYbS3     ,,"J Solid State Chem. 7, 321-336 (1973)"
+NdYbSe3    ,layered ,J. Solid State Chem. 177 (3) 709-713 (2004)
+Pb2NiTaO6  ,pyrochlore ,Springer Materials
+Pb2VBiO6   ,edge sharing ,"Solid State Sci. 6(8), 783-790 (2004)"
+Pb3UO6     ,isolated octahedra ,Acta Cryst. 23 264 (1967)
+Pb3WO6     ,edge sharing ,"J. Alloys and Compounds 545, 135-138 (2012)"
+PbReO3     ,defect pyrochlore ,"Mater. Sci. Eng. 36, 231-239 (1978)"
+PbTcO3     ,pyrochlore ,Springer Materials
+PbTeO3     ,isolated octahedra ,ICSD
+Pr3InS6,,Springer Materials
+PrEuO3     ,monoclinic ,"J. of the Less Common Metals, 149, 101-107 (1989)"
+PrInS3,,Springer Materials
+PrLuS3     ,layered ,ICSD
+PrLuSe3    ,layered ,ICSD
+PrSbO3,,Springer Materials
+PrTmS3     ,layered ,ICSD
+PrYbS3     ,layered ,ICSD
+PrYbSe3    ,layered ,"J. Solid State Chem. 177(3, 709-713 (2004)"
+Rb3BiBr6   ,isolated octahedra ,ICSD
+Rb3DyCl6   ,isolated octahedra,Springer Materials 
+Rb3ErCl6,,Springer Materials
+Rb3HoCl6,,
+Rb3InCl6   ,isolated octahedra ,Doctoral Thesis Stephan Bremm (Uni Koln 2002)
+Rb3TlCl6   ,K3InCl6 type ,ICSD
+Rb3YbCl6,,Springer Materials
+Rb3YbF6    ,isolated octahedra ,Springer Materials 
+RbMnBr3    ,BaNiO3 type ,ICSD
+RbPbI3     ,NH4CdCl3 type ,ICSD
+RbTiBr3    ,BaNiO3-type,Springer Materials
+RbTiCl3    ,BaNiO3 type ,"Z. Anorg. Alg. Chem 524, 90-94 (1985)"
+RbVCl3     ,BaNiO3 type ,J. Solid State Chem. 56(3) 343-354
+SbAsO3     ,As2O3 type ,ICSD
+Sc3CrO6    ,Mg3TeO3 type ,ICSD
+Sm3AuO6    ,Perovskite-Ba2LaRuO6(I1-),ICSD
+Sm3GaO6    ,Er3GaS6-type ,Springer Materials
+Sm3InS6,,Springer Materials
+SmEuO3     ,Sm2O3 type ,"PRB 40 (1), 102 (1989)"
+SmGdO3     ,amorphous,"Appl. Phys. Lett. 104, 073501 (2014)"
+SmLuO3     ,,Arabian Journal of Chemistry (2016) http://dx.doi.org/10.1016/j.arabjc.2016.03.010
+SmYbSe3    ,layered  ,J. Solid. State Chem. 177(3) 709-713 (2004)
+Sr2TaBiO6  ,layered ,"Abstract Nanocon 2011, http://nanocon2012.tanger.cz/files/proceedings/nanocon_11/lists/papers/1356.pdf"
+SrTeO3     ,edge sharing ,ICSD
+Tb2TiCuO6  ,layered ,"Solid State Sciences 4, 1495-1498 (2002)"
+Tb3GaO6    ,Er3GaS6-type  ,Springer Materials
+TbNiO3     ,oxidation state not stabilized ,"Chem Mater 11(9), (1999)"
+TiSbO3     ,layered ,Master Thesis Patrick Woodward Oregon State University (1996)
+TiTaO3     ,pyrochlore ,"Mat Res Bull 17, 917-933 (1982)"
+Tl3BiCl6  ,isolated octahedra,ICSD
+Tl3BiI6   ,isolated octahedra ,ICSD
+TlCaBr3    ,PuBr3 type ,Z. anorg. allg. chem. 622 (1996) 759-765
+TlCdBr3    ,NH4CdBr3 type ,ICSD
+TlCdI3     ,NH4CdCl3 type ,"J. Luminesc. 79(2), 135-141 (1998)"
+TlFeCl3    ,hexagonal ,"J. Magn. and Magn. Mater. 116(1-2), 80-82 (1992)"
+TlHgBr3    ,face sharing octahedra,"Opt. Mater. 49, 94-99 (2015)"
+TlHgCl3    ,NH4CdCl3 type,ICSD
+TlMnBr3    ,(NH4)CdI3 type ,"J. Thermal Analysis 6(1), 175-182 (1974)"
+TlNbO3    ,pyrochlore ,"Mat Res Bul 10, 933-940 (1975)"
+TlPbCl3   ,Ga2Gd3 type,ICSD
+TlSbO3    ,layered ,ICSD
+TlTaO3    ,pyrochlore ,"Solid State Commun. 17, 545-547 (1975)"
+TlVO3     ,KVO3 type ,Springer Materials
+TlZnF3    ,BaTiO3-hexagonal,J. Phys. Condens. Matter 17(29) 4653-4663 (2005)
+Tm2TiCuO6 ,layered ,ICSD
+VFeO3     ,Al2O3 ,Springer Materials
+VTiO3     ,Al2O3 ,Springer Materials
+Y2EuErO6  ,Mn2O3 type ,http://www.icdd.com/resources/axa/VOL55/V55_05.pdf
+Y2EuHoO6  ,Mn2O3 type ,http://www.icdd.com/resources/axa/VOL55/V55_05.pdf
+Y2TiCuO6  ,layered ,ICSD
+Y3GaO6    ,er3gas6-type ,ICSD
+Yb2TiCuO6 ,layered ,PRB 82.134203(2010)
+Yb2TiMnO6 ,layered ,Mat Res Bulletin 36 57-58 (2001)
+YbInO3    ,bixbyite,"Dphil Thesis Daniel Giaquinta (Northwestern Uni, 1989)"
+YbLaO3    ,"LaYbO3 perovskite, no structure for YbLaO3",
+YGdO3     ,bixbyite ,ICSD
+YLaO3     ,"LaYO3 perovskite, no structure for YLaO3",
+YPrO3     ,bixbyite ,ICSD
+YTmO3     ,bixbyite ,ICSD
+YYbO3     ,bixbyite ,ICSD

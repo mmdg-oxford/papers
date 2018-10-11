@@ -1,0 +1,43 @@
+&control
+calculation='vc-relax',
+prefix='csagbr3',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=5,
+ntyp=3,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pbe-sp-hgh.UPF
+Ag 1.0 Ag.pbe-dn-rrkjus_psl.0.1.UPF
+Br 1.0 Br.pbe-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        5.4944820404         0.0000000000         0.0000000000
+        0.0000000000         5.4978251457         0.0000000000
+       -0.0051561572         0.0000000000         5.4948305734
+
+ATOMIC_POSITIONS {crystal}
+Cs     0.001464000         0.000000000         0.005989000
+Ag     0.495339006         0.500000000         0.515263975
+Br     0.494715005         0.000000000         0.513036013
+Br     0.502974987         0.500000000         0.015150000
+Br     0.995505989         0.500000000         0.510564029
+
+K_POINTS automatic
+6 6 6 0 0 0

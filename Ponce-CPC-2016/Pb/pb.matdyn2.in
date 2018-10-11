@@ -1,0 +1,14 @@
+ &input
+    asr='simple',  amass(1)=207.2,
+    flfrc='pb888.fc', flfrq='pb.freq'
+    q_in_cryst_coord = .true.
+    q_in_band_form = .true.
+ /
+  7
+   0.00 0.00 0.00 30 ! G
+   0.00 0.50 0.50 15 ! X
+   0.25 0.50 0.75 21 ! W
+   0.50 0.50 1.00 11 ! X
+   0.375 0.375 0.75 32 ! K
+   0.00 0.00 0.00 26 ! G
+   0.50 0.50 0.50 1  ! L

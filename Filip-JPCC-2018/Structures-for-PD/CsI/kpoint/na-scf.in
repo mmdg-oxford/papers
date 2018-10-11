@@ -1,0 +1,28 @@
+&control
+calculation='scf',
+prefix='xxx',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=2,
+ntyp=1,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+
+CELL_PARAMETERS {angstrom}
+

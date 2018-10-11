@@ -1,0 +1,50 @@
+&control
+calculation='scf',
+prefix='cs2bicucl6',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=4,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pz-sp-hgh.UPF
+Bi 1.0 Bi.pz-dn-rrkjus_psl.0.2.2.UPF
+Cu 1.0 Cu.pz-dn-rrkjus_psl.0.2.UPF
+Cl 1.0 Cl.pz-n-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS {angstrom}
+   5.106153173  -0.000000000   5.106153173
+   5.106153173   5.106153173   0.000000000
+  -0.000000000   5.106153173   5.106153173
+
+ATOMIC_POSITIONS {crystal}
+Bi      -0.000000000   0.000000000  -0.000000000
+Cu       0.500000000   0.500000000   0.500000000
+Cl       0.734761079   0.265238891   0.734761079
+Cl       0.265238921   0.734761079   0.265238921
+Cl       0.734761079   0.265238921   0.265238921
+Cl       0.265238891   0.734761079   0.734761079
+Cl       0.734761079   0.734761079   0.265238891
+Cl       0.265238921   0.265238921   0.734761079
+Cs       0.250000000   0.250000000   0.250000000
+Cs       0.749999940   0.749999940   0.749999940
+
+K_POINTS automatic
+
+   3   3   3   0   0   0

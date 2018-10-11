@@ -1,0 +1,49 @@
+&control
+calculation='scf',
+prefix='cs2sbaucl6',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=4,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pz-sp-hgh.UPF
+Sb 1.0 Sb.pz-dn-rrkjus_psl.0.3.1.UPF
+Au 1.0 Au.pz-dn-rrkjus_psl.0.1.UPF
+Cl 1.0 Cl.pz-n-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   5.203637280   0.000000000   5.203637280
+   5.203637280   5.203637280   0.000000000
+   0.000000000   5.203637280   5.203637280
+
+ATOMIC_POSITIONS (crystal)
+Sb       0.000000000  -0.000000000  -0.000000000
+Au       0.500000000   0.500000000   0.500000000
+Cl       0.748489271   0.251510699   0.748489271
+Cl       0.251510729   0.748489271   0.251510729
+Cl       0.748489271   0.251510729   0.251510729
+Cl       0.251510699   0.748489271   0.748489271
+Cl       0.748489271   0.748489271   0.251510699
+Cl       0.251510729   0.251510729   0.748489271
+Cs       0.250000000   0.250000000   0.250000000
+Cs       0.749999940   0.749999940   0.749999940
+
+K_POINTS automatic
+   6   6   6   0   0   0

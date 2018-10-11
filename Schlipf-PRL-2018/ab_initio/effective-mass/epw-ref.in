@@ -1,0 +1,86 @@
+--
+&inputepw
+  prefix      = 'CH3NH3'
+  amass(1)    = 12.011
+  amass(2)    = 14.007
+  amass(3)    = 1.008
+  amass(4)    = 207.2
+  amass(5)    = 126.905
+  outdir      = './'
+
+  elph        = .true.
+  kmaps       = .false.
+  epbwrite    = .true.
+  epbread     = .false.
+
+  etf_mem     = 1
+  eig_read    = .true.
+
+  epwwrite    = .true.
+  epwread     = .false.
+
+  lpolar      = .true.
+
+  nbndsub     =  96
+  nbndskip    =  160
+
+  wannierize  = .true.
+  num_iter    = 1000
+  iprint      = 2
+  dis_win_max = 10.0
+  dis_froz_min= -2.0
+  dis_froz_max= 5.2
+  proj(1)     = 'I:p'
+  proj(2)     = 'Pb:p'
+  wdata(1) = 'bands_plot = .true.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'G 0.0 0.0 0.0  X 0.5 0.0 0.0'
+  wdata(4) = 'X 0.5 0.0 0.0  S 0.5 0.5 0.0'
+  wdata(5) = 'S 0.5 0.5 0.0  Y 0.0 0.5 0.0'
+  wdata(6) = 'Y 0.0 0.5 0.0  G 0.0 0.0 0.0'
+  wdata(7) = 'G 0.0 0.0 0.0  Z 0.0 0.0 0.5'
+  wdata(8) = 'Z 0.0 0.0 0.5  U 0.5 0.0 0.5'
+  wdata(9) = 'U 0.5 0.0 0.5  R 0.5 0.5 0.5'
+  wdata(10) = 'R 0.5 0.5 0.5  T 0.0 0.5 0.5'
+  wdata(11) = 'T 0.0 0.5 0.5  Z 0.0 0.0 0.5'
+  wdata(12) = 'end kpoint_path'
+  wdata(13) = 'bands_plot_format = gnuplot'
+  wdata(14) = 'guiding_centres = .true.'
+  wdata(15) = 'dis_num_iter      = 300'
+  wdata(16) = 'num_print_cycles  = 10'
+  wdata(17) = 'dis_mix_ratio     = 1.0'
+  wdata(18) = 'conv_tol = 1E-6'
+  wdata(19) = 'conv_window = 2'
+
+  elecselfen  = .false.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  parallel_k  = .true.
+  parallel_q  = .false.
+
+  fsthick     = 10 ! eV
+  filkf       = './path_all.txt'
+  filqf       = './path_all.txt'
+  eptemp      = 300
+  degaussw    = 0.001
+
+  efermi_read = .true.
+  fermi_energy = 3.19 ! eV
+
+  nk1         = 4
+  nk2         = 4
+  nk3         = 4
+  nq1         = 2
+  nq2         = 2
+  nq3         = 2
+ /
+ 8 cartesian
+   0.000000000000000E+00   0.000000000000000E+00   0.000000000000000E+00  
+   0.000000000000000E+00   0.000000000000000E+00  -0.516428461638714E+00  
+   0.000000000000000E+00  -0.351188266177029E+00   0.000000000000000E+00  
+   0.000000000000000E+00  -0.351188266177029E+00  -0.516428461638714E+00  
+  -0.500000000000000E+00   0.000000000000000E+00   0.000000000000000E+00  
+  -0.500000000000000E+00   0.000000000000000E+00  -0.516428461638714E+00  
+  -0.500000000000000E+00  -0.351188266177029E+00   0.000000000000000E+00  
+  -0.500000000000000E+00  -0.351188266177029E+00  -0.516428461638714E+00  

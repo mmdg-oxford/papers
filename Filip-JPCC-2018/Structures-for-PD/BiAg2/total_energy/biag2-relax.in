@@ -1,0 +1,43 @@
+&control
+calculation='vc-relax',
+prefix='biag2',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=6,
+ntyp=2,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Bi 1.0 Bi.pbe-dn-rrkjus_psl.0.2.2.UPF
+Ag 1.0 Ag.pbe-dn-rrkjus_psl.0.1.UPF
+
+CELL_PARAMETERS (angstrom)
+   5.180185918   0.000000000   0.000000000
+   2.590092958   4.486172601   0.000000000
+   2.590092958   1.495390867   4.229588731
+
+ATOMIC_POSITIONS (crystal)
+Bi      -0.000000902  -0.000000902   0.000002706
+Bi       0.250000902   0.250000902   0.249997294
+Ag       0.125000000   0.625000000   0.625000000
+Ag       0.625000000   0.625000000   0.625000000
+Ag       0.625000000   0.125000000   0.625000000
+Ag       0.625000000   0.625000000   0.125000000
+
+K_POINTS automatic
+15 15 15 0 0 0

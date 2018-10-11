@@ -1,0 +1,134 @@
+EPW
+&inputepw
+  prefix      = 'NbS2',
+  amass(1)    = 92.906,
+  amass(2)    = 32.065,
+  outdir      = './'
+
+  ep_coupling = .true.    ! run e-p coupling calculation
+  elph        = .true.    ! calculate e-p coefficients
+  kmaps       = .false.   ! read 'prefix.kmap' and 'prefix.kgmap' from file
+  epbwrite    = .true.    ! write e-p relevant data to file (Bloch)
+  epbread     = .false.   ! read e-p relevant data from file (Bloch)
+
+  epwwrite    = .true.    ! write e-p relevant data to file (Wannier)
+  epwread     = .false.   ! read e-p relevant data from file (Wannier)
+
+  nbndsub     =  22       ! Number of wannier functions to utilize
+  nbndskip    =  12       ! The number of bands lying below the disentanglement
+                          ! window in the calculation of the Wannier functions
+
+  etf_mem      = .false.  ! If .false., matrix elements are written to disk 
+                          ! and read directly when needed (slower, but less memory used)
+
+  
+  
+
+  !-----  Wannier90 input ------------
+
+  wannierize   = .true.   ! calculate Wannier functions and write file 'filukk'
+                          ! if false, read file 'filukk' from disk
+  num_iter     = 2000
+
+  dis_win_min  =  3.5
+  dis_win_max  = 16.5
+
+  dis_froz_min =  6.5
+  dis_froz_max = 12.5
+
+  proj(1)      = 'Nb:d'
+  proj(2)      = 'S:p'
+
+  wdata(1)     = 'dis_num_iter  = 500'
+  wdata(2)     = 'dis_mix_ratio = 1.0'
+  !------------------------------------
+
+
+
+
+  iverbosity  = 2         ! 0 = short output, 1 = verbose output
+                          ! 2 = verbose output for the superconducting part only
+
+  elinterp    = .true.    ! interpolate electron wavefunctions
+  phinterp    = .true.    ! interpolate phonon modes
+
+  tshuffle2   = .true.    ! Shuffle mode for electrons + load all phonons at once
+  tphases     = .false.   ! Set without ambiguity the phases of the input wavefunctions
+
+  parallel_k  = .true.    ! Parallization over k-points of the fine mesh or
+                          ! read from filkf file
+  parallel_q  = .false.   ! Parallization over q-points of the fine mesh or
+                          ! read from filqf file
+
+  eps_acustic = 20.0       ! Lower boundary for the phonon frequency (5cm-1 ~ 0.62meV)
+  ephwrite    = .true.    ! If true, writes .ephmat files used when eliasberg = .true.
+
+  fsthick     = 0.7       ! Width of the Fermi surface window to take into account (eV)
+  eptemp      = 300       ! Array of smearing occupations for the Fermi occupation (300 K)
+  degaussw    = 0.025     ! Smearing in the energy-conserving delta functions (0.025 eV)
+  nsmear      = 1         ! Number of different smearings used to calculate
+                          ! the phonon self-energy (1)
+  nqsmear     = 10        ! Number of different smearings used to calculate the a2f (10)
+
+  degaussq    = 0.05      ! Smearing for sum over q in the e-ph coupling (0.05 meV)
+  nqstep      = 500       ! Number of steps used to calculate the a2f (500)
+
+  eliashberg  = .true.    ! If .true. solve the Eliashberg equations and/or calculate
+                          ! the Eliashberg spectral function. To solve the anisotropic
+                          ! Eliashberg equations, *.ephmat, *.freq, *.egnv, and *.ikmap 
+                          ! files should be on the disk.
+
+  laniso = .true.         ! solve the aniso. Eliashberg equations on the imaginary-axis.
+  limag  = .true.         ! solve the imaginary-axis Eliashberg equations.
+  lpade  = .false.         ! Pade approximants to continue the imaginary-axis
+                          ! Eliashberg equations to real-axis. This works with limag=.true
+
+  conv_thr_iaxis = 1.0d-5 ! Convergence threshold for iterative solution of
+                          ! imaginary-axis Eliashberg equations (1.d-05)
+
+  wscut = 1.0             ! Upper limit for frequency integration/summation in the
+                          ! Eliashberg equations (1.d0 eV)
+
+  nstemp   = 10            ! Number of temperature points for which the Eliashberg
+                          ! equations are solved (2)
+  tempsmin = 15.00        ! min. temperature
+  tempsmax = 25.00        ! max. temperature
+
+  nsiter  = 500           ! Number of iteration for the self-consistency cycle when solving
+                          ! the real- or imaginary-axis Eliashberg equations (40)
+  muc = 0.20              ! Morel-Anderson pseudopotential
+
+  dvscf_dir = './phonons/'  ! path to phonon files
+ 
+  nk1  = 6                ! Dimensions of the coarse electronic grid, corresponds
+  nk2  = 6                ! to the nscf calculation and wfs in the outdir
+  nk3  = 4
+
+  nq1  = 6                ! Dimensions of the coarse phonon grid, corresponds
+  nq2  = 6                ! to the nqs list
+  nq3  = 2 
+
+  mp_mesh_k = .true.      ! fine electronic mesh is in the IBZ
+  nkf1 = 30               ! Dimensions of the fine electron grid, if filkf is not given
+  nkf2 = 30               ! must be a multiple of nqf-grid
+  nkf3 = 10                
+
+  nqf1 = 30               ! Dimensions of the fine phonon grid, if filqf is not given
+  nqf2 = 30               
+  nqf3 = 10
+ /
+      14 cartesian
+   0.000000000   0.000000000   0.000000000  1.0
+   0.000000000   0.000000000  -0.144193222  1.0
+   0.000000000   0.192450090   0.000000000  1.0
+   0.000000000   0.192450090  -0.144193222  1.0
+   0.000000000   0.384900180   0.000000000  1.0
+   0.000000000   0.384900180  -0.144193222  1.0
+   0.000000000  -0.577350270   0.000000000  1.0
+   0.000000000  -0.577350270  -0.144193222  1.0
+   0.166666667   0.288675135   0.000000000  1.0
+   0.166666667   0.288675135  -0.144193222  1.0
+   0.166666667   0.481125224   0.000000000  1.0
+   0.166666667   0.481125224  -0.144193222  1.0
+   0.333333333   0.577350269   0.000000000  1.0
+   0.333333333   0.577350269  -0.144193222  1.0

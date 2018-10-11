@@ -1,0 +1,40 @@
+&control
+calculation='scf',
+prefix='i',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=4,
+ntyp=1,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+I 1.0 I.pz-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        5.0002198219         0.0000000000         0.0000000000
+       -2.8348147456         4.1189833243         0.0000000000
+        0.0000000000         0.0000000000         9.7772865295
+
+ATOMIC_POSITIONS {crystal}
+I     0.159457996         0.159457996         0.877910972
+I     0.340541989         0.340541989         0.377911001
+I     0.659457982         0.659457982         0.622089028
+I     0.840542018         0.840542018         0.122088999
+
+K_POINTS automatic
+   16   32   16    0    0    0

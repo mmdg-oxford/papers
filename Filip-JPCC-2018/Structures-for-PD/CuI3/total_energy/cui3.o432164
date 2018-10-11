@@ -1,0 +1,3 @@
+MPI_HOSTS: -np 32 -hostfile /var/spool/torque/aux//432164.headnode1.arcus.osc.local
+Successfully charged job 432164.headnode1.arcus.osc.local for 130208 credits
+1 reservations were removed

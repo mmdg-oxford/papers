@@ -1,0 +1,378 @@
+\documentclass[aps,prl,twocolumn,superscriptaddress]{revtex4-1}
+
+\usepackage{graphicx,bm,amssymb,amsmath,xcolor,pifont,soul}
+
+
+\begin{document}
+
+\title{Towards predictive many-body calculations of phonon-limited carrier mobilities in semiconductors}
+
+\author{Samuel Ponc\'e}
+\affiliation{Department of Materials, University of Oxford, Parks Road, Oxford, OX1 3PH, UK}
+\author{Elena R. Margine}
+\affiliation{Department of Physics, Binghamton University-SUNY, Binghamton, New York 13902, USA}
+\author{Feliciano Giustino}
+\email{feliciano.giustino@materials.ox.ac.uk}
+\affiliation{Department of Materials, University of Oxford, Parks Road, Oxford, OX1 3PH, UK}
+
+\newcommand{\mobun}{{cm$^2$/Vs}} 
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\ve{{\varepsilon}}
+\def\w{\omega}
+\def\bk{{\bf k}}
+\def\bq{{\bf q}}
+\def\bv{{\bf v}}
+\def\bE{{\bf E}}
+\def\bJ{{\bf J}}
+\def\d{\delta}
+\def\>{\rangle}
+\def\<{\langle}
+\def\D{\partial}
+\def\kt{k_{\rm B}T}
+
+\date{\today}
+
+\begin{abstract}
+We probe the accuracy limit of {\it ab initio} calculations of carrier mobilities in semiconductors,
+within the framework of the Boltzmann transport equation. By focusing on the paradigmatic case of silicon,
+we show that fully predictive calculations of electron and hole mobilities require many-body 
+quasiparticle corrections to band structures and electron-phonon matrix elements, the inclusion 
+of spin-orbit coupling, and an extremely fine sampling of inelastic scattering processes in momentum space.
+By considering all these factors we obtain excellent agreement with experiment, and we identify the 
+band effective masses as the most critical parameters to achieve predictive accuracy. Our findings 
+set a blueprint for future calculations of carrier mobilities, and pave the way to engineering transport 
+properties in semiconductors by design.
+\end{abstract}
+
+\maketitle
+
+% word removed: 1+5+9+9+3+2+3
+
+During the last decade, materials design guided by first-principles calculations has emerged 
+as a powerful research strategy. Nowadays it is often possible 
+to accurately predict ground-state properties of new materials {\it in silico}.
+This information can be used to screen for promising new materials~\cite{Curtarolo2013,Jain2016}.
+At variance with ground-state properties, the prediction and screening of materials properties involving 
+electronic excitations is still in its infancy. For example charge and heat transport coefficients are 
+typically evaluated using a combination of {\it ab initio} and semi-empirical approaches~\cite{Wang2011,Chen2013b,Hautier2013,Verstraete2014,Krishnaswamy2017}.
+The reasons for this lag are that the evaluation of transport 
+coefficients is considerably more challenging than total energies, the computational infrastructure is not 
+yet fully developed, and the lack of a clear set of reference data for validation and verification~\cite{Lejaeghere2016}.
+
+In this work, we focus on  
+phonon-limited carrier mobilities in semiconductors. The theoretical framework for calculating mobilities is 
+well established, and is rooted in the Boltzmann transport equation (BTE), as described in 
+Refs.~\cite{Ziman1960,Grimvall1981, Mahan2000}. The BTE is a semiclassical, quasiparticle theory of 
+electron transport, which can be rigorously derived from a many-body quantum-field theoretic framework by 
+neglecting two-particle correlations~\cite{Kadanoff1962}. The key ingredients are the electronic band 
+structures, the phonon dispersion relations, and the electron-phonon matrix elements. The calculations 
+of these quantities have reached maturity~\cite{Giustino2017}, therefore 
+there should be no fundamental obstacles towards predicting mobilities. However, already for the most 
+studied semiconductor, silicon, one finds that (i) calculations of carrier 
+mobilities are scarce, (ii) there is considerable scatter in the calculated data, and (iii) reproducing 
+measured mobilities remains a challenge. For example, Refs.~\onlinecite{Zhou2015,Fiorentini2016,Li2015,Restrepo2009}
+ calculate intrinsic electron mobilities at room temperature $\mu_{\rm e}=1550$, 
+1750, 1860, and 1970~\mobun, respectively, while experiments are in the range 1300-1450~\mobun\ 
+\cite{Canali1975,Norton1973,Sze2007}.
+
+Motivated by these considerations, here we set to clarify the accuracy limit and the predictive
+power of {\it ab initio} mobility calculations based on the BTE. We show that in order to correctly
+reproduce experimental data we need to take into account GW quasiparticle corrections to the band structures
+and the electron-phonon matrix elements, to include the spin-orbit splitting of the valence bands, and to properly converge the integrals over the Brillouin-zone. We also find that accurate band effective masses are absolutely critical to
+reproduce measured mobilities. By considering all these aspects, we succeed in reproducing measured 
+data with high accuracy, thus establishing unambiguously the predictive power of the {\it ab initio} BTE.
+
+In a semiconductor the steady-state electric current $\bJ$ is related to the driving electric field
+$\bE$ via the mobility tensors as: $J_\a = e \,(n_{\rm e} \,\mu_{{\rm e},\a\b} + n_{\rm h} 
+\,\mu_{{\rm h},\a\b}) E_\b$, where Greek indices denote Cartesian coordinates.
+In this expression $\mu_{{\rm e},\a\b}$, $n_{\rm e}$ and $\mu_{{\rm h},\a\b}$, $n_{\rm h}$ are the 
+mobility and particle density of electrons and holes, respectively.
+Within Boltzmann's transport formalism~\cite{Ziman1960} the current density is expressed as 
+$J_\a = -e \,\Omega^{-1} \sum_n \Omega_{\rm BZ}^{-1}\int d\bk \, f_{n\bk} \,v_{n\bk,\a}$, where
+$\Omega$ and $\Omega_{\rm BZ}$ are the volume of the crystalline
+unit cell and the first Brillouin zone, respectively. The occupation factor $f_{n\bk}$ plays the role 
+of a statistical distribution function, and reduces to the Fermi-Dirac distribution $f^0_{n\bk}$ in the 
+absence of the electric field. The band velocity is given by $v_{n\bk,\a} = \hbar^{-1}\D \ve_{n\bk}/\D k_\a$, 
+where $\ve_{n\bk}$ is the single-particle electron eigenvalue for the state $|n\bk\>$. 
+
+Using these definitions, the electron mobility is obtained via the derivative of the current with respect
+to the electric field:
+$  \mu_{{\rm e},\a\b} = -\sum_{n\in {\rm CB}}\int \!d\bk\,\, v_{n\bk,\a}\D_{E_\b} f_{n\bk}\big/$ 
+$\sum_{n\in {\rm CB}} \int \!d\bk\, f_{n\bk}^0$.
+Here the summations are restricted to the conduction bands, and $\D_{E_\b}$ is short for $\D / \D E_\b$.
+An analogous expression holds for holes. From this expression we see that in order to 
+calculate mobilities we need to evaluate $\D_{E_\b} f_{n\bk}$, that is the linear response of the
+distribution function $f_{n\bk}$ to the electric field $\bE$. This quantity can be computed starting from 
+the BTE~\cite{Ziman1960}:
+  \begin{eqnarray}
+  && (-e) \bE \cdot \frac{1}{\hbar} \frac{\D f_{n\bk}}{\D {\bk}}  = \frac{2\pi}{\hbar}  
+%  &&\frac{\D f_{n\bk}^0}{\D\ve_{n\bk}} \,\bv_{n\bk} \cdot (-e) \bE  = \frac{2\pi}{\hbar}
+  \sum_{m\nu}\!\int\!\!\frac{d\bq}{\Omega_{\rm BZ}} \, |g_{mn\nu}(\bk,\bq)|^2  \nonumber \\  
+  &&\,\,\,\, \times \big\{(1-f_{n\bk})f_{m\bk+\bq}   \d(\ve_{n\bk}-\ve_{m\bk+\bq} + \hbar\w_{\bq\nu})(1+ n_{\bq\nu})  \nonumber \\  
+  &&\,\,\,\, \,\,\,\,         +(1-f_{n\bk})f_{m\bk+\bq}   \d(\ve_{n\bk}-\ve_{m\bk+\bq} - \hbar\w_{\bq\nu})n_{\bq\nu}  \nonumber  \\ 
+  &&\,\,\,\, \,\,\,\,       -f_{n\bk}(1-f_{m\bk+\bq})   \d(\ve_{n\bk}-\ve_{m\bk+\bq} - \hbar\w_{\bq\nu})(1+ n_{\bq\nu})  \nonumber  \\  
+  &&\,\,\,\, \,\,\,\,       -f_{n\bk}(1-f_{m\bk+\bq})   \d(\ve_{n\bk}-\ve_{m\bk+\bq} + \hbar\w_{\bq\nu})n_{\bq\nu} \big\}. 
+   \label{eq.1}
+  \end{eqnarray}
+The left-hand side of Eq.~\eqref{eq.1} represents the collisionless term of Boltzmann's equation for 
+a uniform and constant electric field, in the absence of temperature gradients and magnetic fields; 
+the right-hand side represents the modification of the distribution function arising from electron-phonon 
+scattering in and out of the state $|n\bk\>$, via emission or absorption of phonons with 
+frequency $\w_{\bq\nu}$, wavevector $\bq$, and branch index $\nu$~\cite{Grimvall1981}. $n_{\bq\nu}$ is the Bose-Einstein distribution function.  
+The matrix elements $g_{mn\nu}(\bk,\bq)$ in Eq.~(\ref{eq.1}) are the probability amplitude for scattering 
+from an initial electronic state $|n\bk\>$ into a final state $|m\bk+\bq\>$ via a phonon $|\bq\nu\>$, 
+as obtained from density-functional perturbation theory~\cite{Baroni2001,Giustino2017}. 
+By taking derivatives of Eq.~\eqref{eq.1} with respect to $\bE$ we obtain an explicit
+expression for the variation $\D_{E_\b} f_{n\bk}$:
+  \begin{eqnarray}\label{eq.2}
+  &&  \D_{E_\b}\!f_{n\bk} = \! e \frac{\partial f_{n\bk}^0}{\partial \varepsilon_{n\mathbf{k}}} v_{n\bk,\b} \tau_{n\bk}^0
+\!+ \!\frac{2\pi\tau_{n\bk}^0}{\hbar}\!
+     \sum_{m\nu}\!\!\int\!\!\!\frac{d\bq}{\Omega_{\rm BZ}} |g_{mn\nu}(\bk,\bq)|^2  \nonumber \\ 
+   &&\quad   \times \left[ (1+n_{\bq\nu} - f_{n\bk}^0) \d(\ve_{n\bk}-\ve_{m\bk+\bq} + \hbar\w_{\bq\nu})  \nonumber \right. \\   
+   &&\left. \quad  + (n_{\bq\nu} + f_{n\bk}^0)  \d(\ve_{n\bk}-\ve_{m\bk+\bq} - \hbar\w_{\bq\nu})\right]\,\D_{E_\b}\!f_{m\bk+\bq}, 
+  \end{eqnarray}
+having defined the relaxation time: 
+  \begin{eqnarray}\label{eq.3}
+  \frac{1}{\tau_{n\bk}^{0}} &=& \frac{2\pi}{\hbar} \sum_{m\nu}\!\int\!\!\frac{d\bq}{\Omega_{\rm BZ}} \, |g_{mn\nu}(\bk,\bq)|^2  \nonumber \\
+  &\times& \left[(1-f_{m\bk+\bq}^0 +n_{\bq\nu}) \d(\ve_{n\bk}-\ve_{m\bk+\bq} - \hbar\w_{\bq\nu}) \right. 
+   \nonumber \\
+  &+& \left. (f_{m\bk+\bq}^0+n_{\bq\nu}) \d(\ve_{n\bk}-\ve_{m\bk+\bq} + \hbar\w_{\bq\nu})\right].    
+  \end{eqnarray}
+Equation~\eqref{eq.2} is the linearized BTE and is valid under the assumption that the energy
+gained by a carrier accelerated by the electric field over the mean free path is much smaller
+than the thermal energy, $e E_\b v_{n\bk,\b} \tau_{n\bk}^0 \ll k_B T$;
+this assumption is verified in most semiconductors under standard operating conditions. 
+This equation needs to be solved 
+self-consistently for $\D_{E_\b} f_{n\bk}$, and is also referred to as the iterative BTE (IBTE). A simpler 
+approach consists in neglecting the integral on the r.h.s. of Eq.~\eqref{eq.2}. In this case we 
+obtain the variation $\D_{E_\b} f_{n\bk}$ without solving iteratively. 
+It can be shown that the relaxation time $\tau_{n\bk}^{0}$ is related to the imaginary part of the Fan-Migdal electron 
+self-energy~\cite{Giustino2017} via $1/\tau_{n\bk}^{0} = 2 \,{\rm Im}\,
+\Sigma_{n\bk}^{\rm FM}$. 
+Based on this analogy, in the following we refer to the approximation of 
+neglecting the integral in Eq.~(\ref{eq.2}) as the `self-energy relaxation time approximation' (SERTA). 
+In this approximation the mobility takes the simple form: 
+  \begin{equation}\label{eq.4}
+  \mu_{{\rm e},\a\b} = \frac{-e}{n_{\rm e}\,\Omega}\!\sum_{n\in {\rm CB}} 
+  \int \!\frac{d\bk}{\Omega_{\rm BZ}}\,\, \frac{\partial f_{n\bk}^0}{\partial \varepsilon_{n\bk}} v_{n\bk,\a} \,v_{n\bk,\b}\,\tau_{n\bk}^{0}.
+  \end{equation}
+We perform calculations within density-functional theory (DFT), planewaves, and pseudopotentials 
+using the \texttt{EPW} code~\cite{Ponce2016a} of the \texttt{Quantum ESPRESSO}
+distribution~\cite{Giannozzi2017}, in conjunction with the \texttt{wannier90} library~\cite{Mostofi2014}. 
+This approach employs a generalized Wannier-Fourier interpolation technique~\cite{Giustino2007} 
+in order to obtain electron eigenvalues, phonon eigenfrequencies, and electron-phonon
+matrix elements on dense Brillouin zone grids by means of maximally localized Wannier functions~\cite{Marzari2012}.
+A fine sampling of the Brillouin zone is required because, at finite temperature, 
+the Fermi level lies within the band gap, therefore we need to sample scattering processes 
+taking place in the tails of the Fermi-Dirac distribution. 
+%This can be seen from Eq.~\eqref{eq.4},
+%wherein the Brillouin zone integral is weighted by $\partial f_{n\bk}^0/\partial \varepsilon_{n\bk}
+% = -f_{n\bk}^0(1-f_{n\bk}^0)/k_{\rm B}T$. 
+In our calculations the Fermi level is determined
+in such a way that the net charge density at a given temperature, $n_{\rm e}-n_{\rm h}$, equals the 
+doping level ($n_{\rm e}=n_{\rm h}$ for an intrinsic material). We now analyze in turn the key ingredients 
+when calculating mobilities. We consider the paradigmatic case of silicon,
+for which extensive experimental data are available.
+
+{\it Brillouin-zone sampling.} 
+We find that in order to obtain reliable intrinsic mobilities it is necessary to employ 
+extremely fine quasi-random grids, with a densified sampling around the band extrema~\cite{SI}. 
+Convergence of mobility values to within 0.5\% 
+is reached when using grids with 85K inequivalent $\bk$-points and 200K inequivalent $\bq$-points 
+[white dot in Supplemental Fig.~S1(a)~\cite{SI}]. Subsequent calculations in this article are performed using
+these grids.
+In Supplemental Fig.~S1(b) we compare calculations of the intrinsic mobility of silicon within the SERTA and the IBTE
+approaches. We find that the iterative solution of Eq.~\eqref{eq.2} leads to converged values which
+are 6\% higher than the SERTA result for electrons, and 1\% lower for holes. Since the IBTE is drastically
+more expensive because it requires homogeneous and commensurate grids~\cite{Li2015,Fiorentini2016}, 
+in the following discussion we focus on SERTA calculations.
+We use a finite broadening of 5~meV to evaluate the Dirac delta function in Eq.~\eqref{eq.3}.
+The sensitivity of the results to the broadening parameter is analyzed 
+in the Supplemental Material~\cite{SI}.
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\columnwidth]{fig1.pdf}
+  \caption{\label{fig1}
+  Intrinsic electron and hole mobilities of silicon at 300~K, calculated using various levels of theory.
+  The complexity of the theory increases as we move down the sequence of bars. The range of measured
+  mobilities is indicated in light grey vertical bars. Our most accurate theoretical predictions are 
+  $\mu_{\rm e} = 1366$~\mobun\ and $\mu_{\rm h} = 658$~\mobun;   by replacing the GW
+  hole effective mass with the experimental value we obtain $\mu_{\rm e} = 502$~\mobun, in much better agreement
+  with experiment. Key: SOC, spin-orbit coupling; EXP, experimental lattice parameter; 
+  GW, calculations including quasiparticle corrections;
+  SCR, electron-phonon coupling with corrected screening; 
+  IBTE, iterative Boltzmann transport equation;
+  RE, change of effective mass due to electron-phonon renormalization;
+  FIT, band structures calculated from the measured effective masses.
+  }
+\end{figure}
+{\it Exchange and correlation.}
+In order to investigate the effect of the DFT exchange and correlation we perform calculations
+within both the local density approximation (LDA)~\cite{Ceperley1980,Perdew1981} and the 
+generalized gradient approximation of Perdew, Burke, and Ernzerhof (PBE)~\cite{Perdew1996}, using scalar-relativistic pseudopotentials~\cite{Hamann2013}. Figure~\ref{fig1} shows that the intrinsic mobilities
+at 300~K differ by 16\% between LDA and PBE for electrons, and by 3\% for holes. Closer inspection
+shows that these differences arise primarily from the optimized lattice parameters obtained with
+these functionals ($a=5.40$~\AA\ in LDA and 5.47~\AA\ in PBE). In fact, when using the experimental 
+lattice parameter ($a=5.43$~\AA) the deviation between LDA and PBE mobilities reduces to 0.4\% for 
+electrons and 2\% for holes (Fig.~\ref{fig1}). These results indicate that the choice of exchange and correlation
+is not critical so long as accurate lattice parameters are employed.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\columnwidth]{fig2.pdf}
+  \caption{\label{fig2}
+  (a) Conduction bands of silicon calculated within scalar-relativistic PBE (grey), fully-relativistic PBE
+  (blue), the GW method (orange) and parabolic fit with measured effective masses (dashed).
+  The zero of the energy axis is set to the conduction band minimum
+  for clarity. (b) Valence bands of silicon, calculated within the same approximations as for (a), and
+  shown using the same color code. The zero of the energy axis is set to the valence band top.
+  In all panels the dots indicate explicit GW calculations carried out using uniform grids containing
+  12$\times$12$\times$12 to 20$\times$20$\times$20 points. The GW bands in orange are obtained via
+  Wannier interpolation. 
+  }
+\end{figure}
+
+{\it Spin-orbit coupling.}
+Spin-orbit interactions in silicon are very weak~\cite{Yu2010}, therefore relativistic 
+effects are usually neglected. However, here we find that
+spin-orbit coupling is important for predictive calculations, yielding hole mobilities 9\% higher 
+than non-relativistic calculations (Fig.~\ref{fig1}). This effect can be understood by considering 
+the band structures in Fig.~\ref{fig2}(b). The spin-orbit interaction splits the six-fold 
+degenerate states at the top of the valence bands, leading to the formation of two doubly-degenerate 
+light-hole and heavy-hole bands, and one doubly-degenerate split-off hole band. As a result the effective 
+mass of the light hole decreases (see Supplemental Table~S1~\cite{SI}), leading to a higher
+mobility. On the other hand, Fig.~\ref{fig2}(a) shows that the conduction band bottom is 
+relatively unaffected by spin-orbit coupling, and correspondingly the effect on the electron mobility is less pronounced 
+(2.7\%).
+
+{\it Many-body quasiparticle corrections.}
+Given the sensitivity of the calculated mobilities to the band extrema, we investigate the effect of
+many-body correlations within the GW quasiparticle approximation. To obtain quasiparticle energies 
+we use the \texttt{Yambo} code~\cite{Marini2009}; the values calculated
+on a 12$\times$12$\times$12 uniform grid are then interpolated using the \texttt{EPW} code. Figure~\ref{fig2} shows the 
+modification to the band extrema resulting from quasiparticle corrections. In the case of the valence
+bands, quasiparticle corrections increase the mass of the light holes (see Supplemental Table~S1~\cite{SI}); as a result the hole mobility decreases by 3\%, as shown in Fig.~\ref{fig1}. The opposite effect is observed for the
+conduction bands where the electron mobility is increased by 5\%.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\columnwidth]{fig3.pdf}
+  \caption{\label{fig3}
+  (a) Comparison between calculated and measured intrinsic (low carrier concentration $\leq 10^{15}$ cm$^{-3}$) electron and hole mobilities of silicon,
+  as a function of temperature. The calculations are performed using our best computational setup.
+  The blue lines are for holes and the orange line is for electrons. In the case of holes we show
+  both our best {\it ab initio} calculations (solid blue), and the results obtained by setting the
+  hole effective mass to the experimental value (dashed blue). The shading is a guide to the eye.
+  Experiments are from~\cite{Morin1954} ($\triangle$), \cite{Logan1960} ($\Diamond$),
+  \cite{Ludwig1956} (\ding{73}), \cite{Jacoboni1977} ($\circ$), and \cite{Norton1973} ($\Box$).
+  (b) Comparison between calculated and measured electron and hole mobilities of silicon at 300~K, 
+  as a function of carrier concentration, using the same color code as in (a). 
+  Experimental data are from~\cite{Jacoboni1977} ($\circ$).
+  The impurity scattering is included via the model of Brooks and Herring with the Long-Norton correction~\cite{Brooks1951,Li1977} as described in the Supplemental Material~\cite{SI}.
+  }
+\end{figure}
+
+{\it Corrections to the DFT screening.}
+Another source of error in the DFT calculations of carrier mobilities is the overscreening of the
+electron-phonon matrix elements $g_{mn\nu}(\mathbf{k,q})$ associated with the DFT band gap problem~\cite{Giustino2017}.
+In fact, in the case of silicon DFT yields a static dielectric 
+constant $\epsilon_{\rm DFT}^0 = 12.89$, which is higher than the measured value 
+$\epsilon_{\rm exp}^0 = 11.94$~\cite{Sze2007}. In order to overcome this issue it is 
+necessary to modify the screening in the calculation of phonon dispersion relations. Since this is 
+computationally prohibitive, here we take a simpler approach and renormalize the matrix 
+elements as follows: $g^\prime_{mn\nu}(\mathbf{k,q}) = g_{mn\nu}(\mathbf{k,q}) 
+\left[\epsilon_{\rm DFT}(|\bq|)/ \epsilon_{\rm exp}(|\bq|)\right]$.
+Here $\epsilon_{\rm exp}$ is meant to be the most accurate description of the screening that we can afford,
+and we are neglecting local-field effects which should yield an error on the order of a few percent~\cite{Hybertsen1987}. 
+For practical purposes we replace the 
+dielectric functions by an analytic expression~\cite{Resta1977}, where the only input parameter is the head of
+the dielectric matrix. The validity of this procedure
+is demonstrated in Supplemental Fig.~S3~\cite{SI} using explicit
+calculations in the random-phase approximation. This correction to the matrix elements leads
+to a decrease of the electron and hole mobilities by 8.8\% and
+12.4\%, respectively, as shown in Fig.~\ref{fig1}.
+
+{\it Thermal expansion and electron-phonon renormalization.} We computed the effect of 
+thermal lattice expansion on the DFT eigenenergies using the \texttt{thermo\_pw} code~\cite{thermopw} within the quasi-harmonic approximation 
+and concluded that this effect is negligible, see Supplemental Fig.~S6~\cite{SI}.
+We also determined the electron-phonon renormalization of the effective masses using data
+from Ref.~\onlinecite{Ponce2015}. This effect increases the masses by $\sim$3\%, and results into
+a decrease of the mobilities by $\sim$5\%. 
+
+%electron:1360 \cite{Cronemeyer1957}, 1350\cite{Ludwig1956},1430\cite{Li1977}, 1450\cite{Jacoboni1977}
+%hole:510\cite{Cronemeyer1957},  480 \cite{Ludwig1956}, 450\cite{Jacoboni1977},445\cite{Dorkel1981}
+After considering all the effects discussed so far, and after accounting for the corrections to the SERTA
+results arising from the solution of the complete IBTE, our most accurate theoretical mobilities
+at 300~K are $\mu_{\rm e} = 1366$~\mobun\ and $\mu_{\rm h} = 658$~\mobun.  
+These values are to be compared to the measured drift mobilities $\mu_{\rm e}^{\rm exp} = 1350$-1450~\mobun\
+\cite{Ludwig1956,Cronemeyer1957,Li1977,Jacoboni1977} 
+and $\mu_{\rm h}^{\rm exp} = 445$-510~\mobun\ \cite{Dorkel1981,Jacoboni1977,Ludwig1956,Cronemeyer1957} 
+(Fig.~\ref{fig1}). From the comparison with experiment
+we see that by pushing the theory to its limits we can obtain electron mobilities in very good agreement
+with experiment. On the contrary, the hole mobility are still approximately 30\% above the
+measured range. This discrepancy can be traced back to the underestimation of the [100] heavy hole
+effective masses within the GW approximation. In fact, by repeating the calculation using the 
+experimental hole effective mass instead of the GW mass, we obtain a hole mobility $\mu_{\rm h}^\prime 
+= 502$~\mobun, this time in very good agreement with experiment as shown in Fig.~\ref{fig1}. 
+This result leads us to conclude 
+that the effective mass plays an absolutely critical role in mobility calculations. Our finding can be understood
+by considering that the mobility varies with the effective mass as $\mu = (m^*)^{-p}$ with $p$ 
+being a coefficient between 1 and 2.5~\cite{Bardeen1950,Blatt1957,Keyes1959}; as a result a 20\% error
+ in the effective mass leads to an
+error in the mobility of up to 60\%. This finding highlights the critical role of accurate
+calculations of quasiparticle band structures, and raises the question on whether the standard GW
+method and pseudopotential calculations (see Supplemental Table S2) are 
+sufficient for delivering predictive mobilities.
+
+Using the best possible computational setup we can now compare our calculations with experiment
+over a range of temperatures and doping levels. Figure~\ref{fig3}(a) shows the intrinsic electron
+and hole mobilities of silicon between 100~K and 500~K. In the case of the hole mobilities
+we show both our best {\it ab initio} results (solid line), as well as those re-calculated using 
+the experimental effective masses (dashed line). Overall, the agreement between our calculations
+and experiment is very good throughout the entire temperature range. Figure~\ref{fig3}(b) shows
+a comparison between calculated and measured mobilities at 300~K, as a function of carrier concentration
+between $10^{15}$ and $10^{19}$~cm$^{-3}$.
+In this case, in addition to the \textit{ab initio} electron-phonon scattering, 
+we used the semi-empirical model of Brooks and Herring
+with the Long-Norton correction~\cite{Brooks1951,Li1977} to account for impurity scattering
+(see Supplemental Material for details~\cite{SI}). 
+Also in this case we find very good agreement with experiment, although the contribution 
+of impurity scattering is evaluated semi-empirically. 
+
+In conclusion, we pushed the accuracy of transport calculations within the BTE formalism to its limits,
+and we demonstrated that this approach can deliver predictive accuracy for a prototypical semiconductor. 
+Our findings raise two important 
+questions for future work on transport in semiconductors: (i) the present formalism yields results
+which fall within the experimental uncertainty. In order to enable further progress in this area
+it will be important to produce a high-quality experimental data from single-crystal
+samples. (ii) An unexpected challenge that we faced is to perform accurate \textit{ab initio}
+calculations of effective masses. Going forward it will be important to establish whether the GW method 
+and pseudopotential calculations can provide
+effective masses with the accuracy required for predictive mobility calculations. 
+%In hindsight, it is surprising
+%that such a basic property of semiconductors has received very little if no attention at all so far.
+Meanwhile, the present work opens the way to predictive calculations of mobilities and lays the
+groundwork for the {\it ab initio} design of semiconductor devices.
+
+\paragraph{Note added.} After submission of this work, a related calculation for Si
+was reported, where the authors found a significant increase in Si hole mobility with SOC and no effect
+from SOC on the electron mobility in line with our results~\cite{Ma2018}.
+
+\begin{acknowledgments}
+We acknowledge fruitful discussions with C. Verdi, M. Schlipf and W. Li.
+This work was supported by the Leverhulme Trust (Grant RL-2012-001), the UK EPSRC Research Council 
+(grants No. EP/J009857/1 and EP/M020517/1), the EU H2020
+programme under grant No.~696656 GrapheneCore1, the University of Oxford Advanced Research Computing (ARC) 
+facility (http://dx.doi.org/810.5281/zenodo.22558), the ARCHER UK National Supercomputing Service under 
+the AMSEC and CTOA projects, PRACE DECI-13 resource Cartesius at SURFsara, and the PRACE DECI-14 resource 
+Abel at UiO. E.R.M. acknowledges the NSF support (Award No. OAC-1740263).
+\end{acknowledgments}
+
+
+\bibliography{bibliography}
+
+
+\end{document}

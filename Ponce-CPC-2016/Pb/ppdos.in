@@ -1,0 +1,6 @@
+ &dos
+    prefix='pb',
+    outdir='./',
+    fildos='pb_noncol.dos',
+    Emin=-5, Emax=25.0, DeltaE=0.1
+ /

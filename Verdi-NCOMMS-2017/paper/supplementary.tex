@@ -1,0 +1,497 @@
+\documentclass[12pt]{nature-mod}
+\usepackage{graphicx,color,multirow,bm,braket,amsmath,soul,epstopdf}
+\def\bk{{\bf k}}
+\def\bq{{\bf q}}
+\def\ve{\varepsilon}
+\def\e{\epsilon}
+
+\begin{document}
+
+%\title{Origin of the crossover from polarons to Fermi liquids in transition metal oxides
+%\vspace{0.3cm}\\Supplementary Information}
+%\author{Carla Verdi, Fabio Caruso, Feliciano Giustino}
+%\email{feliciano.giustino@materials.ox.ac.uk}
+
+%\maketitle
+
+%\vspace{0.2cm} 
+%\begin{affiliations} 
+%\item[] Department of Materials, University of Oxford, Parks Road, Oxford OX1 3PH, United Kingdom
+%\end{affiliations} 
+
+ \begin{figure}
+ \begin{center}
+ \includegraphics[width=0.95\textwidth]{FIGURES1.png}
+ \end{center}
+ \textbf{\bf Supplementary Figure 1 $\,\bm|\,$ Crystal structure and phonon dispersions of anatase 
+ TiO$_{\bm2}$.} ({\bf a})~Ball-and-stick model of the tetragonal unit cell of anatase TiO$_2$. Ti 
+ atoms are in gray and O atoms are in red. The lattice vectors and crystallographic directions referred
+ to in the main text are indicated. ({\bf b})~Calculated phonon dispersion relations of anatase
+ TiO$_2$ along high-symmetry directions of the Brillouin zone. The $E_u$ and $A_{2u}$ phonons discussed 
+ in the main text are indicated. The $A_{2u}$ phonon is infrared active only along the $c$ axis, 
+ accordingly it is found to give a smaller contribution to the total Fr\"ohlich coupling after 
+ integrating over all phonon momenta.
+ \end{figure}
+ 
+ \clearpage
+ 
+ \begin{figure}
+ \begin{center}
+ \hspace*{-8pt} \includegraphics[width=0.95\textwidth]{FIGURES2.png}
+ \end{center}
+ \textbf{Supplementary Figure 2 $\,\bm|\,$ Non-adiabatic electron-phonon matrix elements in anatase 
+ TiO$_{\bm2}$.} ({\bf a}) Lindhard dielectric function associated with doped carriers in anatase TiO$_2$ 
+ at different values of $\bq$. For illustration we consider the highest doping level, 
+ $3.5\times10^{20}$~cm$^{-3}$.
+ ({\bf b})~Non-adiabatic electron-phonon matrix elements $g^{\rm NA}_{mn\nu}(\bk,\bq)$ corresponding 
+ to the LO E$_u$ phonon of anatase TiO$_2$, as a function of doping level. We set $n\bk$ to the 
+ bottom of the conduction band. The electron-phonon matrix element becomes weaker at high doping.
+ ({\bf c})~Comparison between the density of states (DOS) near the conduction band bottom 
+ calculated from first principles (red) and modelled with a parabolic band (blue): 
+ $\mbox{DOS}(E)=V/(2\pi^2)\,(2m_{\rm b}/\hbar^2)^{3/2}\sqrt{E}$, where $V$ is the unit cell 
+ volume of anatase. The \emph{ab initio} DOS was computed using Wannier interpolation to obtain the 
+ electronic energies on a randomly generated dense $\bk$ grid and with a Gaussian smearing of 5~meV. 
+ The gray vertical line indicates the energy corresponding to the Fermi level at the highest doping. 
+ The parabolic DOS starts deviating significantly from the calculated one for energies above 0.2~eV. 
+ \end{figure}
+ 
+\clearpage
+
+ \begin{figure}
+ \begin{center}
+ \hspace*{-8pt} \includegraphics[width=0.85\textwidth]{FIGURES3.png}
+ \end{center}
+ \textbf{Supplementary Figure 3 $\,\bm|\,$ Spectral function in the transition regime.}
+ ({\bf a})~Spectral function of anatase TiO$_2$ calculated for the doping level $1\times10^{20}$~cm$^{-3}$. 
+ Gaussian masks of widths 25~meV and 0.015~\AA$^{-1}$ were applied as in Fig.~1 of the main text. 
+ ({\bf b})~Band structure extracted from~{\bf a} (blue lines) together with the bare band (red line). 
+ For this doping one satellite is still visible but the mass renormalization parameter is decreasing 
+ ($\lambda=0.34$ as reported in the main text).
+ \end{figure}
+ 
+\clearpage
+
+ \begin{figure}
+ \begin{center}
+ \hspace*{-8pt} \includegraphics[width=0.95\textwidth]{FIGURES4.png}
+ \end{center}
+ \textbf{Supplementary Figure 4 $\,\bm|\,$ Impact of the electron lifetime on the spectral properties.}
+ Spectral function of anatase TiO$_2$ calculated for the doping level $3.5\times10^{20}$~cm$^{-3}$ 
+ using $\hbar/\tau=25$ ({\bf a}), 55 ({\bf b}) and 75 meV ({\bf c}) to compute the electronic screening 
+ (see Methods). The spectral features are virtually unchanged. We recomputed the mass renormalization 
+ parameter $\lambda$ as in the main text which gives $\lambda=0.19$, 0.20 and 0.22 for increasing 
+ broadening. The same analysis for the doping concentration $5\times10^{18}$~cm$^{-3}$ yields 
+ $\lambda=0.77$, 0.73 and 0.72 for the same broadenings. These values fall within 10\% of 
+ the results presented in the main text. 
+ \end{figure}
+
+\clearpage
+
+\textbf{Supplementary Note 1 $\,\bm|\,$ Cumulant expansion}
+
+The spectral function is related to the imaginary part of the one-electron retarded Green's function by:
+  \begin{equation} \label{eq.specfun}
+  A(\bk,\omega)=-\frac{1}{\pi} {\sum}_n {\rm{Im}}\,G_{n\bk}(\omega).
+  \end{equation}
+In the cumulant expansion the Green's function is obtained in the time domain, starting from the
+the interaction picture\cite{Langreth1970,Hedin1980,Aryasetiawan1996,Gumhalter2016}:
+  \begin{equation}
+  G_{n\bk}(t)=i\,\exp\left[-i\ve_{n\bk}t/\hbar+C_{n\bk}(t)\right],
+  \end{equation}
+where $C_{n\bk}(t)$ is the cumulant function. By taking the Fourier transform of this expression
+to the frequency domain and inserting it in Supplementary Eq.~\eqref{eq.specfun} we obtain Eq.~(1) 
+of the main text. 
+In order to obtain an expression for the cumulant which is amenable to computation, it is customary 
+to expand the exponential in powers of the cumulant: $G_{n\bk} = G_{n\bk}^0 \left[1 + C_{n\bk} + 
+C_{n\bk}^2/2+\cdots\right]$, where $G_{n\bk}^0(t) = i\,\exp\left(-i\ve_{n\bk}t/\hbar\right)$ is
+the Green's function in absence of electron-phonon interactions. Alternatively, the Green's function
+can be obtained from the Dyson equation $G_{n\bk} = G_{n\bk}^0 + G_{n\bk}^0 \varSigma_{n\bk} G^0_{n\bk}
++ G_{n\bk}^0 \varSigma_{n\bk} G^0_{n\bk} \varSigma_{n\bk} G^0_{n\bk} + \cdots$. By comparing these
+expansions term-by-term one finds an explicit expression for the cumulant function, which is
+given in the Methods and is reproduced here for completeness:
+  \begin{equation}\label{eq.cum-sigma}
+  C_{n\bk}(t)=\frac{1}{\pi \hbar}\int_{-\infty}^{\infty}{\rm d}\omega \,
+  \frac{{\rm Im}\,\varSigma_{n\bk}(\ve_{n\bk}/\hbar-\omega)}{(\omega-i\eta)^2}\,e^{(i\omega+\eta)t}
+  \,\theta(\ve_{\rm F}-\ve_{n\bk}+\hbar\omega).
+  \end{equation}
+In practical calculations the exact self-energy $\varSigma_{n\bk}$ is replaced by the best available 
+approximation, which is the Migdal expression given in Eq.~(2) of the main text. A rigorous derivation
+of the cumulant expansion and a discussion of its advantages and limitations can be found in 
+Supplementary Refs.~\citenum{Gumhalter2016,Zhou2015}. In particular, in 
+Supplementary Ref.~\citenum{Gumhalter2016} it is shown that the choice of seeding 
+the self-energy calculated with the first non-crossing diagram also 
+guarantees that no overcounting of correlated higher-order contributions is introduced in the theory. 
+The inclusion of crossing diagrams in the evaluation of the Green's function results from the time 
+orderings of the $t$ variables in the cumulant expansion.
+
+The spectral function given in Eq.~(1) of the main text yields multiple bosonic satellites, one
+for each term in the Taylor expansion of $\exp [C_{n\bk}(t)]$. A convenient expression for the
+case of a single satellite was derived in Supplementary Ref.~\citenum{Aryasetiawan1996}. 
+In this work we extended the method of Supplementary Ref.~\citenum{Aryasetiawan1996} 
+to the case of multiple satellites. Following Supplementary 
+Ref.~\citenum{Aryasetiawan1996}, we write the spectral function as:
+ \begin{equation} \label{eq.spec.cum}
+ A(\bk,\omega)={\sum}_n 
+  \left[A_{n\bk}^{\rm{QP}}(\omega)+A_{n\bk}^{\rm{QP}}(\omega)\ast A_{n\bk}^{\rm S1}(\omega)
+    +A_{n\bk}^{\rm{QP}}(\omega)\ast A_{n\bk}^{\rm S2}(\omega) + \cdots\right],
+ \end{equation}
+where $\ast$ indicates the convolution. In the last expression
+the quasiparticle contribution $A_{n\bk}^{\rm{QP}}(\omega)$ is defined as:
+ \begin{equation} \label{eq.Aqp}
+  A_{n\bk}^{\rm{QP}}(\omega)= \frac{2}{\pi}\frac{|{\rm Im}\varSigma_{n\bk}(\ve_{n\bk})|}
+    {[\hbar\omega-\ve_{n\bk}-{\rm Re}\varSigma_{n\bk}(\ve_{n\bk})]^2+[{\rm Im}\varSigma_{n\bk}(\ve_{n\bk})]^2} ,
+ \end{equation}
+and the satellite contributions associated with one-phonon and two-phonon processes are:
+\begin{equation} \label{eq.Acum}
+ A_{n\bk}^{\rm S1}(\omega) = \int_{-\infty}^{\infty} dt\,e^{i\omega t}  C_{n\bk}(t),
+    \qquad A_{n\bk}^{\rm S2}(\omega) =  
+  \int_{-\infty}^{\infty} dt\,e^{i\omega t}  \frac{1}{2}C_{n\bk}(t)C_{n\bk}(t) \,.
+\end{equation}
+The function $A^{\rm S1}$ can be written in terms of the electron-phonon self-energy by combining 
+Supplementary Eqs.~\eqref{eq.Acum} and \eqref{eq.cum-sigma} and carrying out the Fourier 
+transform. This step was performed in Supplementary Ref.~\citenum{Aryasetiawan1996}: 
+ \begin{equation}\label{eq-spectrum2}
+  A_{n\bk}^{\rm S1}(\omega)  
+  =  \frac{\beta_{n{\bf k}}(\omega) - \!\beta_{n{\bf k}}(\varepsilon_{n{\bf k}}) - 
+  \!(\omega-\varepsilon_{n{\bf k}}/\hbar)\!\left. 
+  \displaystyle\frac{\partial \beta_{n{\bf k}}}{\partial \omega}
+    \right|_{\varepsilon_{n{\bf k}}/\hbar}}
+  {(\hbar\omega-\varepsilon_{n{\bf k}})^2}, 
+  \end{equation}
+ with
+ \begin{equation}
+  \beta_{n{\bf k}}(\omega) = \frac{1}{\pi}{\rm Im}\,\varSigma_{n{\bf k}}(\varepsilon_{n{\bf k}}/\hbar-\omega)
+\theta(\ve_{\rm F}/\hbar-\omega).
+ \end{equation}
+In order to obtain the contribution of the second satellite, we note that $A_{n\bk}^{\rm S1}(\omega)$
+is the Fourier transform of $C_{n\bk}(t)$, therefore the expression for $A_{n\bk}^{\rm S2}(\omega)$
+in Supplementary Eq.~\eqref{eq.Acum} can be rewritten using the convolution theorem:
+  \begin{equation} \label{eq.s2}
+  A_{n\bk}^{\rm S2} = \frac{1}{2} A_{n\bk}^{\rm S1} \ast A_{n\bk}^{\rm S1}.
+  \end{equation}
+By combining Supplementary Eqs.~\eqref{eq.s2} and \eqref{eq.spec.cum}
+we obtain the expression used in our calculations:
+  \begin{equation} \label{eq.ourcalc}
+  A(\bk,\omega)={\sum}_n \left[ A_{n\bk}^{\rm{QP}}(\omega)+ A_{n\bk}^{\rm S1}(\omega) 
+  \ast A_{n\bk}^{\rm{QP}}(\omega) + \frac{1}{2} A_{n\bk}^{\rm S1}(\omega) \ast  
+  A_{n\bk}^{\rm S1}(\omega) \ast A_{n\bk}^{\rm QP}(\omega) +\cdots\right].
+  \end{equation}
+From Supplementary Eq.~\eqref{eq.ourcalc} we can extrapolate the general expression for 
+the case of many satellites:
+  \begin{equation}\label{eq.exponent}
+  A(\bk,\omega)={\sum}_n \left[ 1+
+  A_{n\bk}^{\rm S1}(\omega) \ast 
+  + \frac{1}{2} A_{n\bk}^{\rm S1}(\omega) \ast  A_{n\bk}^{\rm S1}(\omega) \ast + \cdots \right]
+  A_{n\bk}^{\rm{QP}}(\omega)  = {\sum}_n \displaystyle e^{A_{n\bk}^{\rm S1}(\omega) \ast }
+  A_{n\bk}^{\rm{QP}}(\omega).
+  \end{equation}
+When considering a drastically simplified model system consisting of dispersionless electrons
+and an Einstein phonon spectrum, this last expression reduces to the well-known Lang-Firsov 
+series of polaron satellites\cite{Langreth1970,Berciu2006}.
+In fact, by setting $A^{\rm QP} = Z\delta(\omega)$ and $A^{\rm S1} =
+\lambda\delta(\omega-\omega_{\rm ph})$, Supplementary Eq.~\eqref{eq.exponent} gives
+$A(\omega) = Z \sum_{m=0}^\infty (\lambda^m/m!) \,\delta(\omega-m\,\omega_{\rm ph})$.
+By further requiring the normalization of the spectral function, that is 
+$\int\!A(\omega)\,{\rm d}\omega=1$, we obtain $Z=e^{-\lambda}$ and the Lang-Firsov 
+expression is recovered.
+In our {\it ab initio} calculations we truncate Supplementary Eq.~\eqref{eq.exponent} to 
+the second order. In practice we first evaluate the quasiparticle and satellite contributions, and 
+then we perform two successive numerical convolutions in order to obtain the two satellites which are 
+seen in the experiments.
+
+\vspace{0.5cm}
+\textbf{Supplementary Note 2 $\,\bm|\,$ Mass enhancement and Fr\"ohlich coupling constant}
+
+The mass enhancement parameters obtained from the quasiparticle bands along the $\Gamma\Sigma$,
+$\Gamma$X, and $\Gamma$Z directions are $\lambda = 0.73$, 0.73, and 0.74 at the lowest doping; 
+$\lambda=0.70$ in each direction at the intermediate doping; and $\lambda =0.20$, 0.20, and 0.18 
+at the highest doping. The mass enhancement can also be calculated directly from the energy derivative 
+of the real part of the electron self-energy at the Fermi level, $\lambda_{\bf k}=-\partial{\rm Re}
+\varSigma_{\bf k}(\omega)/\partial\omega|_{\omega=\ve_{\rm F}}$\cite{Grimvall}. We checked that the values 
+thus obtained fall within less than 10\% of the ones listed above, the average over the Fermi surface 
+being \mbox{$\lambda=0.68$,} 0.65 and 0.19 for the three values of doping considered. This approach also 
+validates our calculations of the contribution to $\lambda$ arising from different phonon modes presented 
+in the analysis of Fig.~2a in the main text.
+
+From the mass enhancement parameter it is also possible to obtain the quasiparticle strength $Z$ as 
+$Z=1/(1+\lambda)$~\cite{Grimvall}. Using the values of $\lambda$ reported in Fig.~1g-i we obtain 
+$Z=0.58$, 0.59, and 0.83 with increasing doping. Our calculated quasiparticle strength at intermediate 
+doping overestimates the experimentally-determined value, $Z=0.36$~\cite{Moser2013}. We attribute this 
+difference to extrinsic losses not accounted for in our calculations; these losses are known to transfer 
+spectral weight to the satellites\cite{Hedin1985, Aryasetiawan1996, Kas2016}.
+
+In polar materials it is customary to describe the coupling to a dispersionless LO phonon via the 
+dimensionless Fr\"ohlich coupling constant $\alpha$:
+  \begin{equation} \label{alpha.def}
+  \alpha=\frac{e^2}{\hbar}\left(\frac{m_{\rm b}}{2\hbar\omega_{\rm LO}}\right)^{1/2}
+  \left(\frac{1}{\epsilon_\infty}-\frac{1}{\epsilon_0}\right),
+  \end{equation}
+where $m_{\rm b}$ is the band mass, $\hbar\omega_{\rm LO}$ the energy of the LO phonon, $\epsilon_0$ 
+and $\epsilon_\infty$ the static and high-frequency permittivities, respectively. We evaluate 
+Supplementary Eq.~\eqref{alpha.def} using the experimental values of $\omega_{\rm LO}$, 
+$\epsilon_0$, and $\epsilon_\infty$ from Supplementary Ref.~\citenum{Berger1997}. 
+For the effective masses we use our DFT 
+calculations since no accurate experimental values are available: $m_\perp=0.40\, m_{\rm e}$ and 
+$m_\parallel=4.03\,m_{\rm e}$. By using these parameters in Supplementary Eq.~\eqref{alpha.def} 
+we find the experimental Fr\"ohlich constants $\alpha_\perp=1.0$ and $\alpha_\parallel=3.4$, and their 
+isotropic average $\alpha=1.8$. The Fr\"ohlich constant $\alpha$ can also be obtained from {\it ab initio} 
+calculations of the electron-phonon matrix elements, following Supplementary Ref.~\citenum{Verdi2015}. 
+In this case we calculate $\alpha_\perp=0.9$, $\alpha_\parallel=3.0$, and the isotropic average $\alpha=1.6$. 
+These values are in excellent agreement with experiment, therefore our description of Fr\"ohlich 
+coupling in anatase TiO$_2$ is expected to be highly accurate. We note that the anisotropy of the 
+Fr\"ohlich coupling constant $\alpha_\perp$ and $\alpha_\parallel$ does not stem from anisotropic 
+electron-phonon interactions, but rather from the strong anisotropy in the band masses, which enter 
+$\alpha$ as seen in Supplementary Eq.~\eqref{alpha.def}.
+
+For weak and intermediate couplings, the polaron effective mass is commonly estimated using 
+$m^*= m_{\rm b}(1-\alpha/6)^{-1}$~\cite{Frohlich1954, Mishchenko2000}. While this procedure is
+adequate for isotropic crystals, it cannot be used in the present case of TiO$_2$. In fact, if 
+we use the isotropic average of the coupling constant, then we underestimate $m^*$ with respect 
+to experiment\cite{Moser2013}. On the other hand, if we consider $\alpha_\perp$ and $\alpha_\parallel$ 
+separately, then we obtain a strongly anisotropic mass enhancement, which is not consistent with our 
+many-body calculations. These observations indicate that, in the case of anisotropic crystals, the 
+Fr\"ohlich constant $\alpha$ should be used with caution.
+
+\vspace{0.5cm}
+\textbf{Supplementary Note 3 $\,\bm|\,$ Dielectric screening} 
+
+In this work we calculate the additional screening arising from the charge carriers
+using the random phase approximation (RPA) for the homogeneous electron gas, that is
+the Lindhard screening. This choice is motivated by the fact that we must evaluate
+the screening for millions of electron-phonon matrix elements, and explicit
+{\it ab initio} calculations of the RPA screening for such a dense Brillouin zone
+grid are not currently feasible. The use of the Lindhard model is justified by the fact that
+the system under consideration lies in the high-density electron-gas limit.
+To confirm this point we evaluate the Wigner-Seitz radius $r_s$ given by
+$r_s=(4\pi na_0^{\ast3}/3)^{-1/3}$, where $n$ is
+the doping density and $a_0^\ast=\hbar^2\epsilon_0/(e^2 m_{\rm b})$\cite{Mahan}.
+Using the band effective
+mass $m_{\rm b}$ and the static dielectric constant $\epsilon_0$ of anatase we obtain
+$r_s=1.6$ for
+the lowest doping level $5\times10^{18}$~cm$^{-3}$. This value is comparable or even smaller 
+than what found in simple metals, therefore the use of the electron gas model to describe
+doped carriers is justified.
+Moreover, the electronic bands are to a good approximation 
+parabolic in the energy range considered in this work;
+this is seen by comparing the {\it ab initio} density of states with the parabolic
+band model, Supplementary Fig.~2c. Therefore the use of a Lindhard function is 
+justified, and we expect this choice to be very accurate in the present case.
+
+\vspace{0.5cm}
+\textbf{Supplementary Note 4 $\,\bm|\,$ Polaron wavefunction} 
+
+In order to calculate the wavefunction of a polaron, we follow the approach of Supplementary 
+Ref.~\citenum{Mahan} and express the many-body electron-phonon state using Rayleigh-Schr\"odinger 
+perturbation theory. We consider a system at zero temperature and with a single electron added to the 
+bottom of the conduction band. The resulting expression is:
+  \begin{equation} \label{wfc.pert}
+  \tilde{\psi}_{n\bk}({\bf r};\{ {\bm\tau}_{\kappa} \})=
+  \psi_{n\bk}({\bf r})\ket{0_{\rm p}} + \frac{1}{\sqrt{N_\bq}}\sum_{m\nu\bq} \frac{
+  g_{mn\nu}(\bk,\bq) \psi_{m\bk+\bq}({\bf r})} {\ve_{n\bk}-\ve_{m\bk+\bq}-\omega_{\bq\nu}}
+  \,\hat a^\dagger_{-\bq\nu}\ket{0_{\rm p}},
+  \end{equation}
+where $\{ {\bm\tau}_{\kappa} \}$ are the nuclear coordinates, 
+$\hat a^\dagger_{-\bq\nu}$ is a phonon creation operator, and $\ket{0_{\rm p}}$ is the ground 
+state with no phonons. The Brillouin zone is discretized using a uniform grid with $N_{\bq}$ phonon
+wavevectors. Since the atomic displacements are smaller than characteristic interatomic distances, 
+we can simplify the above expression by replacing $\hat a^\dagger_{-\bq\nu}$ (which is a function 
+of the normal mode coordinates) by its average over a given electron-phonon state\cite{Mahan}. 
+In order to determine a lower bound to the polaron radius, we evaluate this expectation value by 
+considering an electronic wavefunction localized at the center of the reference frame, ${\bf r}=0$. 
+The result is:
+  \begin{equation}
+  \langle\hat a_{-\bq\nu}^\dagger\rangle= \frac{1}{\sqrt{N_\bq}}\sum_{m'} 
+  \frac{ g^\ast_{m'n\nu}(\bk,\bq) } {\ve_{n\bk}-\ve_{m'\bk+\bq}-\omega_{\bq\nu}}.
+  \end{equation}
+By replacing $\langle\hat a_{-\bq\nu}^\dagger\rangle$ inside Supplementary Eq.~\eqref{wfc.pert} 
+we have:
+  \begin{equation}\label{eq.pol-wfc}
+  \tilde{\psi}_{n\bk}({\bf r};\{ {\bm\tau}_{\kappa} \})= \frac{e^{i\bk\cdot{\bf r}}}{\sqrt{\varOmega}} 
+  \left[ u_{n\bk}({\bf r}) + \frac{1}{N_\bq}\sum_{m\nu\bq} \frac{
+  g_{mn\nu}(\bk,\bq) u_{m\bk+\bq}({\bf r})e^{i\bq\cdot{\bf r}} } {\ve_{n\bk}-\ve_{m\bk+\bq}-\omega_{\bq\nu}} 
+  \sum_{m'} \frac{g^\ast_{m'n\nu}(\bk,\bq)} {\ve_{n\bk}-\ve_{m'\bk+\bq}-\omega_{\bq\nu}} \right] 
+  \ket{0_{\rm p}} .
+  \end{equation}
+The expression for $\tilde{\psi}_{n\bk}$ given in the Methods was obtained from Supplementary 
+Eq.~\eqref{eq.pol-wfc} by considering the normalization of the wavefunction and by retaining the long-wavelength 
+part of the Fr\"ohlich vertex, so that $g_{mn\nu}(\bk,\bq)\rightarrow g_{mn\nu}(\bk,\bq)\,\delta_{mn}$. 
+We already demonstrated that this approximation is very accurate for anatase TiO$_2$\cite{Verdi2015}. Since 
+the main contribution to Supplementary Eq.~\eqref{wfc.pert} arises from 
+long-wavelength optical phonons, we also replace $u_{m\bk+\bq}(\mathbf r)$ by $u_{m\bk}(\mathbf r)$,
+in the spirit of the $\bk \cdot {\bf p}$ approximation.
+
+Our choice of calculating the polaron wavefunction within Rayleigh-Schr\"odinger perturbation theory 
+is justified since this theory is valid in the range $\alpha \leq 5$ (see Supplementary 
+Ref.~\citenum{Mahan}, p.~516), and the largest Fr\"ohlich coupling constant in anatase TiO$_2$ is 
+$\alpha_\parallel = 3.0$ (see Supplementary Note~2).
+
+We note that the present many-body approach for calculating the polaron wavefunction differs significantly
+from DFT calculations of excess electrons in oxides using large 
+supercells\cite{DiValentin2011, Deak2012, Setvin2014, Spreafico2014}.
+In fact in the present case we employ a quantum description of both electrons and nuclei, and a 
+dynamical (non-adiabatic) description of their interactions. In contrast, supercell DFT calculations
+describe the nuclei as classical particles and decouple electronic and nuclear degrees of freedom
+using the Born-Oppenheimer adiabatic approximation. These approximations are not justified in the
+case of TiO$_2$, and have led to results which are very sensitive to the DFT exchange and correlation
+functional and the size of the supercell. Our present perturbative approach does not suffer from these
+shortcomings.
+
+\clearpage
+
+\section*{Supplementary References}
+
+%\bibliographystyle{naturemag}
+%\bibliography{biblio-tio2}
+
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Langreth1970}
+\bibinfo{author}{Langreth, D.~C.}
+\newblock \bibinfo{title}{Singularities in the {X}-ray spectra of metals}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{1}},
+  \bibinfo{pages}{471--477} (\bibinfo{year}{1970}).
+
+\bibitem{Hedin1980}
+\bibinfo{author}{Hedin, L.}
+\newblock \bibinfo{title}{Effects of recoil on shake-up spectra in metals}.
+\newblock \emph{\bibinfo{journal}{Phys. Scr.}} \textbf{\bibinfo{volume}{21}},
+  \bibinfo{pages}{477--480} (\bibinfo{year}{1980}).
+
+\bibitem{Aryasetiawan1996}
+\bibinfo{author}{Aryasetiawan, F.}, \bibinfo{author}{Hedin, L.} \&
+  \bibinfo{author}{Karlsson, K.}
+\newblock \bibinfo{title}{Multiple plasmon satellites in {Na} and {Al} spectral
+  functions from \textit{ab initio} cumulant expansion}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{2268--2271}
+  (\bibinfo{year}{1996}).
+
+\bibitem{Gumhalter2016}
+\bibinfo{author}{Gumhalter, B.}, \bibinfo{author}{Kova\ifmmode~\check{c}\else
+  \v{c}\fi{}, V.}, \bibinfo{author}{Caruso, F.}, \bibinfo{author}{Lambert, H.}
+  \& \bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{On the combined use of {GW} approximation and
+  cumulant expansion in the calculations of quasiparticle spectra: The paradigm
+  of {Si} valence bands}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{035103} (\bibinfo{year}{2016}).
+
+\bibitem{Zhou2015}
+\bibinfo{author}{Zhou, J.~S.} \emph{et~al.}
+\newblock \bibinfo{title}{Dynamical effects in electron spectroscopy}.
+\newblock \emph{\bibinfo{journal}{J. Chem. Phys.}}
+  \textbf{\bibinfo{volume}{143}}, \bibinfo{pages}{184109}
+  (\bibinfo{year}{2015}).
+
+\bibitem{Berciu2006}
+\bibinfo{author}{Berciu, M.}
+\newblock \bibinfo{title}{Green's function of a dressed particle}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{97}}, \bibinfo{pages}{036402}
+  (\bibinfo{year}{2006}).
+
+\bibitem{Grimvall}
+\bibinfo{author}{Grimvall, G.}
+\newblock \emph{\bibinfo{title}{The Electron-Phonon Interaction in Metals}}
+  (\bibinfo{publisher}{North-Holland}, \bibinfo{address}{New York},
+  \bibinfo{year}{1981}).
+
+\bibitem{Moser2013}
+\bibinfo{author}{Moser, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Tunable polaronic conduction in anatase {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{196403}
+  (\bibinfo{year}{2013}).
+
+\bibitem{Hedin1985}
+\bibinfo{author}{Bardyszewski, W.} \& \bibinfo{author}{Hedin, L.}
+\newblock \bibinfo{title}{A new approach to the theory of photoemission from
+  solids}.
+\newblock \emph{\bibinfo{journal}{Phys. Scr.}} \textbf{\bibinfo{volume}{32}},
+  \bibinfo{pages}{439--450} (\bibinfo{year}{1985}).
+
+\bibitem{Kas2016}
+\bibinfo{author}{Kas, J.~J.}, \bibinfo{author}{Rehr, J.~J.} \&
+  \bibinfo{author}{Curtis, J.~B.}
+\newblock \bibinfo{title}{Particle-hole cumulant approach for inelastic losses
+  in x-ray spectra}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{035156} (\bibinfo{year}{2016}).
+
+\bibitem{Berger1997}
+\bibinfo{author}{Gonzalez, R.~J.}, \bibinfo{author}{Zallen, R.} \&
+  \bibinfo{author}{Berger, H.}
+\newblock \bibinfo{title}{Infrared reflectivity and lattice fundamentals in
+  anatase {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{55}},
+  \bibinfo{pages}{7014--7017} (\bibinfo{year}{1997}).
+
+\bibitem{Verdi2015}
+\bibinfo{author}{Verdi, C.} \& \bibinfo{author}{Giustino, F.}
+\newblock \bibinfo{title}{Fr\"ohlich electron-phonon vertex from first
+  principles}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{176401}
+  (\bibinfo{year}{2015}).
+
+\bibitem{Frohlich1954}
+\bibinfo{author}{Fr\"ohlich, H.}
+\newblock \bibinfo{title}{Electrons in lattice fields}.
+\newblock \emph{\bibinfo{journal}{Adv. Phys.}} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{325--361} (\bibinfo{year}{1954}).
+
+\bibitem{Mishchenko2000}
+\bibinfo{author}{Mishchenko, A.~S.}, \bibinfo{author}{Prokof'ev, N.~V.},
+  \bibinfo{author}{Sakamoto, A.} \& \bibinfo{author}{Svistunov, B.~V.}
+\newblock \bibinfo{title}{Diagrammatic quantum {Monte Carlo} study of the
+  {Fr\"ohlich} polaron}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{62}},
+  \bibinfo{pages}{6317--6336} (\bibinfo{year}{2000}).
+
+\bibitem{Mahan}
+\bibinfo{author}{Mahan, G.~D.}
+\newblock \emph{\bibinfo{title}{Many-Particle Physics}}
+  (\bibinfo{publisher}{Plenum}, \bibinfo{address}{New York},
+  \bibinfo{year}{1981}).
+
+\bibitem{DiValentin2011}
+\bibinfo{author}{Di~Valentin, C.} \& \bibinfo{author}{Selloni, A.}
+\newblock \bibinfo{title}{Bulk and surface polarons in photoexcited anatase
+  {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{J. Phys. Chem. Lett.}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{2223--2228}
+  (\bibinfo{year}{2011}).
+
+\bibitem{Deak2012}
+\bibinfo{author}{De\'ak, P.}, \bibinfo{author}{Aradi, B.} \&
+  \bibinfo{author}{Frauenheim, T.}
+\newblock \bibinfo{title}{Quantitative theory of the oxygen vacancy and carrier
+  self-trapping in bulk {TiO$_2$}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{195206} (\bibinfo{year}{2012}).
+
+\bibitem{Setvin2014}
+\bibinfo{author}{Setvin, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Direct view at excess electrons in {TiO$_2$} rutile
+  and anatase}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{086402}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Spreafico2014}
+\bibinfo{author}{Spreafico, C.} \& \bibinfo{author}{VandeVondele, J.}
+\newblock \bibinfo{title}{The nature of excess electrons in anatase and rutile
+  from hybrid {DFT} and {RPA}}.
+\newblock \emph{\bibinfo{journal}{Phys. Chem. Chem. Phys.}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{26144--26152}
+  (\bibinfo{year}{2014}).
+
+\end{thebibliography}
+
+
+\end{document}

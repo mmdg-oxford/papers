@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_BiAuBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15775072
+_cell_length_b   10.67193313
+_cell_length_c   15.15421573
+_cell_angle_alpha   103.97052620
+_cell_angle_beta   95.69274163
+_cell_angle_gamma   112.01361164
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiAuBr6
+_chemical_formula_sum   'Bi4 Au4 Br24'
+_cell_volume   1160.26438681
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi1  1  0.600509  0.929444  0.619602  1
+  Bi  Bi2  1  0.399491  0.070556  0.380398  1
+  Bi  Bi3  1  0.972395  0.314137  0.872538  1
+  Bi  Bi4  1  0.027605  0.685863  0.127462  1
+  Au  Au5  1  0.295280  0.629290  0.764538  1
+  Au  Au6  1  0.704720  0.370710  0.235462  1
+  Au  Au7  1  0.500000  0.500000  0.500000  1
+  Au  Au8  1  0.000000  0.000000  0.000000  1
+  Br  Br9  1  0.612564  0.728677  0.748636  1
+  Br  Br10  1  0.387436  0.271323  0.251364  1
+  Br  Br11  1  0.266012  0.840240  0.739528  1
+  Br  Br12  1  0.733988  0.159760  0.260472  1
+  Br  Br13  1  0.975500  0.531683  0.779212  1
+  Br  Br14  1  0.024500  0.468317  0.220788  1
+  Br  Br15  1  0.321371  0.414627  0.787534  1
+  Br  Br16  1  0.678629  0.585373  0.212466  1
+  Br  Br17  1  0.694307  0.370294  0.506242  1
+  Br  Br18  1  0.305693  0.629706  0.493758  1
+  Br  Br19  1  0.768308  0.722889  0.522625  1
+  Br  Br20  1  0.231692  0.277111  0.477375  1
+  Br  Br21  1  0.780278  0.101584  0.970337  1
+  Br  Br22  1  0.219722  0.898416  0.029663  1
+  Br  Br23  1  0.763077  0.801407  0.033728  1
+  Br  Br24  1  0.236923  0.198593  0.966272  1
+  Br  Br25  1  0.613443  0.186253  0.744316  1
+  Br  Br26  1  0.386557  0.813747  0.255684  1
+  Br  Br27  1  0.961596  0.053066  0.722956  1
+  Br  Br28  1  0.038404  0.946934  0.277044  1
+  Br  Br29  1  0.735422  0.048576  0.482727  1
+  Br  Br30  1  0.264578  0.951424  0.517273  1
+  Br  Br31  1  0.755657  0.435171  0.974342  1
+  Br  Br32  1  0.244343  0.564829  0.025658  1

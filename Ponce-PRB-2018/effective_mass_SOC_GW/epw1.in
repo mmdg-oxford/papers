@@ -1,0 +1,90 @@
+--
+&inputepw
+  prefix      = 'si'
+  amass(1)    = 28.0855
+  outdir      = './'
+
+  iverbosity  = 0
+
+  elph        = .true.
+  epbwrite    = .true.
+  epbread     = .false.
+
+  etf_mem     = 1
+  eig_read    = .true. ! reads the GW si.eig file
+
+  epwwrite    = .true.
+  epwread     = .false.
+
+  nbndsub     =  16
+  nbndskip    =  0
+
+  wannierize  = .true.
+  num_iter    = 200000
+  iprint      = 2
+  dis_win_max = 18
+  dis_froz_max= 8.5
+  proj(1)     = 'Si : sp3'   
+  wdata(1) = 'bands_plot = .true.'
+  wdata(2) = 'begin kpoint_path'
+  wdata(3) = 'G 0.00 0.00 0.00 X 0.50 0.50 0.00'
+  wdata(4) = 'G 0.00 0.00 0.00 L 0.50 0.00 0.00'
+  wdata(5) = 'G 0.00 0.00 0.00 K 0.375 0.375 0.75'
+  wdata(6) = 'end kpoint_path'
+  wdata(7) = 'bands_plot_format = gnuplot'
+  wdata(8) = 'guiding_centres = .true.'
+  wdata(9) = 'dis_num_iter      = 5000'
+  wdata(10) = 'num_print_cycles  = 10'
+  wdata(11) = 'dis_mix_ratio     = 1.0'
+  wdata(12) = 'conv_tol = 1E-10'
+  wdata(13) = 'conv_window = 2'
+  wdata(14) = 'use_ws_distance = T'
+
+
+  elecselfen  = .false.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  parallel_k  = .true.
+  parallel_q  = .false.
+
+  fsthick     = 0.5 ! eV 
+  eptemp      = 1 ! K 
+  degaussw    = 0.005 ! eV
+
+  dvscf_dir   = '../phonons-SOC-exp/save/'
+
+!  efermi_read  = .true.
+!  fermi_energy = 6.414646 ! Middle of VBM = 6.213292 and CBM = 6.616 
+
+ 
+  band_plot   = .true.
+
+  filkf       = './GXGLGK.txt'
+  filqf       = './GXGLGK.txt'
+ 
+  nk1         = 12
+  nk2         = 12
+  nk3         = 12
+
+  nq1         = 6
+  nq2         = 6
+  nq3         = 6
+ /
+      16 cartesian
+    0.000000000   0.000000000   0.000000000 
+   -0.166666667   0.166666667  -0.166666667 
+   -0.333333333   0.333333333  -0.333333333 
+    0.500000000  -0.500000000   0.500000000 
+    0.000000000   0.333333333   0.000000000 
+   -0.166666667   0.500000000  -0.166666667 
+    0.666666667  -0.333333333   0.666666667 
+    0.500000000  -0.166666667   0.500000000 
+    0.333333333   0.000000000   0.333333333 
+    0.000000000   0.666666667   0.000000000 
+    0.833333333  -0.166666667   0.833333333 
+    0.666666667  -0.000000000   0.666666667 
+    0.000000000  -1.000000000   0.000000000 
+    0.666666667  -0.333333333   1.000000000 
+    0.500000000  -0.166666667   0.833333333 
+   -0.333333333  -1.000000000   0.000000000 

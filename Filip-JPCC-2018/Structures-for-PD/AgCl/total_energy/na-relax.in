@@ -1,0 +1,38 @@
+&control
+calculation='vc-relax',
+prefix='xxx',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=2,
+ntyp=1,
+ecutwfc=80,
+ecutrho=400,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Xxx 1.0 Na.pbe-spn-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        3.7594170570         0.0000000000         0.0000000000
+       -1.8797085285         3.2557506748         0.0000000000
+        0.0000000000         0.0000000000         6.0649771690
+
+ATOMIC_POSITIONS {crystal}
+Xxx    0.333332986         0.666666985         0.250000000
+Xxx    0.666666985         0.333332986         0.750000000
+
+K_POINTS automatic
+16 16 8 0 0 0

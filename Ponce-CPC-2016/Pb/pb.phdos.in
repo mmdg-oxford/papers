@@ -1,0 +1,5 @@
+ &input
+    asr='simple',  dos=.true., amass(1)=207.2
+    flfrc='pb888.fc', fldos='pb.phdos', nk1=40,nk2=40,nk3=40
+    ndos = 300
+ /

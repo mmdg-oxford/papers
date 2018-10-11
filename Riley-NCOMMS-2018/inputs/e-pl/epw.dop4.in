@@ -1,0 +1,89 @@
+--
+&inputepw
+  prefix      = 'euo'
+  amass(1)    = 151.96
+  amass(2)    = 15.999
+  outdir      = './tmp/'
+
+  elph        = .true.
+  kmaps       = .false.
+  epbwrite    = .true.
+  epbread     = .false.
+
+  epwwrite    = .true.
+  epwread     = .false.
+
+  nbndsub     =  19
+  nbndskip    =  8
+
+  wannierize  = .true.
+  num_iter    = 2600
+  dis_win_max = 18.1
+  dis_win_min = 4.6
+  dis_froz_min= 4.6
+  dis_froz_max= 7.1
+  proj(1)     = 'Eu:f(u)'
+  proj(2)     = 'Eu:d(u,d)'
+  proj(3)     = 'Eu:s(u,d)'
+  wdata(1)    = 'dis_num_iter = 1000'
+  !wdata(2)    = 'bands_plot = .true.'
+  !wdata(3)    = 'Begin Kpoint_Path'
+  !wdata(4)    = 'L 0.0 0.5 0.0  G 0.0 0.0 0.0' 
+  !wdata(5)    = 'G 0.0 0.0 0.0  X 0.0 0.5 0.5'
+  !wdata(6)    = 'X 0.0 0.5 0.5  W -0.25 0.5 0.25' 
+  !wdata(7)    = 'W -0.25 0.5 0.25  K -0.375 0.375 0.0'
+  !wdata(8)    = 'K -0.375 0.375 0.0  G 0.0 0.0 0.0'
+  !wdata(9)    = 'End Kpoint_Path'
+
+  Nel         = 0.00173244
+  epsiHEG     = 4.6
+  meff        = 0.26
+  
+  !elinterp    = .true.
+  !phinterp    = .true.
+
+  !tshuffle2   = .true.
+  !tphases     = .false.
+
+  !lpolar      = .true.
+
+  elecselfen  = .true.
+  phonselfen  = .false.
+  a2f         = .false.
+  band_plot   = .true.
+
+  parallel_k  = .true.
+  parallel_q  = .false.
+
+  fsthick     = 100.0
+  eptemp      = 20.0
+  degaussw    = 0.01
+ 
+  specfun = .true.
+  wmax_specfun = 0.2
+  wmin_specfun = -1.0
+  nw_specfun   = 1200
+
+  efermi_read = .true.
+  fermi_energy= 7.59859500
+
+  dvscf_dir   = './save'
+  filkf       = './path.dat'
+  filqf       = './cauchy-grid'
+  
+  nk1         = 4
+  nk2         = 4
+  nk3         = 4
+  nq1         = 4
+  nq2         = 4
+  nq3         = 4
+ /
+  8 cartesian
+   0.000000000000000E+00   0.000000000000000E+00   0.000000000000000E+00 0.1
+  -0.250000000000000E+00   0.250000000000000E+00  -0.250000000000000E+00 0.1
+   0.500000000000000E+00  -0.500000000000000E+00   0.500000000000000E+00 0.1
+   0.000000000000000E+00   0.500000000000000E+00   0.000000000000000E+00 0.1
+   0.750000000000000E+00  -0.250000000000000E+00   0.750000000000000E+00 0.1
+   0.500000000000000E+00   0.000000000000000E+00   0.500000000000000E+00 0.1
+   0.000000000000000E+00  -0.100000000000000E+01   0.000000000000000E+00 0.1
+  -0.500000000000000E+00  -0.100000000000000E+01   0.000000000000000E+00 0.1

@@ -1,0 +1,42 @@
+&control
+calculation='scf',
+prefix='cui4',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=5,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cu 1.0 Cu.pz-dn-rrkjus_psl.0.2.UPF
+I 1.0 I.pz-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        6.8811249733         0.0000000000         0.0000000000
+        2.3130714628         6.4807083954         0.0000000000
+       -4.5970984662        -3.2403543726         3.9644255738
+
+ATOMIC_POSITIONS {crystal}
+Cu	     0.000000000         0.000000000         0.000000000
+I	     0.867492974         0.391777009         0.000000000
+I	     0.391777009         0.867492974         0.000000000
+I	     0.132506996         0.132506996         0.524284005
+I	     0.608223021         0.608223021         0.475715995
+
+K_POINTS automatic
+    9    9   18    0    0    0

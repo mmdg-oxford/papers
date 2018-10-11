@@ -1,0 +1,44 @@
+#                                                           
+#                                                           
+# Y88b    /   e           e    e      888~~\    ,88~-_      
+#  Y88b  /   d8b         d8b  d8b     888   |  d888   \     
+#   Y88b/   /Y88b       d888bdY88b    888 _/  88888    |    
+#    Y8Y   /  Y88b     / Y88Y Y888b   888  \  88888    |    
+#     Y   /____Y88b   /   YY   Y888b  888   |  Y888   /     
+#    /   /      Y88b /          Y888b 888__/    `88_-~      
+#                                                           
+#                                                           
+# GPL Version 4.2.0 Revision 109. (Based on r.10030 h.c8f2c8
+#                       MPI Build                           
+#               http://www.yambo-code.org                   
+#
+ppa                            # [R Xp] Plasmon Pole Approximation
+gw0                            # [R GW] GoWo Quasiparticle energy levels
+HF_and_locXC                   # [R XX] Hartree-Fock Self-energy and Vxc
+em1d                           # [R Xd] Dynamical Inverse Dielectric Matrix
+NLogCPUs=0                     # [PARALLEL] Live-timing CPU`s (0 for all)
+PAR_def_mode= "balanced"       # [PARALLEL] Default distribution mode ("balanced"/"memory"/"workload")
+X_all_q_CPU= ""                # [PARALLEL] CPUs for each role
+X_all_q_ROLEs= ""              # [PARALLEL] CPUs roles (q,k,c,v)
+X_all_q_nCPU_LinAlg_INV= 1     # [PARALLEL] CPUs for Linear Algebra
+SE_CPU= ""                     # [PARALLEL] CPUs for each role
+SE_ROLEs= ""                   # [PARALLEL] CPUs roles (q,qp,b)
+EXXRLvcs=  867027      RL      # [XX] Exchange RL components
+Chimod= ""                     # [X] IP/Hartree/ALDA/LRC/BSfxc
+% BndsRnXp
+    1 | 1000 |                 # [Xp] Polarization function bands
+%
+NGsBlkXp= 1            RL      # [Xp] Response block size
+% LongDrXp
+ 1.000000 | 0.000000 | 0.000000 |        # [Xp] [cc] Electric Field
+%
+PPAPntXp= 27.21138     eV      # [Xp] PPA imaginary energy
+% GbndRnge
+    1 | 1000 |                 # [GW] G[W] bands range
+%
+GDamping=  0.10000     eV      # [GW] G[W] damping
+dScStep=  0.10000      eV      # [GW] Energy step to evaluate Z factors
+DysSolver= "n"                 # [GW] Dyson Equation solver ("n","s","g")
+%QPkrange                    # [GW] QP generalized Kpoint/Band indices
+  1| 36|  1|***|
+%

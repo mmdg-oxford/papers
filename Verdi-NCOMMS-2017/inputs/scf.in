@@ -1,0 +1,31 @@
+&control
+    calculation='scf'
+    restart_mode='from_scratch',
+    pseudo_dir='./',
+    prefix='ana',
+/
+&system
+    ibrav=7, 
+    celldm(1) = 7.1535,
+    celldm(3) = 2.5145,
+    nat = 6,
+    ntyp = 2, 
+    ecutwfc = 200.0, 
+/
+&electrons
+    diagonalization='david',
+    conv_thr =  1.0d-9,
+    mixing_beta = 0.5,
+/
+ATOMIC_SPECIES
+ Ti  47.867  Ti.IV.pbe-cep_ox.UPF
+ O   16.0  O.pbe.NC-cep.UPF
+ATOMIC_POSITIONS {alat}
+Ti       0.000000000   0.000000000   0.000000000
+Ti       0.000000000   0.500000000   0.628625000
+O        0.000000000   0.000000000   0.527413022
+O        0.000000000   0.500000000   1.156038022
+O        0.500000000   0.500000000   0.729836978
+O        0.000000000   0.500000000   0.101211978
+K_POINTS {automatic}
+ 8 8 8 0 0 0

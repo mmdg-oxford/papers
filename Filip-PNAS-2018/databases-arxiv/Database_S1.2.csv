@@ -1,0 +1,596 @@
+Database S1.2 ,,,,,,,,,,
+Known non-perovskites,,,,,,,,,,
+Compound,Structure,Source (ICSD ID or Reference),A,,B,,B’,,X,
+,,,Ion,Oxidation state,Ion,Oxidation state,Ion,Oxidation state,Ion,Oxidation state
+Ag2VAsO6,A2BB’X6 – other,425757,Ag,1,V,5,As,5,O,-2
+Ho2Be2SiO7,A2B2B’X7,73521,Ho,3,Be,2,Si,4,O,-2
+Ag2VPO6,A2BB’X6 – other,730580,Ag,1,V,5,P,5,O,-2
+AgBiO3,Ilmenite,89432,Ag,1,Bi,5,Bi,5,O,-2
+AgCaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Ca,2,Ca,2,Cl,-1
+AgCdBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Cd,2,Cd,2,Br,-1
+AgFeP2O7,ABB’2X7,421413,Fe,3,Ag,1,P,5,O,-2
+AgFeV2O7,ABB’2X7,166891,Fe,3,Ag,1,V,5,O,-2
+AgI3O8,AB3X8,194399,Ag,1,I,5,I,5,O,-2
+AgInP2O7,ABB’2X7,261150,In,3,Ag,1,P,5,O,-2
+AgLaNb2O7,ABB’2X7,73983,La,3,Ag,1,Nb,5,O,-2
+AgMgCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Mg,2,Mg,2,Cl,-1
+AgPbBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Pb,2,Pb,2,Br,-1
+AgPbF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Ag,1,Pb,2,Pb,2,F,-1
+AgTaS3,Pyroxene,74442,Ag,1,Ta,5,Ta,5,S,-2
+AgVP2O7,ABB’2X7,427970,V,3,Ag,1,P,5,O,-2
+AlBO3,Calcite,30538,Al,3,B,3,B,3,O,-2
+AsBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",As,3,B,3,B,3,O,-2
+B2BaTiO6,A2BB’X6 – other,97972,B,3,Ba,2,Ti,4,O,-2
+B2BaZrO6,A2BB’X6 – other,95527,B,3,Ba,2,Zr,4,O,-2
+B2CaSnO6,A2BB’X6 – other,30998,B,3,Ca,2,Sn,4,O,-2
+B2CsNbO6,A2BB’X6 – other,80422,B,3,Cs,1,Nb,5,O,-2
+B2CsTaO6,A2BB’X6 – other,80423,B,3,Cs,1,Ta,5,O,-2
+B2KNbO6,A2BB’X6 – other,170807,B,3,K,1,Nb,5,O,-2
+B2KSbO6,A2BB’X6 – other,238073,B,3,K,1,Sb,5,O,-2
+B2KTaO6,A2BB’X6 – other,162214,B,3,K,1,Ta,5,O,-2
+B2MgSnO6,A2BB’X6 – other,28266,B,3,Mg,2,Sn,4,O,-2
+B2MnSnO6,A2BB’X6 – other,79165,B,3,Mn,2,Sn,4,O,-2
+B2NaNbO6,A2BB’X6 – other,79703,B,3,Na,1,Nb,5,O,-2
+B2RbNbO6,A2BB’X6 – other,395,B,3,Rb,1,Nb,5,O,-2
+B2SrSnO6,A2BB’X6 – other,28267,B,3,Sr,2,Sn,4,O,-2
+B2TlNbO6,A2BB’X6 – other,2082,B,3,Tl,1,Nb,5,O,-2
+B2YCrO6,A2BB’X6 – other,189501,B,3,Y,3,Cr,3,O,-2
+Ba2BiRuO6,A2BB’X6 – other,72450,Ba,2,Bi,3,Ru,5,O,-2
+Ba2CoIrO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,3,Ir,5,O,-2
+Ba2CoOsO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,2,Os,6,O,-2
+Ba2CoSbO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Co,3,Sb,5,O,-2
+Ba2CrOsO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,Os,5,O,-2
+Ba2CrReO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,Re,5,O,-2
+Ba2CrTaO6,A2BB’X6 – other,74410,Ba,2,Cr,3,Ta,5,O,-2
+Ba2CtWO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Cr,3,W,5,O,-2
+Ba2CuTeO6,A2BB’X6 – other,6240,Ba,2,Cu,2,Te,6,O,-2
+Ba2FeOsO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Fe,3,Os,5,O,-2
+Ba2InIrO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Ir,5,O,-2
+Ba2InRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,In,3,Ru,5,O,-2
+Ba2MnIrO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,3,Ir,5,O,-2
+Ba2MnOsO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,2,Os,6,O,-2
+Ba2MnRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Mn,3,Ru,5,O,-2
+Ba2NiOSO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,Os,6,O,-2
+Ba2NiTeO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Ni,2,Te,6,O,-2
+Ba2RhRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Rh,3,Ru,5,O,-2
+Ba2RhSbO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Rh,3,Sb,5,O,-2
+Ba2RhUO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Rh,3,U,5,O,-2
+Ba2ScMoO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Sc,3,Mo,5,O,-2
+Ba2ZnTeO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ba,2,Zn,2,Te,6,O,-2
+BaBAsO5,ABB’X5,404439,Ba,2,B,3,As,5,O,-2
+BaBPO5,ABB’X5,50875,Ba,2,B,3,P,5,O,-2
+BaCO3,Aragonite,15196,Ba,2,C,4,C,4,O,-2
+BaCoO3,BaNiO3 – type,922,Ba,2,Co,4,Co,4,O,-2
+BaCrO3,BaMnO3 – type,35029,Ba,2,Cr,4,Cr,4,O,-2
+BaGeO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Ba,2,Ge,4,Ge,4,O,-2
+BaMnO3,BaNiO3 – type,10331,Ba,2,Mn,4,Mn,4,O,-2
+BaNbS3,BaNiO3 – type,659538,Ba,2,Nb,4,Nb,4,S,-2
+BaNiO3,BaNiO3 – type,175,Ba,2,Ni,4,Ni,4,O,-2
+BaRhO3,BaMnO3 – type,15520,Ba,2,Rh,4,Rh,4,O,-2
+BaRuO3,BaRuO3 – type,10253,Ba,2,Ru,4,Ru,4,O,-2
+BaRuO3,BaMnO3 – type,84652,Ba,2,Ru,4,Ru,4,O,-2
+BaSe2O5,AB2X5,54157,Ba,2,Se,4,Se,4,O,-2
+BaSiO3,BaRuO3 – type,156705,Ba,2,Si,4,Si,4,O,-2
+BaSn2S5,AB2X5,424620,Ba,2,Sn,4,Sn,4,S,-2
+BaTaS3,BaNiO3 – type,16083,Ba,2,Ta,4,Ta,4,S,-2
+BaTaSe3,BaNiO3 – type,616129,Ba,2,Ta,4,Ta,4,Se,-2
+BaTe3O7,AB3X7,431435,Ba,2,Te,4,Te,4,O,-2
+BaTh2S5,AB2X5,251556,Ba,2,Th,4,Th,4,S,-2
+BaTiS3,BaNiO3 – type,14175,Ba,2,Ti,4,Ti,4,S,-2
+BaTiSe3,BaNiO3 – type,616131,Ba,2,Ti,4,Ti,4,Se,-2
+BaU2S5,AB2X5,425332,Ba,2,U,4,U,4,S,-2
+BaU2Se5,AB2X5,616132,Ba,2,U,4,U,4,Se,-2
+BaU2Te5,AB2X5,251557,Ba,2,U,4,U,4,Te,-2
+BaV4O9,AB3X9,172998,Ba,2,V,4,V,4,O,-2
+BaVS3,BaNiO3 – type,8193,Ba,2,V,4,V,4,S,-2
+BaVSe3,BaNiO3 – type,10486,Ba,2,V,4,V,4,Se,-2
+BaVSi2O7,ABB’2X7,78029,Ba,2,V,4,Si,4,O,-2
+BaZrSe3,BaNiO3 – type,616136,Ba,2,Zr,4,Zr,4,Se,-2
+Be2SiO4,A2BX4 – other,64942,Be,2,Si,4,Si,4,O,-2
+Bi2CdGeO6,A2BB’X6 – other,82158,Bi,3,Cd,2,Ge,4,O,-2
+Bi2FeTiO6,A2BB’X6 – other,162263,Bi,3,Fe,2,Ti,4,O,-2
+Bi2NiMnO6,A2BB’X6 – other,152487,Bi,3,Ni,2,Mn,4,O,-2
+BiCdVO5,ABB’X5,91474,Cd,2,Bi,3,V,5,O,-2
+BiCoPO5,ABB’X5,88825,Co,2,Bi,3,P,5,O,-2
+BiMgVO5,ABB’X5,150399,Mg,2,Bi,3,V,5,O,-2
+BiMnAsO5,ABB’X5,59721,Mn,2,Bi,3,As,5,O,-2
+BiMnPO5,ABB’X5,95086,Mn,2,Bi,3,P,5,O,-2
+BiMnVO5,ABB’X5,59720,Mn,2,Bi,3,V,5,O,-2
+BiNiPO5,ABB’X5,79857,Ni,2,Bi,3,P,5,O,-2
+BiPVO5,ABB’X5,60577,Pb,2,Bi,3,V,5,O,-2
+BiSmO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Bi,3,Sm,3,Sm,3,O,-2
+BPCo3O7,ABB’X3X7,51317,Co,2,P,5,B,3,O,-2
+BPZn3O7,ABB’X3X7,406386,Zn,2,P,5,B,3,O,-2
+Ca2Al2SiO7,A2B2B’X7,24588,Al,3,Ca,2,Si,4,Si,-2
+Ca2B2SiO7,A2B2B’X7,5244,B,3,Ca,2,Si,4,Si,-2
+Ca2BiAsO6,A2BB’X6 – other,91475,Ca,2,Bi,3,As,5,O,-2
+Ca2GeS4,Olivine,23416,Ca,2,Ge,4,Ge,4,S,-2
+Ca2SiS4,Olivine,619542,Ca,2,Si,4,Si,4,S,-2
+Ca2SiSe4,Olivine,619574,Ca,2,Si,4,Si,4,Se,-2
+Ca2SnS4,Olivine,619548,Ca,2,Sn,4,Sn,4,S,-2
+CaBiVO5,ABB’X5,73814,Ca,2,Bi,3,V,5,O,-2
+CaBPO5,ABB’X5,87893,Ca,2,B,3,P,5,O,-2
+CaCO3,Aragonite,15194,Ca,2,C,4,C,4,O,-2
+CaPtO3,Pyroxene,173278,Ca,2,Pt,4,Pt,4,O,-2
+CaSe2O5,AB2X5,27209,Ca,2,Se,4,Se,4,O,-2
+CaSnSiO5,ABB’X5,1042,Ca,2,Sn,4,Si,4,O,-2
+CaTe2O5,AB2X5,419646,Ca,2,Te,4,Te,4,O,-2
+CaTeCO5,ABB’X5,4319,Ca,2,Te,4,C,4,O,-2
+CaTiGeO5,ABB’X5,171795,Ca,2,Ti,4,Ge,4,O,-2
+CaTiSiO5,ABB’X5,9837,Ca,2,Ti,4,Si,4,O,-2
+CaU2Se5,AB2X5,619577,Ca,2,U,4,U,4,Se,-2
+CaZrGeO5,ABB’X5,154327,Ca,2,Zr,4,Ge,4,O,-2
+CaZrSi2O7,ABB’2X7,203131,Ca,2,Zr,4,Si,4,O,-2
+Cd2BiAsO6,A2BB’X6 – other,154151,Cd,2,Bi,3,As,5,O,-2
+Cd2Mn3O8,A2B3X8,16957,Cd,2,Mn,4,Mn,4,O,-2
+Cd2SiO4,A2BX4 – other,50527,Cd,2,Si,4,Si,4,O,-2
+CdCO3,Calcite,33662,Cd,2,C,4,C,4,O,-2
+CdSe2O5,AB2X5,75230,Cd,2,Se,4,Se,4,O,-2
+CeBO3,Aragonite,99689,Ce,3,B,3,B,3,O,-2
+Co2GeO4,Spinel,21115,Co,2,Ge,4,Ge,4,O,-2
+Co2Mo3O8,A2B3X8,10143,Co,2,Mo,4,Mo,4,O,-2
+Co2SiO4,Olivine,6248,Co,2,Si,4,Si,4,O,-2
+Co2Te3O8,A2B3X8,50702,Co,2,Te,4,Te,4,O,-2
+CoBiAsO5,ABB’X5,428633,Co,2,Bi,3,As,5,O,-2
+CoCO3,Calcite,5208,Co,2,C,4,C,4,O,-2
+CoFePO5,ABB’X5,93580,Co,2,Fe,3,P,5,O,-2
+CoMnO3,Ilmenite,31854,Co,2,Mn,4,Mn,4,O,-2
+CoSe2O5,AB2X5,49916,Co,2,Se,4,Se,4,O,-2
+CoTiO3,Ilmenite,16548,Co,2,Ti,4,Ti,4,O,-2
+CoU2S5,AB2X5,624883,Co,2,U,4,U,4,S,-2
+Cr2SiO4,A2BX4 – other,75639,Cr,2,Si,4,Si,4,O,-2
+CrBO3,Calcite,43311,Cr,3,B,3,B,3,O,-2
+Cs2Hg3I8,A2B3X8,4074,Cs,1,Hg,2,Hg,2,I,-1
+Cs2LiHoI6,A2BB’X6 – other,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Ho,3,I,-1
+Cs2LiInCl6,A2BB’X6 – other,65735,Cs,1,Li,1,In,3,Cl,-1
+Cs2LiLuI6,A2BB’X6 – other,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Lu,3,I,-1
+Cs2LiScCl6,A2BB’X6 – other,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Sc,3,Cl,-1
+Cs2LiScI6,A2BB’X6 – other,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Sc,3,I,-1
+Cs2LiTmI6,A2BB’X6 – other,"Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Tm,3,I,-1
+Cs2NaCoF6,A2BB’X6 – other,42157,Cs,1,Na,1,Co,3,F,-1
+Cs2NaNiF6,A2BB’X6 – other,42152,Cs,1,Na,1,Ni,3,F,-1
+Cs2NaTiF6,A2BB’X6 – other,67160,Cs,1,Na,1,Ti,3,F,-1
+Cs3CoBr5,A3BX5,201135,Cs,1,Co,2,Co,2,Br,-1
+Cs3ZnBr5,A3BX5,180053,Cs,1,Zn,2,Zn,2,Br,-1
+Cs3ZnCl5,A3BX5,240876,Cs,1,Zn,2,Zn,2,Cl,-1
+CsAs3O8,AB3X8,172984,Cs,1,As,5,As,5,O,-2
+CsBaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Ba,2,Ba,2,Br,-1
+CsBaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Ba,2,Ba,2,Cl,-1
+CsBaF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Ba,2,Ba,2,F,-1
+CsBiNb2O7,ABB’2X7,96510,Bi,3,Cs,1,Nb,5,O,-2
+CsCoCl3,BaNiO3 – type,27511,Cs,1,Co,2,Co,2,Cl,-1
+CsCoF3,BaRuO3 – type,15091,Cs,1,Co,2,Co,2,F,-1
+CsCr3O8,AB3X8,28410,Cs,1,Cr,5,Cr,5,O,-2
+CsCrAs2O7,ABB’2X7,195521,Cr,3,Cs,1,As,5,O,-2
+CsCrCl3,BaNiO3 – type,36132,Cs,1,Cr,2,Cr,2,Cl,-1
+CsCrP2O7,ABB’2X7,54093,Cr,3,Cs,1,P,5,O,-2
+CsCrP2S7,ABB’2X7,260893,Cr,3,Cs,1,P,5,S,-2
+CsCrV2O7,ABB’2X7,262978,Cr,3,Cs,1,V,5,O,-2
+CsCu2F5,AB2X5,33867,Cs,1,Cu,2,Cu,2,F,-1
+CsErP2O7,ABB’2X7,421378,Er,3,Cs,1,P,5,O,-2
+CsEu2I5,AB2X5,41099,Cs,1,Eu,2,Eu,2,I,-1
+CsFeBr3,BaNiO3 – type,174041,Cs,1,Fe,2,Fe,2,Br,-1
+CsFeCl3,BaNiO3 – type,300249,Cs,1,Fe,2,Fe,2,Cl,-1
+CsFeP2O7,ABB’2X7,72723,Fe,3,Cs,1,P,5,O,-2
+CsInP2O7,ABB’2X7,240262,In,3,Cs,1,P,5,O,-2
+CsLaNb2O7,ABB’2X7,82378,La,3,Cs,1,Nb,5,O,-2
+CsLuP2O7,ABB’2X7,160193,Lu,3,Cs,1,P,5,O,-2
+CsMgBr3,BaNiO3 – type,87260,Cs,1,Mg,2,Mg,2,Br,-1
+CsMgCl3,BaNiO3 – type,22086,Cs,1,Mg,2,Mg,2,Cl,-1
+CsMgI3,BaNiO3 – type,87262,Cs,1,Mg,2,Mg,2,I,-1
+CsMnBr3,BaNiO3 – type,2782,Cs,1,Mn,2,Mn,2,Br,-1
+CsMnF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Mn,2,Mn,2,F,-1
+CsMnI3,BaNiO3 – type,10042,Cs,1,Mn,2,Mn,2,I,-1
+CsMoP2O7,ABB’2X7,49919,Mo,3,Cs,1,P,5,O,-2
+CsNbNb2O7,ABB’2X7,96511,Nb,3,Cs,1,Nb,5,O,-2
+CsNbO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Cs,1,Nb,5,Nb,5,O,-2
+CsNiBr3,BaNiO3 – type,423829,Cs,1,Ni,2,Ni,2,Br,-1
+CsNiCl3,BaNiO3 – type,60262,Cs,1,Ni,2,Ni,2,Cl,-1
+CsNiF3,BaNiO3 – type,15092,Cs,1,Ni,2,Ni,2,F,-1
+CsNiI3,BaNiO3 – type,423830,Cs,1,Ni,2,Ni,2,I,-1
+CsPd2Cl5,AB2X5,411722,Cs,1,Pd,2,Pd,2,Cl,-1
+CsPd2F5,AB2X5,35284,Cs,1,Pd,2,Pd,2,F,-1
+CsPdNiF5,ABB’X5,74288,Cs,1,Pd,2,Ni,2,F,-1
+CsPuP2S7,ABB’2X7,94910,Pu,3,Cs,1,P,5,S,-2
+CsTiBr3,BaNiO3 – type,41320,Cs,1,Ti,2,Ti,2,Br,-1
+CsTiCl3,BaNiO3 – type,49748,Cs,1,Ti,2,Ti,2,Cl,-1
+CsTiI3,BaNiO3 – type,154258,Cs,1,Ti,2,Ti,2,I,-1
+CsTiP2O7,ABB’2X7,280202,Ti,3,Cs,1,P,5,O,-2
+CsVBr3,BaNiO3 – type,201829,Cs,1,V,2,V,2,Br,-1
+CsVCl3,BaNiO3 – type,15932,Cs,1,V,2,V,2,Cl,-1
+CsVI3,BaNiO3 – type,26453,Cs,1,V,2,V,2,I,-1
+CsVO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Cs,1,V,5,V,5,O,-2
+CsVP2O7,ABB’2X7,65678,V,3,Cs,1,P,5,O,-2
+CsYbP2O7,ABB’2X7,300200,Yb,3,Cs,1,P,5,O,-2
+CsYP2O7,ABB’2X7,74599,Y,3,Cs,1,P,5,O,-2
+Cu2BiAsO6,A2BB’X6 – other,88111,Cu,2,Bi,3,As,5,O,-2
+Cu2BiPO6,A2BB’X6 – other,75387,Cu,2,Bi,3,P,5,O,-2
+Cu2BiVO6,A2BB’X6 – other,51091,Cu,2,Bi,3,V,5,O,-2
+Cu2Mn3O8,A2B3X8,971,Cu,2,Mn,4,Mn,4,O,-2
+CuAlAsO5,ABB’X5,91551,Cu,2,Al,3,As,5,O,-2
+CuCaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cu,1,Ca,2,Ca,2,Cl,-1
+CuCdCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cu,1,Cd,2,Cd,2,Cl,-1
+CuCdI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cu,1,Cd,2,Cd,2,I,-1
+CuFePO5,ABB’X5,93582,Cu,2,Fe,3,P,5,O,-2
+CuInPO5,ABB’X5,89606,Cu,2,In,3,P,5,O,-2
+CuInVO5,ABB’X5,151080,Cu,2,In,3,V,5,O,-2
+CuNb3O8,AB3X8,14099,Cu,1,Nb,5,Nb,5,O,-2
+CuPb3Br7,AB3X7,414107,Cu,1,Pb,2,Pb,2,Br,-1
+CuPO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Cu,1,P,5,P,5,O,-2
+CuSe2O5,AB2X5,603,Cu,2,Se,4,Se,4,O,-2
+CuTe2O5,AB2X5,2542,Cu,2,Te,4,Te,4,O,-2
+CuVSe2O7,ABB’2X7,88704,Cu,2,V,4,Se,4,O,-2
+CuZnCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Cu,1,Zn,2,Zn,2,Cl,-1
+CuZrTiO5,ABB’X5,174286,Cu,2,Zr,4,Ti,4,O,-2
+Dy2Be2GeO7,A2B2B’X7,39121,Dy,3,Be,2,Ge,4,Ge,-2
+Dy2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Dy,3,Cu,2,Ti,4,O,-2
+DyBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Dy,3,B,3,B,3,O,-2
+Er2Be2GeO7,A2B2B’X7,39123,Er,3,Be,2,Ge,4,Ge,-2
+Er2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Er,3,Cu,2,Ti,4,O,-2
+ErBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Er,3,B,3,B,3,O,-2
+Eu2Ga2GeS7,A2B2B’X7,262242,Ga,3,Eu,2,Ge,4,Ge,-2
+Eu2SiO4,A2BX4 – other,1510,Eu,2,Si,4,Si,4,O,-2
+EuBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Eu,3,B,3,B,3,O,-2
+EuCO3,Aragonite,109074,Eu,2,C,4,C,4,O,-2
+Fe2GeO4,Spinel,93973,Fe,2,Ge,4,Ge,4,O,-2
+Fe2GeS4,Olivine,333,Fe,2,Ge,4,Ge,4,S,-2
+Fe2Mo3O8,A2B3X8,4182,Fe,2,Mo,4,Mo,4,O,-2
+Fe2O3,Pyroxene,189439,Fe,3,Fe,3,Fe,3,O,-2
+Fe2SiO4,Spinel,100552,Fe,2,Si,4,Si,4,O,-2
+Fe2SiS4,Olivine,332,Fe,2,Si,4,Si,4,S,-2
+FeAlPO5,ABB’X5,74760,Fe,2,Al,3,P,5,O,-2
+FeBO3,Calcite,34474,Fe,3,B,3,B,3,O,-2
+FeCO3,Calcite,100678,Fe,2,C,4,C,4,O,-2
+FeTh2S5,AB2X5,633325,Fe,2,Th,4,Th,4,S,-2
+FeTh2Se5,AB2X5,633494,Fe,2,Th,4,Th,4,Se,-2
+FeTiO3,Ilmenite,9805,Fe,2,Ti,4,Ti,4,O,-2
+FeU2S5,AB2X5,41899,Fe,2,U,4,U,4,Se,-2
+GaAlO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Ga,3,Al,3,Al,3,O,-2
+GaBO3,Calcite,429062,Ga,3,B,3,B,3,O,-2
+Gd2Be2GeO7,A2B2B’X7,39120,Gd,3,Be,2,Ge,4,Ge,-2
+GdBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Gd,3,B,3,B,3,O,-2
+GdYO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Gd,3,Y,3,Y,3,O,-2
+Hg2CdSeO6,A2BB’X6 – other,413288,Hg,2,Cd,2,Se,6,O,-2
+Ho2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Ho,3,Cu,2,Ti,4,O,-2
+HoBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Ho,3,B,3,B,3,O,-2
+In2BiGaS6,A2BB’X6 – other,410032,In,3,Bi,3,Ga,3,O,-2
+InBO3,Calcite,75254,In,3,B,3,B,3,O,-2
+InFeO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",In,3,Fe,3,Fe,3,O,-2
+K2CsBiCl6,A2BB’X6 – other,201983,K,1,Cs,1,Bi,3,Cl,-1
+K2P2ScSe6,A2B2B’X7,239570,Sc,3,P,5,K,1,K,-2
+K2SbPO6,A2BB’X6 – other,201788,K,1,Sb,5,P,5,O,-2
+K2SeMoO6,A2BB’X6 – other,412999,K,1,Se,4,Mo,6,O,-2
+K2VPO6,A2BB’X6 – other,72977,K,1,V,5,P,5,O,-2
+K3BeF5,A3BX5,14114,K,1,Be,2,Be,2,F,-1
+KAlAs2O7,ABB’2X7,79711,Al,3,K,1,As,5,O,-2
+KAlP2O7,ABB’2X7,2888,Al,3,K,1,P,5,O,-2
+KAsO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,As,5,As,5,O,-2
+KAuP2O7,ABB’2X7,165325,Au,3,K,1,P,5,O,-2
+KBaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Ba,2,Ba,2,Br,-1
+KBaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Ba,2,Ba,2,Cl,-1
+KBaF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Ba,2,Ba,2,F,-1
+KBeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Be,2,Be,2,Cl,-1
+KBiP2S7,ABB’2X7,74019,Bi,3,K,1,P,5,S,-2
+KCdI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Cd,2,Cd,2,I,-1
+KCoBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Co,2,Co,2,Br,-1
+KCoI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Co,2,Co,2,I,-1
+KCr3O8,AB3X8,15921,K,1,Cr,5,Cr,5,O,-2
+KCrP2O7,ABB’2X7,84318,Cr,3,K,1,P,5,O,-2
+KCrV2O7,ABB’2X7,245133,Cr,3,K,1,V,5,O,-2
+KErP2S7,ABB’2X7,415671,Er,3,K,1,P,5,S,-2
+KEu2I5,AB2X5,41100,K,1,Eu,2,Eu,2,I,-1
+KFeAs2O7,ABB’2X7,160288,Fe,3,K,1,As,5,O,-2
+KFeP2O7,ABB’2X7,86309,Fe,3,K,1,P,5,O,-2
+KGaAs2O7,ABB’2X7,82391,Ga,3,K,1,As,5,O,-2
+KGaP2O7,ABB’2X7,86310,Ga,3,K,1,P,5,O,-2
+KHgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Hg,2,Hg,2,I,-1
+KInP2O7,ABB’2X7,240260,In,3,K,1,P,5,O,-2
+KInP2S7,ABB’2X7,91755,In,3,K,1,P,5,S,-2
+KLuP2O7,ABB’2X7,160191,Lu,3,K,1,P,5,O,-2
+KMgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Mg,2,Mg,2,I,-1
+KMnI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Mn,2,Mn,2,I,-1
+KMoP2O7,ABB’2X7,65656,Mo,3,K,1,P,5,O,-2
+KNiCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Ni,2,Ni,2,Cl,-1
+KNO3,Aragonite,10289,K,1,N,5,N,5,O,-2
+KPb2Cl5,AB2X5,416431,K,1,Pb,2,Pb,2,Cl,-1
+KPO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,P,5,P,5,O,-2
+KPuP2S7,ABB’2X7,94908,Pu,3,K,1,P,5,S,-2
+KSbO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,Sb,5,Sb,5,O,-2
+KSmP2S7,ABB’2X7,93760,Sm,3,K,1,P,5,S,-2
+KSrCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",K,1,Sr,2,Sr,2,Cl,-1
+KTiP2O7,ABB’2X7,90013,Ti,3,K,1,P,5,O,-2
+KVO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",K,1,V,5,V,5,O,-2
+KVP2O7,ABB’2X7,68625,V,3,K,1,P,5,O,-2
+KVP2S7,ABB’2X7,91756,V,3,K,1,P,5,S,-2
+KYbP2O7,ABB’2X7,240717,Yb,3,K,1,P,5,O,-2
+KYP2O7,ABB’2X7,75171,Y,3,K,1,P,5,O,-2
+La2Be2GeO7,A2B2B’X7,39117,La,3,Be,2,Ge,4,Ge,-2
+La2Ca2MnO7,A2B2B’X7,97454,La,3,Ca,2,Mn,4,Mn,-2
+La2KNbO6,A2BB’X6 – other,160450,La,3,K,1,Nb,5,O,-2
+LaBO3,Aragonite,35535,La,3,B,3,B,3,O,-2
+Li2BeF4,A2BX4 – other,14360,Li,1,Be,2,Be,2,F,-1
+Li2MoTeO6,A2BB’X6 – other,250677,Li,1,Te,4,Mo,6,O,-2
+Li2SnTeO6,A2BB’X6 – other,40256,Li,1,Sn,4,Te,6,O,-2
+Li2WTeO6,A2BB’X6 – other,250678,Li,1,Te,4,W,6,O,-2
+Li2ZnBr4,Olivine,73223,Li,1,Zn,2,Zn,2,Br,-1
+Li2ZnCl4,Spinel,202743,Li,1,Zn,2,Zn,2,Cl,-1
+Li2ZnI4,Olivine,69032,Li,1,Zn,2,Zn,2,I,-1
+Li2ZrTeO6,A2BB’X6 – other,71488,Li,1,Zr,4,Te,6,O,-2
+LiAlAs2O7,ABB’2X7,161498,Al,3,Li,1,As,5,O,-2
+LiAsO3,Ilmenite,202862,Li,1,As,5,As,5,O,-2
+LiBaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ba,2,Ba,2,Br,-1
+LiBaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ba,2,Ba,2,Cl,-1
+LiBeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Be,2,Be,2,Cl,-1
+LiBiO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Li,1,Bi,5,Bi,5,O,-2
+LiCaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ca,2,Ca,2,Br,-1
+LiCaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ca,2,Ca,2,Cl,-1
+LiCaF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ca,2,Ca,2,F,-1
+LiCoBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Co,2,Co,2,Br,-1
+LiCrCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Cr,2,Cr,2,Cl,-1
+LiCrP2O7,ABB’2X7,240965,Cr,3,Li,1,P,5,O,-2
+LiDy2Br5,AB2X5,402192,Li,1,Dy,2,Dy,2,Br,-1
+LiDy2Cl5,AB2X5,35763,Li,1,Dy,2,Dy,2,Cl,-1
+LiFeAs2O7,ABB’2X7,75180,Fe,3,Li,1,As,5,O,-2
+LiFeP2O7,ABB’2X7,69197,Fe,3,Li,1,P,5,O,-2
+LiGaAs2O7,ABB’2X7,161500,Ga,3,Li,1,As,5,O,-2
+LiInP2O7,ABB’2X7,60935,In,3,Li,1,P,5,O,-2
+LiKTmF5,ABB’X5,428536,Li,1,K,1,Tm,3,F,-1
+LiKYF5,ABB’X5,39668,Li,1,K,1,Y,3,F,-1
+LiMgBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mg,2,Mg,2,Br,-1
+LiMgCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mg,2,Mg,2,Cl,-1
+LiMgF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mg,2,Mg,2,F,-1
+LiMgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mg,2,Mg,2,I,-1
+LiMnF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mn,2,Mn,2,F,-1
+LiMnI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Mn,2,Mn,2,I,-1
+LiMnP2O7,ABB’2X7,415153,Mn,3,Li,1,P,5,O,-2
+LiMoP2O7,ABB’2X7,68522,Mo,3,Li,1,P,5,O,-2
+LiNiCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Ni,2,Ni,2,Cl,-1
+LiNO3,Calcite,33661,Li,1,N,5,N,5,O,-2
+LiPbBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Pb,2,Pb,2,Br,-1
+LiPbCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Pb,2,Pb,2,Cl,-1
+LiPbF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Pb,2,Pb,2,F,-1
+LiPO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Li,1,P,5,P,5,O,-2
+LiSbO3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Sb,5,Sb,5,O,-2
+LiScAs2O7,ABB’2X7,161499,Sc,3,Li,1,As,5,O,-2
+LiScP2O7,ABB’2X7,91496,Sc,3,Li,1,P,5,O,-2
+LiSrBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Sr,2,Sr,2,Br,-1
+LiTiP2O7,ABB’2X7,166164,Ti,3,Li,1,P,5,O,-2
+LiTm2Cl5,AB2X5,201996,Li,1,Tm,2,Tm,2,Cl,-1
+LiVCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,V,2,V,2,Cl,-1
+LiVO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Li,1,V,5,V,5,O,-2
+LiVP2O7,ABB’2X7,80551,V,3,Li,1,P,5,O,-2
+LiVPO6,A2BB’X6 – other,73868,Li,1,V,5,P,5,O,-2
+LiYb2Cl5,AB2X5,87594,Li,1,Yb,2,Yb,2,Cl,-1
+LiZnF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Li,1,Zn,2,Zn,2,F,-1
+Lu2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Lu,3,Cu,2,Ti,4,O,-2
+Lu2MnTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Lu,3,Mn,2,Ti,4,O,-2
+LuBO3,Calcite,16525,Lu,3,B,3,B,3,O,-2
+Mg2BiAsO6,A2BB’X6 – other,73895,Mg,2,Bi,3,As,5,O,-2
+Mg2BiPO6,A2BB’X6 – other,73894,Mg,2,Bi,3,P,5,O,-2
+Mg2GeO4,Spinel,1086,Mg,2,Ge,4,Ge,4,O,-2
+Mg2GeS4,Olivine,23525,Mg,2,Ge,4,Ge,4,S,-2
+Mg2GeSe4,Olivine,252050,Mg,2,Ge,4,Ge,4,Se,-2
+Mg2Mo3O8,A2B3X8,82362,Mg,2,Mo,4,Mo,4,O,-2
+Mg2SiS4,Olivine,642791,Mg,2,Si,4,Si,4,S,-2
+Mg2SiSe4,Olivine,642818,Mg,2,Si,4,Si,4,Se,-2
+Mg2SnS4,Olivine,642793,Mg,2,Sn,4,Sn,4,S,-2
+Mg2SnSe4,Olivine,642819,Mg,2,Sn,4,Sn,4,Se,-2
+MgAlPO5,ABB’X5,74773,Mg,2,Al,3,P,5,O,-2
+MgCO3,Calcite,10264,Mg,2,C,4,C,4,O,-2
+MgSe2O5,AB2X5,402917,Mg,2,Se,4,Se,4,O,-2
+MgSiO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Mg,2,SI,4,SI,4,O,-2
+MgSnO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Mg,2,Sn,4,Sn,4,O,-2
+MgTe2O5,AB2X5,4318,Mg,2,Te,4,Te,4,O,-2
+MgTiO3,Ilmenite,65794,Mg,2,Ti,4,Ti,4,O,-2
+MgV2O5,AB2X5,86102,Mg,2,V,4,V,4,O,-2
+Mn2FeWO6,A2BB’X6 – other,429619,Mn,2,Fe,2,W,6,O,-2
+Mn2GeS4,Olivine,23582,Mn,2,Ge,4,Ge,4,S,-2
+Mn2Mo3O8,A2B3X8,10144,Mn,2,Mo,4,Mo,4,O,-2
+Mn2SiO4,Olivine,26376,Mn,2,Si,4,Si,4,O,-2
+Mn2SiS4,Olivine,24141,Mn,2,Si,4,Si,4,S,-2
+Mn2SiSe4,Olivine,80957,Mn,2,Si,4,Si,4,Se,-2
+Mn2SnSe4,Olivine,643596,Mn,2,Sn,4,Sn,4,Se,-2
+Mn2SnTe4,Olivine,169812,Mn,2,Sn,4,Sn,4,Te,-2
+MnCO3,Calcite,80867,Mn,2,C,4,C,4,O,-2
+MnGeO3,Ilmenite,40333,Mn,2,Ge,4,Ge,4,O,-2
+MnSe2O5,AB2X5,27518,Mn,2,Se,4,Se,4,O,-2
+MnSnO3,Ilmenite,29203,Mn,2,Sn,4,Sn,4,O,-2
+MnTe2O5,AB2X5,15844,Mn,2,Te,4,Te,4,O,-2
+MnTeV2O7,ABB’2X7,59328,Mn,2,Te,4,V,4,O,-2
+Na2BeF4,Olivine,12101,Na,1,Be,2,Be,2,F,-1
+Na2CoCl4,Olivine,813,Na,1,Co,2,Co,2,Cl,-1
+Na2CrCl4,A2BX4 – other,66201,Na,1,Cr,2,Cr,2,Cl,-1
+Na2GeTeO6,A2BB’X6 – other,88789,Na,1,Ge,4,Te,6,O,-2
+Na2NbAsO6,A2BB’X6 – other,280157,Na,1,Nb,5,As,5,O,-2
+Na2SeMoO6,A2BB’X6 – other,412998,Na,1,Se,4,Mo,6,O,-2
+Na2Ti3Cl8,A2B3X8,401026,Na,1,Ti,2,Ti,2,Cl,-1
+Na2USiO6,A2BB’X6 – other,24975,Na,1,U,6,Si,4,O,-2
+Na2ZnBr4,Olivine,73224,Na,1,Zn,2,Zn,2,Br,-1
+Na2ZnCl4,Olivine,814,Na,1,Zn,2,Zn,2,Cl,-1
+NaAlAs2O7,ABB’2X7,75142,Al,3,Na,1,As,5,O,-2
+NaAlP2O7,ABB’2X7,400462,Al,3,Na,1,P,5,O,-2
+NaAsO3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,As,5,As,5,O,-2
+NaBaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ba,2,Ba,2,Br,-1
+NaBaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ba,2,Ba,2,Cl,-1
+NaBaF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ba,2,Ba,2,F,-1
+NaBeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Be,2,Be,2,Cl,-1
+NaBiO3,Ilmenite,27553,Na,1,Bi,5,Bi,5,O,-2
+NaCaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ca,2,Ca,2,Br,-1
+NaCaCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ca,2,Ca,2,Cl,-1
+NaCaF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ca,2,Ca,2,F,-1
+NaCaI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ca,2,Ca,2,I,-1
+NaCdBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Cd,2,Cd,2,Br,-1
+NaCdCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Cd,2,Cd,2,Cl,-1
+NaCdF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Cd,2,Cd,2,F,-1
+NaCdI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Cd,2,Cd,2,I,-1
+NaCeP2O7,ABB’2X7,154075,Ce,3,Na,1,P,5,O,-2
+NaCrP2O7,ABB’2X7,31291,Cr,3,Na,1,P,5,O,-2
+NaEuP2O7,ABB’2X7,151525,Eu,3,Na,1,P,5,O,-2
+NaFeK3Cl6,ABB’3X6,23182,Na,1,Fe,3,K,1,Cl,-1
+NaFeP2O7,ABB’2X7,38367,Fe,3,Na,1,P,5,O,-2
+NaHgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Hg,2,Hg,2,I,-1
+NaHoP2O7,ABB’2X7,419049,Ho,3,Na,1,P,5,O,-2
+NaInAs2O7,ABB’2X7,59304,In,3,Na,1,As,5,O,-2
+NaInP2O7,ABB’2X7,240259,In,3,Na,1,P,5,O,-2
+NaIrO3,Pyroxene,261371,Na,1,Ir,5,Ir,5,O,-2
+NaLaP2O7,ABB’2X7,151526,La,3,Na,1,P,5,O,-2
+NaLuP2O7,ABB’2X7,160189,Lu,3,Na,1,P,5,O,-2
+NaMgBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Mg,2,Mg,2,Br,-1
+NaMgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Mg,2,Mg,2,I,-1
+NaMnCl3,Ilmenite,2552,Na,1,Mn,2,Mn,2,Cl,-1
+NaMoP2O7,ABB’2X7,202644,Mo,3,Na,1,P,5,O,-2
+NaNiCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Ni,2,Ni,2,Cl,-1
+NaNO3,Calcite,14185,Na,1,N,5,N,5,O,-2
+NaPbCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Pb,2,Pb,2,Cl,-1
+NaPbF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Pb,2,Pb,2,F,-1
+NaPO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Na,1,P,5,P,5,O,-2
+NaScAs2O7,ABB’2X7,161501,Sc,3,Na,1,As,5,O,-2
+NaScP2O7,ABB’2X7,260594,Sc,3,Na,1,P,5,O,-2
+NaSrBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Sr,2,Sr,2,Br,-1
+NaSrCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Na,1,Sr,2,Sr,2,Cl,-1
+NaTiP2O7,ABB’2X7,202751,Ti,3,Na,1,P,5,O,-2
+NaVP2O7,ABB’2X7,65696,V,3,Na,1,P,5,O,-2
+NaYbP2O7,ABB’2X7,409801,Yb,3,Na,1,P,5,O,-2
+NaYP2O7,ABB’2X7,83657,Y,3,Na,1,P,5,O,-2
+Nd2Be2SiO7,A2B2B’X7,73520,Nd,3,Be,2,Si,4,Si,-2
+Nd2KNbO6,A2BB’X6 – other,160451,Nd,3,K,1,Nb,5,O,-2
+NdBO3,Aragonite,412407,Nd,3,B,3,B,3,O,-2
+Ni2GeO4,Spinel,69508,Ni,2,Ge,4,Ge,4,O,-2
+Ni2InSbO6,A2BB’X6 – other,237874,Ni,3,In,3,Sb,3,O,-2
+Ni2NbBO6,A2BB’X6 – other,32583,Ni,2,Nb,5,B,3,O,-2
+Ni2ScSbO6,A2BB’X6 – other,237878,Ni,3,Sc,3,Sb,3,O,-2
+Ni2SiO4,Spinel,2136,Ni,2,Si,4,Si,4,O,-2
+Ni2Te3O8,A2B3X8,50703,Ni,2,Te,4,Te,4,O,-2
+NiBiAsO5,ABB’X5,92916,Ni,2,Bi,3,As,5,O,-2
+NiCO3,Calcite,61064,Ni,2,C,4,C,4,O,-2
+NiFePO5,ABB’X5,93581,Ni,2,Fe,3,P,5,O,-2
+NiMnO3,Ilmenite,31853,Ni,2,Mn,4,Mn,4,O,-2
+NiTiO3,Ilmenite,15988,Ni,2,Ti,4,Ti,4,O,-2
+Pb2BiVO6,A2BB’X6 – other,151928,Pb,2,Bi,3,V,5,O,-2
+Pb2HgCrO6,A2BB’X6 – other,280778,Pb,2,Hg,2,Cr,6,O,-2
+Pb2Te3O8,A2B3X8,200372,Pb,2,Te,4,Te,4,O,-2
+PbBAsO5,ABB’X5,404327,Pb,2,B,3,As,5,O,-2
+PbBiAsO5,ABB’X5,419124,Pb,2,Bi,3,As,5,O,-2
+PbBiPO5,ABB’X5,419125,Pb,2,Bi,3,P,5,O,-2
+PbBPO5,ABB’X5,93598,Pb,2,B,3,P,5,O,-2
+PbCO3,Aragonite,6178,Pb,2,C,4,C,4,O,-2
+PbSe2O5,AB2X5,79688,Pb,2,Se,4,Se,4,O,-2
+PbSiO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Pb,2,Si,4,Si,4,O,-2
+PbTeCu3O7,ABB’X3X7,405329,Pb,2,Te,6,Cu,2,O,-2
+PbU2S5,AB2X5,648493,Pb,2,U,4,U,4,S,-2
+PbU2Se5,AB2X5,66862,Pb,2,U,4,U,4,Se,-2
+PdSe2O5,AB2X5,417900,Pd,2,Se,4,Se,4,O,-2
+PrBO3,Aragonite,421745,Pr,3,B,3,B,3,O,-2
+RbAlAs2O7,ABB’2X7,72508,Al,3,Rb,1,As,5,O,-2
+RbBaBr3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Ba,2,Ba,2,Br,-1
+RbBeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Be,2,Be,2,Cl,-1
+RbBeF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Be,2,Be,2,F,-1
+RbCoCl3,BaNiO3 – type,24305,Rb,1,Co,2,Co,2,Cl,-1
+RbCrP2O7,ABB’2X7,710074,Cr,3,Rb,1,P,5,O,-2
+RbCrV2O7,ABB’2X7,245134,Cr,3,Rb,1,V,5,O,-2
+RbCuCl3,BaNiO3 – type,84212,Rb,1,Cu,2,Cu,2,Cl,-1
+RbCuPdF5,ABB’X5,64662,Rb,1,Cu,2,Pd,2,F,-1
+RbErP2O7,ABB’2X7,421379,Er,3,Rb,1,P,5,O,-2
+RbEu2I5,AB2X5,41098,Rb,1,Eu,2,Eu,2,I,-1
+RbEuCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Eu,2,Eu,2,Cl,-1
+RbFeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Fe,2,Fe,2,Cl,-1
+RbFeP2O7,ABB’2X7,72722,Fe,3,Rb,1,P,5,O,-2
+RbInAs2O7,ABB’2X7,415930,In,3,Rb,1,As,5,O,-2
+RbInP2O7,ABB’2X7,240261,In,3,Rb,1,P,5,O,-2
+RbLaNb2O7,ABB’2X7,75456,La,3,Rb,1,Nb,5,O,-2
+RbLaTa2O7,ABB’2X7,81870,La,3,Rb,1,Ta,5,O,-2
+RbLuP2O7,ABB’2X7,160192,Lu,3,Rb,1,P,5,O,-2
+RbMgCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Mg,2,Mg,2,Cl,-1
+RbMgI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Mg,2,Mg,2,I,-1
+RbMnBr3,BaNiO3 – type,14077,Rb,1,Mn,2,Mn,2,Br,-1
+RbMnI3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Mn,2,Mn,2,I,-1
+RbMnP2O7,ABB’2X7,247130,Mn,3,Rb,1,P,5,O,-2
+RbMoP2O7,ABB’2X7,65673,Mo,3,Rb,1,P,5,O,-2
+RbNbO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Rb,1,Nb,5,Nb,5,O,-2
+RbNiBr3,BaNiO3 – type,15011,Rb,1,Ni,2,Ni,2,Br,-1
+RbNiCl3,BaNiO3 – type,15010,Rb,1,Ni,2,Ni,2,Cl,-1
+RbPb2Br5,AB2X5,26663,Rb,1,Pb,2,Pb,2,Br,-1
+RbPrNb2O7,ABB’2X7,238794,Pr,3,Rb,1,Nb,5,O,-2
+RbPuP2S7,ABB’2X7,94909,Pu,3,Rb,1,P,5,S,-2
+RbScAs2O7,ABB’2X7,59821,Sc,3,Rb,1,As,5,O,-2
+RbSeMoO6,A2BB’X6 – other,413000,Rb,1,Se,4,Mo,6,O,-2
+RbSrCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Sr,2,Sr,2,Cl,-1
+RbSrF3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Sr,2,Sr,2,F,-1
+RbTaO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Rb,1,TA,5,TA,5,O,-2
+RbTiBr3,BaNiO3 – type,154257,Rb,1,Ti,2,Ti,2,Br,-1
+RbTiCl3,BaNiO3 – type,49747,Rb,1,Ti,2,Ti,2,Cl,-1
+RbTiP2O7,ABB’2X7,69848,Ti,3,Rb,1,P,5,O,-2
+RbV3O8,AB3X8,50009,Rb,1,V,5,V,5,O,-2
+RbVBr3,BaNiO3 – type,201831,Rb,1,V,2,V,2,Br,-1
+RbVCl3,BaNiO3 – type,201828,Rb,1,V,2,V,2,Cl,-1
+RbVP2S7,ABB’2X7,73782,V,3,Rb,1,P,5,O,-2
+RbYP2O7,ABB’2X7,72468,Y,3,Rb,1,P,5,O,-2
+RbZnCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Rb,1,Zn,2,Zn,2,Cl,-1
+ScBO3,Calcite,65010,Sc,3,B,3,B,3,O,-2
+SiTiSr2O7,ABB’2X7,83362,Sr,2,Si,4,Ti,4,O,-2
+Sm2Be2GeO7,A2B2B’X7,39119,Sm,3,Be,2,Ge,4,Ge,-2
+Sm2Ca2MnO7,A2B2B’X7,98364,Sm,3,Ca,2,Mn,4,Mn,-2
+SmBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Sm,3,B,3,B,3,O,-2
+SmSiO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Sm,2,Si,4,Si,4,O,-2
+SmYO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Sm,3,Y,3,Y,3,O,-2
+Sr2CeRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Ce,3,Ru,5,O,-2
+Sr2CrMnO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Cr,4,Mn,4,O,-2
+Sr2LaRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,La,3,Ru,5,O,-2
+Sr2LiReSe6,A2BB’X6 – other,246730,Sr,2,Li,1,Re,7,Se,-2
+Sr2NdRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Nd,3,Ru,5,O,-2
+Sr2PrRuO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Sr,2,Pr,3,Ru,5,O,-2
+SrBPO5,ABB’X5,87894,Sr,2,B,3,P,5,O,-2
+SrCO3,Aragonite,15195,Sr,2,C,4,C,4,O,-2
+SrSe2O5,AB2X5,60993,Sr,2,Se,4,Se,4,O,-2
+SrTh2Se5,AB2X5,85772,Sr,2,Th,4,Th,4,Se,-2
+SrTiGeO5,ABB’X5,158144,Sr,2,Ti,4,Ge,4,O,-2
+SrTiS3,BaNiO3 – type,651070,Sr,2,Ti,4,Ti,4,S,-2
+SrU2S5,AB2X5,251553,Sr,2,U,4,U,4,S,-2
+SrVSi2O7,ABB’2X7,30451,Sr,2,V,4,Si,4,O,-2
+SrZrSi2O7,ABB’2X7,75272,Sr,2,Zr,4,Si,4,O,-2
+Tb2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Tb,3,Cu,2,Ti,4,O,-2
+TiBO3,Calcite,402039,Ti,3,B,3,B,3,O,-2
+Tl2PNbO6,A2BB’X6 – other,72593,Tl,1,P,5,Nb,5,O,-2
+Tl3FeCl5,A3BX5,10138,Tl,1,Fe,2,Fe,2,Cl,-1
+TlBe2F5,AB2X5,2763,Tl,1,Be,2,Be,2,F,-1
+TlBeCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Be,2,Be,2,Cl,-1
+TlBiP2S7,ABB’2X7,249460,Bi,3,Tl,1,P,5,S,-2
+TlCeP2S7,ABB’2X7,195309,Ce,3,Tl,1,P,5,S,-2
+TlCoCl3,BaNiO3 – type,155189,Tl,1,Co,2,Co,2,Cl,-1
+TlCrP2O7,ABB’2X7,401129,Cr,3,Tl,1,P,5,O,-2
+TlEuCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Eu,2,Eu,2,Cl,-1
+TlInAs2O7,ABB’2X7,415929,In,3,Tl,1,As,5,O,-2
+TlMgCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Mg,2,Mg,2,Cl,-1
+TlPbCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Pb,2,Pb,2,Cl,-1
+TlPrP2S7,ABB’2X7,195311,Pr,3,Tl,1,P,5,S,-2
+TlSbO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Tl,1,Sb,5,Sb,5,O,-2
+TlScP2S7,ABB’2X7,195312,Sc,3,Tl,1,P,5,S,-2
+TlSrCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Sr,2,Sr,2,Cl,-1
+TlTiPO5,ABB’X5,67427,Ti,2,Tl,3,P,5,O,-2
+TlV3O8,AB3X8,20688,Tl,1,V,5,V,5,O,-2
+TlZnCl3,ABX3 – other,"Acta Cryst B 64, 702-707 (2008)",Tl,1,Zn,2,Zn,2,Cl,-1
+Tm2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Tm,3,Cu,2,Ti,4,O,-2
+TmBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Tm,3,B,3,B,3,O,-2
+VAlO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",V,3,Al,3,Al,3,O,-2
+VBO3,Calcite,45060,V,3,B,3,B,3,O,-2
+VCrO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",V,3,Cr,3,Cr,3,O,-2
+Y2Be2GeO7,A2B2B’X7,39122,Y,3,Be,2,Ge,4,Ge,-2
+Y2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Y,3,Cu,2,Ti,4,O,-2
+Y2SiBe2O7,A2B2B’X7,23233,Y,3,Si,4,Be,2,Be,-2
+Yb2CuTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Yb,3,Cu,2,Ti,4,O,-2
+Yb2MnTiO6,A2BB’X6 – other,Prog. In Solid State Chem. 43 1-36 (2015),Yb,3,Mn,2,Ti,4,O,-2
+Yb2PrDyS6,A2BB’X6 – other,245723,Yb,3,Pr,3,Dy,3,S,-2
+Yb2PrTbS6,A2BB’X6 – other,245722,Yb,3,Pr,3,Tb,3,S,-2
+YbBO3,Calcite,411805,Yb,3,B,3,B,3,O,-2
+YBO3,ABX3 – other,"J Alloy and Compounds, 372, 40-48 (2008)",Y,3,B,3,B,3,O,-2
+Zn2BiPO6,A2BB’X6 – other,91234,Zn,2,Bi,3,P,5,O,-2
+Zn2BiVO6,A2BB’X6 – other,193538,Zn,2,Bi,3,V,5,O,-2
+Zn2Mo3O8,A2B3X8,14321,Zn,2,Mo,4,Mo,4,O,-2
+Zn2PdO4,Spinel,30076,Zn,2,Pd,4,Pd,4,O,-2
+Zn2Te3O8,A2B3X8,16784,Zn,2,Te,4,Te,4,O,-2
+ZnCO3,Calcite,100679,Zn,2,C,4,C,4,O,-2
+ZnGeO3,Ilmenite,33722,Zn,2,Ge,4,Ge,4,O,-2
+ZnMn3O7,AB3X7,192706,Zn,2,Mn,4,Mn,4,O,-2
+ZnSe2O5,AB2X5,2355,Zn,2,Se,4,Se,4,O,-2
+ZnSiO3,Ilmenite,167186,Zn,2,Si,4,Si,4,O,-2
+ZnVSe2O7,ABB’2X7,249713,Zn,2,V,4,Se,4,O,-2

@@ -1,0 +1,41 @@
+&control
+calculation='scf',
+prefix='cubi',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=4,
+ntyp=2,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cu 1.0 Cu.pz-dn-rrkjus_psl.0.2.UPF
+Bi 1.0 Bi.pz-dn-rrkjus_psl.0.2.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        4.4319343567         0.0000000000         0.0000000000
+       -2.2159671783         3.8381677408         0.0000000000
+        0.0000000000         0.0000000000         5.1371703148
+
+ATOMIC_POSITIONS {crystal}
+Cu	     0.000000000         0.000000000         0.000000000
+Cu	     0.000000000         0.000000000         0.500000000
+Bi	     0.666666985         0.333332986         0.250000000
+Bi	     0.333332986         0.666666985         0.750000000
+
+K_POINTS automatic
+   15   30   15    0    0    0

@@ -1,0 +1,48 @@
+&control
+calculation='scf',
+prefix='csaubr3',
+pseudo_dir='./',
+outdir='./'
+disk_io = 'none'
+/
+&system
+ibrav=0,
+nat=10,
+ntyp=3,
+ecutwfc=20,
+ecutrho=100,
+occupations = 'smearing' 
+degauss = 0.005
+/
+&electrons
+conv_thr=1.0d-8
+/
+&ions
+/
+&cell
+/
+
+ATOMIC_SPECIES
+Cs 1.0 Cs.pz-sp-hgh.UPF
+Au 1.0 Au.pz-dn-rrkjus_psl.0.1.UPF
+Br 1.0 Br.pz-n-rrkjus_psl.0.2.UPF
+
+CELL_PARAMETERS {angstrom}
+        8.1136198044         0.0000000000         0.0000000000
+        0.3660222863         8.1053595859         0.0000000000
+       -4.2398208135        -4.0526795714         5.6062941495
+
+ATOMIC_POSITIONS {crystal}
+Cs	     0.250000000         0.750000000         0.500000000
+Cs	     0.750000000         0.250000000         0.500000000
+Au	     0.000000000         0.000000000         0.000000000
+Au	     0.500000000         0.500000000         0.000000000
+Br	     0.289936006         0.289936006         0.000000000
+Br	     0.224620998         0.775379002         0.000000000
+Br	     0.710063994         0.710063994         0.000000000
+Br	     0.224620998         0.224620998         0.449243009
+Br	     0.775379002         0.224620998         0.000000000
+Br	     0.775379002         0.775379002         0.550756991
+
+K_POINTS automatic
+   12   12   12    0    0    0

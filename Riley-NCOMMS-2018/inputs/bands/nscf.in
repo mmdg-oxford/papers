@@ -1,0 +1,42 @@
+ &control
+    calculation='bands'
+    pseudo_dir = '../pseudo',
+    outdir='./',
+    prefix='euo'
+    verbosity='high'
+ /
+ &system
+    ibrav           = 2, 
+    celldm(1)       = 9.91338867,
+    nat             = 2, 
+    ntyp            = 2,
+    ecutwfc         = 150.0 
+    lda_plus_u      = .true.
+    lda_plus_u_kind = 0
+    Hubbard_U (1)   = 6.0
+    Hubbard_U (2)   = 3.0
+    nspin           = 2
+    starting_magnetization(1) = 1
+    occupations     = 'smearing'
+    smearing        = 'mp'
+    degauss         = 0.01
+    nbnd            = 38
+ /
+ &electrons
+    diagonalization='david'
+    conv_thr = 1.0d-6
+ /
+ATOMIC_SPECIES
+ Eu  151.96 Eu.pbe-tm-dc.UPF
+ O   15.999 O.pbe-mt.UPF
+ATOMIC_POSITIONS {alat}
+ Eu 0.00 0.00 0.00
+ O  0.50 0.00 0.00  
+K_POINTS {tpiba_b}
+ 6
+L 20
+gG 20
+X 20
+W 20
+K 20
+gG 1 

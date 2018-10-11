@@ -1,0 +1,18 @@
+&input
+  amass(1)=12.011,
+  amass(2)=14.007,
+  amass(3)=1.008,
+  amass(4)=207.2,
+  amass(5)=126.905,
+  flfrc = 'mapbi.222.fc'
+  flfrq = 'mapbi.freq'
+  q_in_cryst_coord = .true.
+  asr   = 'crystal'
+  q_in_band_form = .true.
+/
+5
+0.5  0.0  0.0   100 ! X
+0.0  0.0  0.0   70  ! G
+0.0  0.5  0.0   70  ! Y
+0.0  0.0  0.0   100 ! G
+0.0  0.0  0.5   1   ! Z

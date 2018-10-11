@@ -1,0 +1,81 @@
+Database S1.3,,,,,,,,,,
+Compounds known as perovskites and non-perovskites,,,,,,,,,,
+Perovskite formula,Source perovskite,Source non-perovskite,A,,Be,,B',,X,
+,,,Ion,Oxidation state,Ion,Oxidation state,Ion,Oxidation state,Ion,Oxidation state
+BaTiO3,67519,2356,Ba,2,Ti,4,Ti,4,O,-2
+CaGeO3,31338,173459,Ca,2,Ge,4,Ge,4,O,-2
+CaHfO3,"J Alloy and Compounds, 372, 40-48 (2008)",108957,Ca,2,Hf,4,Hf,4,O,-2
+CaIrO3,182245,159026,Ca,2,Ir,4,Ir,4,O,-2
+CaMnO3,35218,24847,Ca,2,Mn,4,Mn,4,O,-2
+CaRhO3,164775,164774,Ca,2,Rh,4,Rh,4,O,-2
+CaSiO3,40658,18179,Ca,2,Si,4,Si,4,O,-2
+CaSnO3,59160,2373,Ca,2,Sn,4,Sn,4,O,-2
+CaVO3,"J Alloy and Compounds, 372, 40-48 (2008)",82689,Ca,2,V,4,V,4,O,-2
+CaZrO3,167889,69168,Ca,2,Zr,4,Zr,4,O,-2
+CdGeO3,158753,30971,Cd,2,Ge,4,Ge,4,O,-2
+CdSnO3,165167,180399,Cd,2,Sn,4,Sn,4,O,-2
+CdTiO3,62150,15989,Cd,2,Ti,4,Ti,4,O,-2
+CdVO3,172795,72603,Cd,2,V,4,V,4,O,-2
+CsBeF3,"Acta Cryst B 64, 702-707 (2008)",2801,Cs,1,Be,2,Be,2,F,-1
+CsCdBr3,24483,1343,Cs,1,Cd,2,Cd,2,Br,-1
+CsGeCl3,23121,"Acta Cryst B 64, 702-707 (2008)",Cs,1,Ge,2,Ge,2,Cl,-1
+CsHgBr3,24479,200751,Cs,1,Hg,2,Hg,2,Br,-1
+CsHgCl3,24482,39443,Cs,1,Hg,2,Hg,2,Cl,-1
+CsMnCl3,"Acta Cryst B 64, 702-707 (2008)",2555,Cs,1,Mn,2,Mn,2,Cl,-1
+Fe2O3,189438,189439,Fe,3,Fe,3,Fe,3,O,-2
+InCro3,185586,"J Alloy and Compounds, 372, 40-48 (2008)",In,3,Cr,3,Cr,3,O,-2
+KAgF3,23155,421461,K,1,Ag,2,Ag,2,F,-1
+KMgCl3,27930,"Acta Cryst B 64, 702-707 (2008)",K,1,Mg,2,Mg,2,Cl,-1
+KNbO3,190922,31997,K,1,Nb,5,Nb,5,O,-2
+KPdF3,73167,72300,K,1,Pd,2,Pd,2,F,-1
+LiNbO3,169693,5309,Li,1,Nb,5,Nb,5,O,-2
+LiTaO3,9537,"J Alloy and Compounds, 372, 40-48 (2008)",Li,1,Ta,5,Ta,5,O,-2
+MgSiO3,36405,31176,Mg,2,Si,4,Si,4,O,-2
+MnTiO3,158732,60006,Mn,2,Ti,4,Ti,4,O,-2
+NaCoF3,4404,192148,Na,1,Co,2,Co,2,F,-1
+NaCuF3,"Acta Cryst B 64, 702-707 (2008)",67249,Na,1,Cu,2,Cu,2,F,-1
+NaFeF3,68981,251575,Na,1,Fe,2,Fe,2,F,-1
+NaIO3,20168,418336,Na,1,I,5,I,5,O,-2
+NaMgF3,72318,156157,Na,1,Mg,2,Mg,2,F,-1
+NaNbO3,247313,193715,Na,1,Nb,5,Nb,5,O,-2
+NaNiF3,9008,423598,Na,1,Ni,2,Ni,2,F,-1
+NaSbO3,98978,5312,Na,1,Sb,5,Sb,5,O,-2
+NaTaO3,88375,63204,Na,1,Ta,5,Ta,5,O,-2
+PbGeO3,185693,"J Alloy and Compounds, 372, 40-48 (2008)",Pb,2,Ge,4,Ge,4,O,-2
+PbTiO3,1613,2104,Pb,2,Ti,4,Ti,4,O,-2
+RbPdF3,73166,72299,Rb,1,Pd,2,Pd,2,F,-1
+SrGeO3,195084,"J Alloy and Compounds, 372, 40-48 (2008)",Sr,2,Ge,4,Ge,4,O,-2
+SrMnO3,188415,202615,Sr,2,Mn,4,Mn,4,O,-2
+SrSiO3,248973,35666,Sr,2,Si,4,Si,4,O,-2
+SrVO3,88982,72604,Sr,2,V,4,V,4,O,-2
+ZnSnO3,245943,50404,Zn,2,Sn,4,Sn,4,O,-2
+ZnTiO3,194214,22382,Zn,2,Ti,4,Ti,4,O,-2
+Bi2CoMnO6,Prog. In Solid State Chem. 43 1-36 (2015),153856,Bi,3,Co,2,Mn,4,O,-2
+Ba2CrNbO6,Prog. In Solid State Chem. 43 1-36 (2015),81844,Ba,2,Cr,3,Nb,5,O,-2
+Ca2AlTaO6,Prog. In Solid State Chem. 43 1-36 (2015),50718,Ca,2,Al,3,Ta,5,O,-2
+Ca2NiWO6,98733,155734,Ca,2,Ni,2,W,6,O,-2
+Cs2LiGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",202,Cs,1,Li,1,Ga,3,F,-1
+Cs2LiLuCl6,"Mat. Sci. Eng. 24, 81-151 (1998)","Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Lu,3,Cl,-1
+Cs2LiLuBr6,"Mat. Sci. Eng. 24, 81-151 (1998)","Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Lu,3,Br,-1
+Cs2LiScBr6,"Mat. Sci. Eng. 24, 81-151 (1998)","Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Sc,3,Br,-1
+Cs2LiTmBr6,"Mat. Sci. Eng. 24, 81-151 (1998)","Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Tm,3,Br,-1
+Cs2LiYbBr6,"Mat. Sci. Eng. 24, 81-151 (1998)","Prog. Solid State Chem. 14, 141-219 (1982)",Cs,1,Li,1,Yb,3,Br,-1
+Cs2NaAlF6,"Mat. Sci. Eng. 24, 81-151 (1998)",200305,Cs,1,Na,1,Al,3,F,-1
+Cs2NaCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",200,Cs,1,Na,1,Cr,3,F,-1
+Cs2NaFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",201,Cs,1,Na,1,Fe,3,F,-1
+Cs2NaGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",55003,Cs,1,Na,1,Ga,3,F,-1
+Cs2NaMnF6,"Mat. Sci. Eng. 24, 81-151 (1998)",37006,Cs,1,Na,1,Mn,3,F,-1
+Cs2NaVF6,"Mat. Sci. Eng. 24, 81-151 (1998)",108910,Cs,1,Na,1,V,3,F,-1
+K2LiAlF6,37250,27672,K,1,Li,1,Al,3,F,-1
+La2LiTaO6,Prog. In Solid State Chem. 43 1-36 (2015),188780,La,3,Li,1,Ta,5,O,-2
+La2NaTaO6,159209,84363,La,3,Na,1,Ta,5,O,-2
+Pb2CoTeO6,169193,169192,Pb,2,Co,2,Te,6,O,-2
+Pb2MnReO6,Prog. In Solid State Chem. 43 1-36 (2015),182002,Pb,2,Mn,2,Re,6,O,-2
+Pb2MnWO6,Prog. In Solid State Chem. 43 1-36 (2015),251494,Pb,2,Mn,2,W,6,O,-2
+Pb2TmSbO6,Prog. In Solid State Chem. 43 1-36 (2015),261031,Pb,2,Tm,3,Sb,5,O,-2
+Rb2KCrF6,"Mat. Sci. Eng. 24, 81-151 (1998)",416607,Rb,1,K,1,Cr,3,F,-1
+Rb2KGaF6,"Phys Solid State, 43, 1, 127-136 (2001)",416606,Rb,1,K,1,Ga,3,F,-1
+Rb2LiFeF6,"Mat. Sci. Eng. 24, 81-151 (1998)",16400,Rb,1,Li,1,Fe,3,F,-1
+Rb2LiGaF6,"Mat. Sci. Eng. 24, 81-151 (1998)",50468,Rb,1,Li,1,Ga,3,F,-1
+Sr2GdRuO6,183376,164778,Sr,2,Gd,3,Ru,5,O,-2
+Sr2NiTeO6,155949,16225,Sr,2,Ni,2,Te,6,O,-2

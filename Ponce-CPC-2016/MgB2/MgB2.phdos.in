@@ -1,0 +1,10 @@
+ &input
+    asr='simple',  
+    dos=.true., 
+    amass(1) = 24.305,
+    amass(2) = 10.811,
+    flfrc='MgB2666.fc',
+    fldos='MgB2.phdos',
+    nk1=40,nk2=40,nk3=40
+    ndos = 300
+ /

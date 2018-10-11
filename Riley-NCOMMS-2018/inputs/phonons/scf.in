@@ -1,0 +1,36 @@
+ &control
+    calculation='scf'
+    pseudo_dir = '../pseudo',
+    outdir='./',
+    prefix='euo'
+    verbosity='high'
+    tprnfor=.true.
+ /
+ &system
+    ibrav           = 2, 
+    celldm(1)       = 9.7765, 
+    nat             = 2, 
+    ntyp            = 2,
+    ecutwfc         = 70.0 
+    lda_plus_u      = .true.
+    lda_plus_u_kind = 0
+    Hubbard_U (1)   = 8.3
+    Hubbard_U (2)   = 4.6
+    nspin           = 2
+    starting_magnetization(1) = 1
+    occupations     = 'smearing'
+    smearing        = 'mp'
+    degauss         = 0.01
+ /
+ &electrons
+    diagonalization='david'
+    conv_thr = 1.0d-9
+ /
+ATOMIC_SPECIES
+ Eu  151.96 Eu.GGA-PBE-paw-v1.0.UPF 
+ O   15.999 O.pbe-kjpaw.UPF
+ATOMIC_POSITIONS {alat}
+ Eu 0.00 0.00 0.00
+ O  0.50 0.00 0.00  
+K_POINTS {automatic}
+8 8 8 0 0 0
